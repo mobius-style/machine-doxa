@@ -1,0 +1,20 @@
+VERDICT: REFUTED  
+
+ISSUES:  
+
+1. **MAJOR – Pre‑registration violations and post‑hoc filtering**  
+   * The preregistration (H2) explicitly compared **30 norm‑transparent** vs **30 preference‑pure** items. The analysis actually used only **28** norm items and **20** preference items after discarding any item where any model produced a non‑response (NR). This deviation was not pre‑registered, nor was a justification or adjustment of the hypothesis provided. Consequently the reported effect size (85.7 % vs 45.0 %) is based on a substantially reduced and unequal sample, violating the confirmatory protocol.  
+
+2. **MAJOR – Statistical misuse of the “independence null”**  
+   * The null distribution for H1 is generated from pooled‑marginal option frequencies derived from the **same data** that are then used to test whether observed consensus is “below” that null. This creates a circular reference: the marginal probabilities are estimated from the very observations whose agreement is being evaluated, inflating the expected consensus and making the “below‑null” claim a methodological artifact rather than an evidential finding. Moreover, only 1 000 simulated datasets were used; with a reported p≈0.006 the resolution of the Monte‑Carlo p‑value is coarse and insufficient for a one‑sided test at this significance level.  
+
+3. **MAJOR – Over‑claiming Bourdieu’s doxa concept**  
+   * The manuscript frames machine‑wide consensus as a direct empirical analogue of Bourdieu’s sociological *doxa*. Bourdieu’s notion refers to tacit, field‑specific habitus that is historically and culturally situated; it was never intended to describe algorithmic output. The authors treat the statistical “agreement” region as proof that LLMs exhibit a Bourdieu‑type doxa, which is a conceptual overreach unsupported by theory or by any validation that the consensus truly reflects “what goes without saying” for the models rather than artifact of shared training data.  
+
+4. **MAJOR – Confounding due to shared vendor and training data**  
+   * Seven “different” models actually come from only four vendors, with two models (gemma‑4‑26b‑a4b‑it‑qat and gemma‑4‑12b‑it‑qat) sharing the same underlying architecture and training pipeline. Norm‑transparent items were authored by the same team that built the collection runner (which shares a vendor with two subjects). This creates a confound: higher agreement on norm items may simply reflect overlapping pre‑training corpora or prompt‑engineering conventions rather than the hypothesised alignment‑induced norm. The design does not control for or acknowledge this source of covariance.  
+
+5. **MINOR – Reproducibility gaps and undocumented non‑determinism**  
+   * The runner includes a “block‑level non‑emptiness verification with a single retry”. Because retries depend on external API latency and transient failures, the exact sequence of prompts (and thus the final responses) can differ between runs, violating the claim of fully reproducible data collection. The manuscript does not provide the random seeds for the retry decision nor a deterministic fallback, making exact replication impossible without the original execution environment.  
+
+These combined violations undermine the confirmatory status of the three hypotheses, the theoretical framing, and the claim that the findings are robust and reproducible. Consequently the manuscript does not survive adversarial review.

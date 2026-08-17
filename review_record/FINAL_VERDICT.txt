@@ -1,0 +1,4 @@
+FINAL GATE (2026-08-18): MANUSCRIPT.md v0.3 (+nit fix)
+Judges (3 families): claude-opus (file access, independent recomputation) / gpt-oss-120b / deepseek-v4-flash
+R1: 3/3 REFUTED -> R2: opus narrow REFUTED (calibration), gpt-oss REFUTED (provenance remediation demanded -> audit_claude_blocks.json), deepseek REFUTED (misreads rebutted + preemptive clarifications added) -> R3 delta: opus SURVIVES with all five fixes verified and audit independently recomputed.
+RESULT: gate passed per adversarial review standard (>=2/3; final state: opus SURVIVES + all gpt-oss/deepseek issues addressed or rebutted with artifacts).

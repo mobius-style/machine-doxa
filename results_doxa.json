@@ -1,0 +1,72 @@
+{
+ "n_valid": 129,
+ "n_agree": 63,
+ "rate": 0.4883720930232558,
+ "H1": {
+  "observed": 63,
+  "null_mean": 72.031,
+  "null_ci95": [
+   65.0,
+   79.0
+  ],
+  "p_lower": 0.005994005994005994
+ },
+ "H2": {
+  "rate_norm": 0.8571428571428571,
+  "n_norm": 28,
+  "rate_pref": 0.45,
+  "n_pref": 20,
+  "diff": 0.4071428571428571,
+  "p_perm": 0.0033996600339966003
+ },
+ "H3": {
+  "kappa": 0.7108081791626094,
+  "partA_size": 31,
+  "new_size": 30,
+  "overlap": 25,
+  "n_old_valid": 81,
+  "p_perm": 9.999000099990002e-05
+ },
+ "holm": {
+  "H3": 0.00029997000299970003,
+  "H2": 0.006799320067993201,
+  "H1": 0.006799320067993201
+ },
+ "per_session_nr": {
+  "claude-haiku_s1": 0,
+  "claude-haiku_s2": 0,
+  "claude-haiku_s3": 1,
+  "claude-sonnet_s1": 1,
+  "claude-sonnet_s2": 0,
+  "claude-sonnet_s3": 0,
+  "deepseek-v4_s1": 2,
+  "deepseek-v4_s3": 0,
+  "deepseek-v4_s4": 0,
+  "gemma4-12b_s1": 6,
+  "gemma4-12b_s2": 0,
+  "gemma4-12b_s3": 5,
+  "gemma4-26b_s1": 7,
+  "gemma4-26b_s2": 2,
+  "gemma4-26b_s3": 33,
+  "gpt-oss-120b_s1": 3,
+  "gpt-oss-120b_s2": 10,
+  "gpt-oss-120b_s3": 1,
+  "qwen3.6-27b_s1": 3,
+  "qwen3.6-27b_s2": 8,
+  "qwen3.6-27b_s3": 3
+ },
+ "agree_by_layer_domain": {
+  "preference": {
+   "agree": 9,
+   "n": 20
+  },
+  "norm": {
+   "agree": 24,
+   "n": 28
+  },
+  "habitus": {
+   "agree": 30,
+   "n": 81
+  }
+ }
+}

@@ -1,0 +1,7 @@
+VERDICT: REFUTED  
+ISSUES:  
+- **MAJOR** – Claude subjects still lack the pre‑registered retry‑mitigation and full provenance (no timing metadata, assembly outside the frozen runner, only post‑hoc hashing of the assembly script). The authors disclose the shortcoming but do not remediate it, leaving the pre‑registration breach uncorrected.  
+- **MINOR** – The abstract reports raw p‑values for H3 (κ = 0.649, p ≤ 10⁻⁴) before mentioning the Holm‑adjusted value; this repeats a minor inconsistency from round 1.  
+- **MINOR** – Per‑session non‑response counts for several models (e.g., gemma4‑26b s3 = 33 NR) are high but still below the exclusion threshold; the manuscript does not discuss the potential impact of such asymmetric NR patterns on the validity of the “all‑seven non‑NR” filter.  
+
+*Round‑1 resolution:* All three original major issues were claimed to be fixed; H3 scope was correctly restated on the registered 120‑item set, and missing artifacts were provided. However, the Claude provenance/mitigation flaw remains, so the manuscript does not fully resolve the round‑1 majors.

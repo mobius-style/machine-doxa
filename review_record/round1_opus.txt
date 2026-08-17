@@ -1,0 +1,6 @@
+VERDICT: REFUTED (v0.1). Numerics H1/H2 reproduce exactly; 24/24 manipulation check verified; exclusion rule fully enforced; no data-mixing.
+MAJOR1: H3 scope narrowed 120->81 vs PREREG; on registered 120 kappa=0.6495 (still p<=1e-4); 31-vs-37 unreconciled.
+MAJOR2: Claude subjects assembled outside frozen runner (no retry mitigation/provenance; assemble_claude.py unhashed); retry telemetry misstated.
+MAJOR3: claimed artifacts absent (review_record/ at read time, filtered composition, norm-miss list, premature-analysis artifact, pilot-doxa claim uncheckable).
+MINOR4: five families not four; one-sixth not one-third; null band rounding; abstract quotes raw p not Holm; frozen docstring says 10k sims vs code 1k.
+MINOR5: per-layer attrition (norm 2/30, pref 10/30, habitus 39/120) unreported; 45% is conditional (9/30=30% unconditional).

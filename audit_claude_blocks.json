@@ -1,0 +1,200 @@
+{
+ "blocks_audited": 24,
+ "min_parse_rate": 0.978,
+ "retry_trigger_condition_met": 0,
+ "note": "Post-hoc audit applying the frozen retry-trigger criterion (parse<50% per block) to all 24 Claude-runtime block answers. The mitigation, had it been instrumented, would never have fired.",
+ "blocks": [
+  {
+   "session": "claude-haiku_s1",
+   "block": 1,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s1",
+   "block": 2,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s1",
+   "block": 3,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s1",
+   "block": 4,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s2",
+   "block": 1,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s2",
+   "block": 2,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s2",
+   "block": 3,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s2",
+   "block": 4,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s3",
+   "block": 1,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s3",
+   "block": 2,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s3",
+   "block": 3,
+   "items": 45,
+   "parsed": 44,
+   "rate": 0.978,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-haiku_s3",
+   "block": 4,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s1",
+   "block": 1,
+   "items": 45,
+   "parsed": 44,
+   "rate": 0.978,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s1",
+   "block": 2,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s1",
+   "block": 3,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s1",
+   "block": 4,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s2",
+   "block": 1,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s2",
+   "block": 2,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s2",
+   "block": 3,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s2",
+   "block": 4,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s3",
+   "block": 1,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s3",
+   "block": 2,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s3",
+   "block": 3,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  },
+  {
+   "session": "claude-sonnet_s3",
+   "block": 4,
+   "items": 45,
+   "parsed": 45,
+   "rate": 1.0,
+   "retry_would_fire": false
+  }
+ ]
+}

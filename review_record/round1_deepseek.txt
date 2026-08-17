@@ -1,0 +1,5 @@
+VERDICT: REFUTED
+ISSUES: 
+1. H2's reported valid-item denominator (28 norm-transparent, 20 preference-pure; total 48) is inconsistent with H1's 129/180 valid items where the 60 labeled items should contribute proportionally — the manuscript never reconciles why nearly half of the designed-consensus items were filtered, undermining the claimed gradient's robustness.
+2. The "all three confirmed" claim is internally inconsistent: H1's observed 63/129 (48.8%) is described as "below null," yet §3.1 reports 129 valid items of which 60 were explicitly designed to elicit consensus — this test's outcome is an artifact of item selection, not a general property of practice space, making the differentiation-dominance framing misleading.
+3. H3's replication (κ=0.711) is computed on only 81/120 items (67.5%), with overlap of just 25 of Part-A's 31 doxa items; the manuscript presents this as strong stability while simultaneously invoking the same missing-data problem as a limitation elsewhere, without any sensitivity analysis for the 39 excluded items.

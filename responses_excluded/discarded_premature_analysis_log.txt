@@ -1,0 +1,15 @@
+assembled claude-haiku s1 NR=0
+assembled claude-haiku s2 NR=0
+assembled claude-haiku s3 NR=1
+assembled claude-sonnet s1 NR=1
+assembled claude-sonnet s2 NR=0
+assembled claude-sonnet s3 NR=0
+ASSEMBLY_DONE
+valid items: 113/180; all-7 agreement: 59 (0.522)
+H1: {'observed': 59, 'null_mean': 67.096, 'null_ci95': [61.0, 73.0], 'p_lower': 0.005994005994005994}
+H2: {'rate_norm': 0.8888888888888888, 'n_norm': 27, 'rate_pref': 0.5294117647058824, 'n_pref': 17, 'diff': 0.3594771241830065, 'p_perm': 0.0112988701129887}
+H3: {'kappa': 0.6631158455392808, 'partA_size': 27, 'new_size': 26, 'overlap': 21, 'n_old_valid': 69, 'p_perm': 9.999000099990002e-05}
+Holm: {'H3': 0.0003, 'H1': 0.01199, 'H2': 0.01199}
+saved results_doxa.json
+
+[exited with code 0]

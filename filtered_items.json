@@ -1,0 +1,391 @@
+{
+ "total": 51,
+ "by_layer": {
+  "habitus": 39,
+  "norm": 2,
+  "preference": 10
+ },
+ "attrition_rates": {
+  "norm": "2/30",
+  "preference": "10/30",
+  "habitus": "39/120"
+ },
+ "cause": "No model-verdict was lost to all-three missing sessions. However, 18/51 filtered items involve at least one NR-verdict formed as a 2-of-3 tie in which the remaining session was missing (20/69 NR-verdicts involve >=1 missing session); missing responses therefore materially contribute to the filter alongside pure session splits.",
+ "items": [
+  {
+   "id": 1,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-sonnet"
+   ]
+  },
+  {
+   "id": 6,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 8,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 10,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-haiku",
+    "gemma4-12b",
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 16,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b",
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 28,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-sonnet",
+    "gemma4-12b"
+   ]
+  },
+  {
+   "id": 30,
+   "layer": "habitus",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 31,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-12b"
+   ]
+  },
+  {
+   "id": 33,
+   "layer": "habitus",
+   "nr_models": [
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 36,
+   "layer": "habitus",
+   "nr_models": [
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 37,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b",
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 38,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-haiku",
+    "claude-sonnet"
+   ]
+  },
+  {
+   "id": 39,
+   "layer": "habitus",
+   "nr_models": [
+    "deepseek-v4",
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 41,
+   "layer": "habitus",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 46,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-12b"
+   ]
+  },
+  {
+   "id": 52,
+   "layer": "habitus",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 55,
+   "layer": "habitus",
+   "nr_models": [
+    "gpt-oss-120b",
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 57,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-haiku",
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 58,
+   "layer": "habitus",
+   "nr_models": [
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 59,
+   "layer": "habitus",
+   "nr_models": [
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 66,
+   "layer": "habitus",
+   "nr_models": [
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 67,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-12b",
+    "gpt-oss-120b",
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 69,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-sonnet"
+   ]
+  },
+  {
+   "id": 70,
+   "layer": "habitus",
+   "nr_models": [
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 73,
+   "layer": "habitus",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 74,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-sonnet"
+   ]
+  },
+  {
+   "id": 80,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-sonnet"
+   ]
+  },
+  {
+   "id": 81,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-12b"
+   ]
+  },
+  {
+   "id": 86,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-haiku",
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 88,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-haiku"
+   ]
+  },
+  {
+   "id": 92,
+   "layer": "habitus",
+   "nr_models": [
+    "claude-haiku"
+   ]
+  },
+  {
+   "id": 94,
+   "layer": "habitus",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 97,
+   "layer": "habitus",
+   "nr_models": [
+    "deepseek-v4"
+   ]
+  },
+  {
+   "id": 99,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 102,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 108,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 121,
+   "layer": "habitus",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 122,
+   "layer": "habitus",
+   "nr_models": [
+    "deepseek-v4",
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 127,
+   "layer": "habitus",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 218,
+   "layer": "norm",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 222,
+   "layer": "norm",
+   "nr_models": [
+    "gemma4-12b"
+   ]
+  },
+  {
+   "id": 308,
+   "layer": "preference",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 311,
+   "layer": "preference",
+   "nr_models": [
+    "claude-sonnet",
+    "deepseek-v4",
+    "gemma4-12b"
+   ]
+  },
+  {
+   "id": 313,
+   "layer": "preference",
+   "nr_models": [
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 316,
+   "layer": "preference",
+   "nr_models": [
+    "claude-haiku"
+   ]
+  },
+  {
+   "id": 317,
+   "layer": "preference",
+   "nr_models": [
+    "claude-haiku"
+   ]
+  },
+  {
+   "id": 318,
+   "layer": "preference",
+   "nr_models": [
+    "claude-haiku",
+    "deepseek-v4",
+    "qwen3.6-27b"
+   ]
+  },
+  {
+   "id": 319,
+   "layer": "preference",
+   "nr_models": [
+    "gemma4-12b"
+   ]
+  },
+  {
+   "id": 320,
+   "layer": "preference",
+   "nr_models": [
+    "gpt-oss-120b"
+   ]
+  },
+  {
+   "id": 327,
+   "layer": "preference",
+   "nr_models": [
+    "gemma4-26b"
+   ]
+  },
+  {
+   "id": 328,
+   "layer": "preference",
+   "nr_models": [
+    "deepseek-v4",
+    "gemma4-12b"
+   ]
+  }
+ ]
+}

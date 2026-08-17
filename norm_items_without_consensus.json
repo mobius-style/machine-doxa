@@ -1,0 +1,54 @@
+[
+ {
+  "id": 203,
+  "norm_option": "B",
+  "modals": {
+   "claude-haiku": "B",
+   "claude-sonnet": "C",
+   "deepseek-v4": "B",
+   "gemma4-12b": "B",
+   "gemma4-26b": "B",
+   "gpt-oss-120b": "B",
+   "qwen3.6-27b": "B"
+  }
+ },
+ {
+  "id": 209,
+  "norm_option": "A",
+  "modals": {
+   "claude-haiku": "B",
+   "claude-sonnet": "A",
+   "deepseek-v4": "A",
+   "gemma4-12b": "B",
+   "gemma4-26b": "B",
+   "gpt-oss-120b": "B",
+   "qwen3.6-27b": "B"
+  }
+ },
+ {
+  "id": 210,
+  "norm_option": "B",
+  "modals": {
+   "claude-haiku": "A",
+   "claude-sonnet": "B",
+   "deepseek-v4": "B",
+   "gemma4-12b": "B",
+   "gemma4-26b": "B",
+   "gpt-oss-120b": "B",
+   "qwen3.6-27b": "B"
+  }
+ },
+ {
+  "id": 219,
+  "norm_option": "D",
+  "modals": {
+   "claude-haiku": "D",
+   "claude-sonnet": "C",
+   "deepseek-v4": "D",
+   "gemma4-12b": "D",
+   "gemma4-26b": "D",
+   "gpt-oss-120b": "D",
+   "qwen3.6-27b": "D"
+  }
+ }
+]
