@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this battery, data, or code, please cite the paper."
+title: "machine-doxa: study artifacts for Machine Doxa"
+authors:
+  - family-names: Toeda
+    given-names: Taiko
+    affiliation: MOBIUS LLC
+    orcid: "https://orcid.org/0009-0001-7267-0201"
+license: AGPL-3.0-or-later
+preferred-citation:
+  type: article
+  title: "Machine Doxa: Where All Models Agree — Normatively Structured Consensus and Its Limits in LLM Practice Space"
+  authors:
+    - family-names: Toeda
+      given-names: Taiko
+      affiliation: MOBIUS LLC
+  year: 2026
+  doi: 10.5281/zenodo.21982857
