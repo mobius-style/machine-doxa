@@ -1,1 +1,2 @@
 2026-08-18 PREREG §3 executed: deepseek-v4 s2 (NR=95/180=52.8%) excluded before any confirmatory reporting (caught by author at collection review, prior to analysis publication). Replacement chain follows (s4..s6 permitted; model exits confirmatory analyses if no 3 valid sessions within 6 attempts).
+2026-08-18 (outcome): replacement s4 collected, NR=0/180 -> retained. deepseek-v4 valid sessions: s1, s3, s4. Chain closed.

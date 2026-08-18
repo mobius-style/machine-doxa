@@ -1,0 +1,8 @@
+ROUND 3 (delta verification, v0.3+nit, via resumed session of the R1/R2 judge):
+VERDICT: SURVIVES
+1. Header factual (blanket compliance claim removed) - confirmed.
+2. "zero missing-driven" retracted; 18/51 items / 20/69 NR-verdicts verified against data; filtered_items.json cause matches verbatim.
+3. Stale kappa fixed (§1=0.65 registered scope, §5.4=0.649); grep confirms every surviving 0.711 labeled exploratory.
+4. Premature log labeled post-hoc transcription; pre-exclusion figures (59/113, Δ=.359, p=.011, κ=.663) reported; outcome-motivation defused.
+5. §5.9/§5.10 added (subject non-independence + operational doxa scoping; collection non-determinism); audit_claude_blocks.json independently recomputed (24 blocks, min parse 0.978, trigger 0).
+Residual nit (assembler cross-block id acceptance, 1/1,080) closed in §5.8 post-verdict.
