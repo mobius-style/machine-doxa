@@ -15,3 +15,7 @@ c0c3e002134fe617dc170091d9d200a87cb92643ca571d2338b19b59591f110a  PREREG.md
 amendment 3 frozen 2026-09-21T00:20:01+09:00
 10eb7281787ae6a01909d6594dc1534fbaef07910a9acf7f4bba5ebacb64b08b  analyze_base.py
 analysis updated for 3+1 pairs 2026-09-21T00:20:50+09:00
+d6b88005f6f4b98ad777a2a0c4c9e65d8bf6cc6f43a6c8c6c6ba19eac66e5c23  PREREG.md
+amendment 4 frozen 2026-09-21T00:25:29+09:00
+d115663fbfab520ee9ccee592e844cdf18900f6f7594e3feb131fc95d39137cd  analyze_base.py
+analysis updated for 4+1 pairs 2026-09-21T00:25:38+09:00

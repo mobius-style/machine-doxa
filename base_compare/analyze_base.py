@@ -15,7 +15,8 @@ HERE = Path(__file__).parent
 BASE = HERE.parent
 CONFIRMATORY = [("G", "gemma4_12b_base", "gemma4_12b_it"),
                 ("A", "gemma4_26b_base", "gemma4_26b_it"),
-                ("I", "granite4_small_base", "granite4_small_it")]
+                ("I", "granite4_small_base", "granite4_small_it"),
+                ("N", "ling_mini_base", "ling_mini_it")]
 SUPPLEMENTARY = [("L", "llama31_8b_base", "llama31_8b_it")]
 PAIRS = CONFIRMATORY + SUPPLEMENTARY
 LETTERS = ["A", "B", "C", "D"]

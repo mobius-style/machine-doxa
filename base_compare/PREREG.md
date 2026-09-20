@@ -172,3 +172,36 @@ B1 is now Holm-corrected across pairs G, A and I. Pair L is reported with an
 uncorrected exact p and is not counted for or against B1. Models larger than a
 single card are served across both GPUs with `--tensor-split 2,1`; placement
 does not change the arithmetic, only where it runs.
+
+## 12. Amendment 4, 2026-09-21T01:30+09:00, before any battery item was scored
+
+Confirmed still pre-data-contact: `run_all.log` is empty, no scorer has run, and
+the files in `/home/happy/models/base_compare` are incomplete downloads. A
+fourth confirmatory pair is added after auditing which Chinese vendors publish
+base weights, because a consensus explained by codified norms should not be
+tested only against vendors whose policies are written in English.
+
+What the audit found, and it is reported in the manuscript because it bears on
+who can be audited at all:
+
+- **Alibaba** publishes no base weights from Qwen3.5 onward (Qwen3 and Qwen2.5
+  did). The subject family cannot be paired at any contemporary generation.
+- **Zhipu** publishes no base for the GLM-4.7 generation.
+- **DeepSeek**, a subject family, publishes `DeepSeek-V3-Base` but no
+  `DeepSeek-V4-Base`; V3-Base is 671B parameters and cannot be served here in
+  any case.
+- **Moonshot** publishes `Kimi-K2-Base` at about 1T parameters, out of reach.
+- **Tencent** publishes `Hunyuan-7B-Pretrain` and `-Instruct`, but no GGUF
+  conversion of the pre-trained side exists, and converting it here would make
+  the two sides of the pair non-comparable.
+- **inclusionAI (Ant Group)** publishes `Ling-mini-base-2.0` and `Ling-mini-2.0`,
+  and one third-party quantiser has released both at matched settings. This is
+  the only Chinese pair that is both current-generation and servable on this
+  hardware.
+
+| pair | base | tuned | vendor | quant |
+|---|---|---|---|---|
+| N | mradermacher/Ling-mini-base-2.0-GGUF | mradermacher/Ling-mini-2.0-GGUF | inclusionAI (Ant Group) | Q6_K |
+
+B1 is Holm-corrected across pairs G, A, I and N. Quantisation differs between
+pairs but never within one, which is what the comparison requires.
