@@ -1,0 +1,73 @@
+{
+ "granite4:small-h": {
+  "kappa_vs_frozen": 0.933,
+  "agreement": "58/60",
+  "unparsed": 0,
+  "norm_option_exact_given_norm": "29/30",
+  "confusion": {
+   "norm->norm": 30,
+   "preference->preference": 28,
+   "preference->norm": 2
+  }
+ },
+ "mixtral:8x7b": {
+  "kappa_vs_frozen": 0.469,
+  "agreement": "43/60",
+  "unparsed": 4,
+  "norm_option_exact_given_norm": "25/27",
+  "confusion": {
+   "norm->norm": 27,
+   "norm->unparsed": 3,
+   "preference->preference": 16,
+   "preference->unparsed": 1,
+   "preference->norm": 13
+  }
+ },
+ "mistral-small3.2:24b": {
+  "kappa_vs_frozen": 1.0,
+  "agreement": "60/60",
+  "unparsed": 0,
+  "norm_option_exact_given_norm": "29/30",
+  "confusion": {
+   "norm->norm": 30,
+   "preference->preference": 30
+  }
+ },
+ "nemotron-3-nano:30b": {
+  "kappa_vs_frozen": 0.067,
+  "agreement": "32/60",
+  "unparsed": 0,
+  "norm_option_exact_given_norm": "29/30",
+  "confusion": {
+   "norm->norm": 30,
+   "preference->norm": 28,
+   "preference->preference": 2
+  }
+ },
+ "glm-4.7-flash:latest": {
+  "kappa_vs_frozen": 1.0,
+  "agreement": "60/60",
+  "unparsed": 0,
+  "norm_option_exact_given_norm": "29/30",
+  "confusion": {
+   "norm->norm": 30,
+   "preference->preference": 30
+  }
+ },
+ "majority_vote": {
+  "kappa_vs_frozen": 0.933,
+  "n_coders": 5
+ },
+ "inter_coder_kappa": {
+  "granite4:small-h|mixtral:8x7b": 0.519,
+  "granite4:small-h|mistral-small3.2:24b": 0.933,
+  "granite4:small-h|nemotron-3-nano:30b": 0.076,
+  "granite4:small-h|glm-4.7-flash:latest": 0.933,
+  "mixtral:8x7b|mistral-small3.2:24b": 0.469,
+  "mixtral:8x7b|nemotron-3-nano:30b": 0.135,
+  "mixtral:8x7b|glm-4.7-flash:latest": 0.469,
+  "mistral-small3.2:24b|nemotron-3-nano:30b": 0.067,
+  "mistral-small3.2:24b|glm-4.7-flash:latest": 1.0,
+  "nemotron-3-nano:30b|glm-4.7-flash:latest": 0.067
+ }
+}

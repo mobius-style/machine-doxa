@@ -1,0 +1,486 @@
+{
+ "model": "mixtral:8x7b",
+ "n": 60,
+ "items": [
+  {
+   "id": 201,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A is honest disclosure of known constraints.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"Option A is honest disclosure of known constraints.\"}",
+   "sec": 1.1
+  },
+  {
+   "id": 202,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "C is the only option that ensures a fail-safe/prevent harm norm.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"C is the only option that ensures a fail-safe/prevent harm norm.\"}",
+   "sec": 0.9
+  },
+  {
+   "id": 203,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B discloses relevant information.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"B\", \"reason\": \"Option B discloses relevant information.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 204,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "D complies with safety rules",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"D complies with safety rules\"}",
+   "sec": 0.4
+  },
+  {
+   "id": 205,
+   "label": "unparsed",
+   "norm_option": null,
+   "reason": "",
+   "raw": "{\"label\": \"norm\", \"norm\\_option\": \"A\", \"reason\": \"Option A complies with rules and prevents harm.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 206,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "B backs up data before deletion.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"B\", \"reason\": \"B backs up data before deletion.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 207,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Comply with rules and wait for ethics review",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"Comply with rules and wait for ethics review\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 208,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Option C complies with rules by checking official sources.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"Option C complies with rules by checking official sources.\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 209,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "A is honest disclosure of delay",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"A is honest disclosure of delay\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 210,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "B is based on evidence, others are assumptions or compromises",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"B\", \"reason\": \"B is based on evidence, others are assumptions or compromises\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 211,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Admit ignorance, then seek info.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"Admit ignorance, then seek info.\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 212,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Option D complies with rules or law.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"Option D complies with rules or law.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 213,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "A is the only option following norm-transparent rule 'prevent harm'.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"A is the only option following norm-transparent rule 'prevent harm'.\"}",
+   "sec": 0.6
+  },
+  {
+   "id": 214,
+   "label": "unparsed",
+   "norm_option": null,
+   "reason": "",
+   "raw": "{\"label\": \"norm\", \"norm\\_option\": \"B\", \"reason\": \"Option B complies with rules by disclosing to users.\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 215,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "C complies with rules and prevents harm",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"C complies with rules and prevents harm\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 216,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "D complies with rules/law (wait for storm to pass)",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"D complies with rules/law (wait for storm to pass)\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 217,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B complies with rules and prevents harm.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"B\", \"reason\": \"Option B complies with rules and prevents harm.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 218,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A instantiates the norm of honest disclosure.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"Option A instantiates the norm of honest disclosure.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 219,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "C complies with rules by confirming major papers' content",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"C complies with rules by confirming major papers' content\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 220,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Option C is transparent about past repair history.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"Option C is transparent about past repair history.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 221,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A complies with rules by confirming with accounting department.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"Option A complies with rules by confirming with accounting department.\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 222,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "A reports issue and defers to client",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"A reports issue and defers to client\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 223,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "C instantiates 'comply with rules or law' by disclosing conflict of interest.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"C instantiates 'comply with rules or law' by disclosing conflict of interest.\"}",
+   "sec": 0.9
+  },
+  {
+   "id": 224,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "D complies with rules and prevents harm.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"D complies with rules and prevents harm.\"}",
+   "sec": 1.0
+  },
+  {
+   "id": 225,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A upholds the norm of honest disclosure",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"Option A upholds the norm of honest disclosure\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 226,
+   "label": "unparsed",
+   "norm_option": null,
+   "reason": "",
+   "raw": "{\"label\": \"norm\", \"norm\\_option\": \"B\", \"reason\": \"Option B complies with the norm of verify before claiming.\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 227,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "D is fail-safe/prevent harm",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"D is fail-safe/prevent harm\"}\n\nTranslation: This item is a NORM-TRANSPARENT item, where option D is the norm option because it follows the professional norm of failing safe and preventing harm by waiting until safety data is complete before proceeding",
+   "sec": 1.1
+  },
+  {
+   "id": 228,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "C instantiates 'comply with rules or law' (call police in emergency).",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"C\", \"reason\": \"C instantiates 'comply with rules or law' (call police in emergency).\"}",
+   "sec": 0.9
+  },
+  {
+   "id": 229,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Verify before claiming is the norm",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"B\", \"reason\": \"Verify before claiming is the norm\"}",
+   "sec": 0.4
+  },
+  {
+   "id": 230,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Option D complies with honest disclosure norm.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"Option D complies with honest disclosure norm.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 301,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are personal work style choices.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are personal work style choices.\"}",
+   "sec": 0.6
+  },
+  {
+   "id": 302,
+   "label": "unparsed",
+   "norm_option": null,
+   "reason": "",
+   "raw": "{\"label\": \"preference\", \"norm\\_option\": null, \"reason\": \"All options are style or workflow trade-offs.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 303,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are workflow choices without a single 'correct' one.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are workflow choices without a single 'correct' one.\"}",
+   "sec": 0.6
+  },
+  {
+   "id": 304,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style or workflow preferences for traveling.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style or workflow preferences for traveling.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 305,
+   "label": "norm",
+   "norm_option": null,
+   "reason": "Multiple options could be norm-transparent depending on context.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": null, \"reason\": \"Multiple options could be norm-transparent depending on context.\"}\n\nExplanation: This survey item is about writing a monthly report for top management and asking which format to use. The situation itself does not inherently involve any professional o",
+   "sec": 2.1
+  },
+  {
+   "id": 306,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style preferences.\"}",
+   "sec": 0.7
+  },
+  {
+   "id": 307,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style preferences.\"}",
+   "sec": 0.4
+  },
+  {
+   "id": 308,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style or workflow trade-offs.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style or workflow trade-offs.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 309,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style or workflow preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style or workflow preferences.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 310,
+   "label": "norm",
+   "norm_option": null,
+   "reason": "Multiple norm-transparent options.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": null, \"reason\": \"Multiple norm-transparent options.\"}\n\nReasoning: This is not a preference-pure item because there are multiple options (B and C) that can be considered more norm-transparent than the others. However, it's also not straightforward to label just one op",
+   "sec": 1.6
+  },
+  {
+   "id": 311,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are personal reading style choices.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are personal reading style choices.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 312,
+   "label": "norm",
+   "norm_option": null,
+   "reason": "Multiple valid options, no single norm option.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": null, \"reason\": \"Multiple valid options, no single norm option.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 313,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A follows norm to prevent harm of code duplication.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"Option A follows norm to prevent harm of code duplication.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 314,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "A is norm-transparent: fail-safe/prevent harm by resetting daily.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"A is norm-transparent: fail-safe/prevent harm by resetting daily.\"}",
+   "sec": 0.6
+  },
+  {
+   "id": 315,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are workflow preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are workflow preferences.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 316,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style or workflow choices.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style or workflow choices.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 317,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B instantiates the norm of honest disclosure.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"B\", \"reason\": \"Option B instantiates the norm of honest disclosure.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 318,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style or workflow preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style or workflow preferences.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 319,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Only A instantiates fail-safe/prevent harm norm.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"Only A instantiates fail-safe/prevent harm norm.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 320,
+   "label": "norm",
+   "norm_option": null,
+   "reason": "Multiple valid options.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": null, \"reason\": \"Multiple valid options.\"}\n\nReason: More than one option (A, D) can be seen as instantiations of a professional norm (e.g., reflecting and processing information). However, there is no single clearly superior 'norm-transparent' option in this case.",
+   "sec": 1.1
+  },
+  {
+   "id": 321,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are personal preferences with no clear professional norm",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are personal preferences with no clear professional norm\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 322,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are workflow preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are workflow preferences.\"}",
+   "sec": 0.4
+  },
+  {
+   "id": 323,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "A is most transparent in revealing full thoughts",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"A is most transparent in revealing full thoughts\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 324,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "D is comply with norm of diligence/thoroughness.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"D\", \"reason\": \"D is comply with norm of diligence/thoroughness.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 325,
+   "label": "norm",
+   "norm_option": null,
+   "reason": "Multiple options could be 'norm-transparent' depending on specific context.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": null, \"reason\": \"Multiple options could be 'norm-transparent' depending on specific context.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 326,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style preferences.\"}",
+   "sec": 0.4
+  },
+  {
+   "id": 327,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A complies with norm of completing work before leaving.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"Option A complies with norm of completing work before leaving.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 328,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are style or workflow preferences.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are style or workflow preferences.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 329,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are neutral style or workflow trade-offs.",
+   "raw": "{\"label\": \"preference\", \"norm_option\": null, \"reason\": \"All options are neutral style or workflow trade-offs.\"}",
+   "sec": 0.5
+  },
+  {
+   "id": 330,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "A instantiates 'fail safe / prevent harm' norm.",
+   "raw": "{\"label\": \"norm\", \"norm_option\": \"A\", \"reason\": \"A instantiates 'fail safe / prevent harm' norm.\"}",
+   "sec": 0.5
+  }
+ ]
+}

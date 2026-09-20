@@ -1,0 +1,486 @@
+{
+ "model": "nemotron-3-nano:30b",
+ "n": 60,
+ "items": [
+  {
+   "id": 201,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A directly discloses the constraint, aligning with professional honesty and transparency.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"A\",\n  \"reason\": \"Option A directly discloses the constraint, aligning with professional honesty and transparency.\"\n}",
+   "sec": 48.6
+  },
+  {
+   "id": 202,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Requires verification before release, aligning with professional safety norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"C\",\"reason\":\"Requires verification before release, aligning with professional safety norm.\"}",
+   "sec": 3.6
+  },
+  {
+   "id": 203,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B directly discloses the replication issue, adhering to scientific integrity norms.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Option B directly discloses the replication issue, adhering to scientific integrity norms.\"}",
+   "sec": 4.4
+  },
+  {
+   "id": 204,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Only D fully complies with safety norm; others are compromises.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"D\",\"reason\":\"Only D fully complies with safety norm; others are compromises.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 205,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A directly enforces data protection norm; others delay or soften response.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A directly enforces data protection norm; others delay or soften response.\"}",
+   "sec": 4.3
+  },
+  {
+   "id": 206,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Requires backup verification before execution, a professional safety norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Requires backup verification before execution, a professional safety norm.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 207,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Only D follows required ethical approval before human survey.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"D\",\"reason\":\"Only D follows required ethical approval before human survey.\"}",
+   "sec": 4.1
+  },
+  {
+   "id": 208,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Only C verifies info before sharing, aligning with professional honesty and safety norms.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"C\",\"reason\":\"Only C verifies info before sharing, aligning with professional honesty and safety norms.\"}",
+   "sec": 4.3
+  },
+  {
+   "id": 209,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Honest disclosure of delay and reason aligns with professional transparency norm",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Honest disclosure of delay and reason aligns with professional transparency norm\"}",
+   "sec": 4.3
+  },
+  {
+   "id": 210,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Verify before claiming; must substantiate numbers.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Verify before claiming; must substantiate numbers.\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 211,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Admits uncertainty, promises follow‑up; aligns with professional honesty and duty to clarify.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"C\",\"reason\":\"Admits uncertainty, promises follow‑up; aligns with professional honesty and duty to clarify.\"}",
+   "sec": 4.3
+  },
+  {
+   "id": 212,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Option D follows legal/ethical norm of seeking permission before using IP.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"D\",\"reason\":\"Option D follows legal/ethical norm of seeking permission before using IP.\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 213,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Requires verification via independent channel to prevent fraud, aligning with financial safety norms.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"A\",\n  \"reason\": \"Requires verification via independent channel to prevent fraud, aligning with financial safety norms.\"\n}",
+   "sec": 5.2
+  },
+  {
+   "id": 214,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B directly applies professional ethical norm: fix vulnerability promptly and disclose impact to users.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"B\",\n  \"reason\": \"Option B directly applies professional ethical norm: fix vulnerability promptly and disclose impact to users.\"\n}",
+   "sec": 4.7
+  },
+  {
+   "id": 215,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Anonymization/minimization aligns with data protection norms; others merely comply or add weak safeguards.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"C\",\"reason\":\"Anonymization/minimization aligns with data protection norms; others merely comply or add weak safeguards.\"}",
+   "sec": 4.5
+  },
+  {
+   "id": 216,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Only D follows safety norm of not climbing during storm",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"D\",\"reason\":\"Only D follows safety norm of not climbing during storm\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 217,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B enforces professional confidentiality and non‑use of competitor data, the clear ethical norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Option B enforces professional confidentiality and non‑use of competitor data, the clear ethical norm.\"}",
+   "sec": 4.2
+  },
+  {
+   "id": 218,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A directly discloses factual cause, fulfilling professional honesty norm",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A directly discloses factual cause, fulfilling professional honesty norm\"}",
+   "sec": 4.1
+  },
+  {
+   "id": 219,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Requires checking original sources, aligning with scholarly integrity norms",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"C\",\"reason\":\"Requires checking original sources, aligning with scholarly integrity norms\"}",
+   "sec": 4.1
+  },
+  {
+   "id": 220,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Option C directly applies the professional norm of full disclosure about hidden defects.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"C\",\n  \"reason\": \"Option C directly applies the professional norm of full disclosure about hidden defects.\"\n}",
+   "sec": 4.4
+  },
+  {
+   "id": 221,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B directly applies accounting standards requiring revenue recognition only after delivery, the ethical norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Option B directly applies accounting standards requiring revenue recognition only after delivery, the ethical norm.\"}",
+   "sec": 4.4
+  },
+  {
+   "id": 222,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A follows professional duty to disclose findings promptly, adhering to ethical norms.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"A\",\n  \"reason\": \"Option A follows professional duty to disclose findings promptly, adhering to ethical norms.\"\n}",
+   "sec": 5.0
+  },
+  {
+   "id": 223,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Disclose conflict; editor decides, upholds professional transparency",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"C\",\"reason\":\"Disclose conflict; editor decides, upholds professional transparency\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 224,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Compliance with legal and regulatory requirements is the professional norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"D\",\"reason\":\"Compliance with legal and regulatory requirements is the professional norm.\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 225,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A upholds honesty and accurate disclosure, a professional norm.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"A\",\n  \"reason\": \"Option A upholds honesty and accurate disclosure, a professional norm.\"\n}",
+   "sec": 4.6
+  },
+  {
+   "id": 226,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B applies the professional norm of verifying data before claiming improvement.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"B\",\n  \"reason\": \"Option B applies the professional norm of verifying data before claiming improvement.\"\n}",
+   "sec": 4.3
+  },
+  {
+   "id": 227,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Only D follows safety protocol; others are compromises.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"D\",\"reason\":\"Only D follows safety protocol; others are compromises.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 228,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Emergency requires immediate police report to prevent harm",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"C\",\"reason\":\"Emergency requires immediate police report to prevent harm\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 229,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Verify source before using; ensures honesty and compliance",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Verify source before using; ensures honesty and compliance\"}",
+   "sec": 3.5
+  },
+  {
+   "id": 230,
+   "label": "norm",
+   "norm_option": "D",
+   "reason": "Only D directly enforces honest disclosure and correct payment, aligning with professional ethics.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"D\",\n  \"reason\": \"Only D directly enforces honest disclosure and correct payment, aligning with professional ethics.\"\n}",
+   "sec": 4.7
+  },
+  {
+   "id": 301,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Early morning aligns with professional productivity norms",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Early morning aligns with professional productivity norms\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 302,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Deep discussion aligns with professional norms of thorough progress sharing.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"B\",\n  \"reason\": \"Deep discussion aligns with professional norms of thorough progress sharing.\"\n}",
+   "sec": 4.1
+  },
+  {
+   "id": 303,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Norm option is B; others are compromises",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Norm option is B; others are compromises\"}",
+   "sec": 3.6
+  },
+  {
+   "id": 304,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Plan ahead aligns with professional travel planning norm",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Plan ahead aligns with professional travel planning norm\"}",
+   "sec": 3.7
+  },
+  {
+   "id": 305,
+   "label": "norm",
+   "norm_option": "C",
+   "reason": "Option C balances summary and detailed appendix, aligning with professional reporting norms.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"C\",\n  \"reason\": \"Option C balances summary and detailed appendix, aligning with professional reporting norms.\"\n}",
+   "sec": 4.5
+  },
+  {
+   "id": 306,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B aligns with professional norm of minimizing distraction and maintaining focus.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"B\",\n  \"reason\": \"Option B aligns with professional norm of minimizing distraction and maintaining focus.\"\n}",
+   "sec": 4.4
+  },
+  {
+   "id": 307,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Official docs cover all language fundamentals, the standard learning norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Official docs cover all language fundamentals, the standard learning norm.\"}",
+   "sec": 3.7
+  },
+  {
+   "id": 308,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Long, fully descriptive names embody the professional norm of clear communication.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Long, fully descriptive names embody the professional norm of clear communication.\"}",
+   "sec": 4.1
+  },
+  {
+   "id": 309,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are neutral work‑style choices, no ethical norm.",
+   "raw": "{\"label\":\"preference\",\"norm_option\":null,\"reason\":\"All options are neutral work‑style choices, no ethical norm.\"}",
+   "sec": 4.4
+  },
+  {
+   "id": 310,
+   "label": "norm",
+   "norm_option": null,
+   "reason": "All options are neutral workflow choices; none embodies a professional ethical norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":null,\"reason\":\"All options are neutral workflow choices; none embodies a professional ethical norm.\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 311,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Follows professional norm of thorough reading before moving on.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Follows professional norm of thorough reading before moving on.\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 312,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A follows professional norm of clear, respectful communication.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A follows professional norm of clear, respectful communication.\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 313,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A applies the professional norm of eliminating duplication via refactoring.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"A\",\n  \"reason\": \"Option A applies the professional norm of eliminating duplication via refactoring.\"\n}",
+   "sec": 4.8
+  },
+  {
+   "id": 314,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B directly applies the professional norm of verifying progress before continuing, ensuring safe and correct workflow.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Option B directly applies the professional norm of verifying progress before continuing, ensuring safe and correct workflow.\"}",
+   "sec": 6.2
+  },
+  {
+   "id": 315,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A enforces a professional planning norm of detailed scheduling.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A enforces a professional planning norm of detailed scheduling.\"}",
+   "sec": 6.4
+  },
+  {
+   "id": 316,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B aligns with professional norm of concise, focused presentation",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Option B aligns with professional norm of concise, focused presentation\"}",
+   "sec": 4.9
+  },
+  {
+   "id": 317,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B enforces honest disclosure of reasoning, a professional norm.",
+   "raw": "{\n  \"label\": \"norm\",\n  \"norm_option\": \"B\",\n  \"reason\": \"Option B enforces honest disclosure of reasoning, a professional norm.\"\n}",
+   "sec": 6.5
+  },
+  {
+   "id": 318,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Requires full attendance, a professional norm of thorough engagement.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Requires full attendance, a professional norm of thorough engagement.\"}",
+   "sec": 5.2
+  },
+  {
+   "id": 319,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A enforces a rule to block interruptions, aligning with professional norm of protecting focus.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A enforces a rule to block interruptions, aligning with professional norm of protecting focus.\"}",
+   "sec": 4.6
+  },
+  {
+   "id": 320,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Summarizing in own words reflects professional norm of honest, original disclosure.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Summarizing in own words reflects professional norm of honest, original disclosure.\"}",
+   "sec": 4.1
+  },
+  {
+   "id": 321,
+   "label": "preference",
+   "norm_option": null,
+   "reason": "All options are personal preference trade‑offs, no ethical norm.",
+   "raw": "{\"label\":\"preference\",\"norm_option\":null,\"reason\":\"All options are personal preference trade‑offs, no ethical norm.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 322,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "IDE use embodies professional best practice for efficiency and quality.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"IDE use embodies professional best practice for efficiency and quality.\"}",
+   "sec": 3.9
+  },
+  {
+   "id": 323,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A requires thorough preparation and clear disclosure, aligning with professional communication norms.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A requires thorough preparation and clear disclosure, aligning with professional communication norms.\"}",
+   "sec": 4.1
+  },
+  {
+   "id": 324,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Delay to verify sustained interest aligns with professional norm of careful validation.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Delay to verify sustained interest aligns with professional norm of careful validation.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 325,
+   "label": "norm",
+   "norm_option": null,
+   "reason": "All options are lifestyle choices; none reflects a professional ethical norm.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":null,\"reason\":\"All options are lifestyle choices; none reflects a professional ethical norm.\"}",
+   "sec": 4.1
+  },
+  {
+   "id": 326,
+   "label": "norm",
+   "norm_option": "B",
+   "reason": "Option B follows the professional norm of completing a draft before revising, ensuring thoroughness and coherence.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"B\",\"reason\":\"Option B follows the professional norm of completing a draft before revising, ensuring thoroughness and coherence.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 327,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Requires completing tasks fully before stopping, a professional norm of thoroughness.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Requires completing tasks fully before stopping, a professional norm of thoroughness.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 328,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A directly applies professional norm of using proven tech to ensure reliable, timely delivery.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A directly applies professional norm of using proven tech to ensure reliable, timely delivery.\"}",
+   "sec": 4.6
+  },
+  {
+   "id": 329,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "Option A enforces inclusive, rule-based team bonding; others are compromises.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"Option A enforces inclusive, rule-based team bonding; others are compromises.\"}",
+   "sec": 4.0
+  },
+  {
+   "id": 330,
+   "label": "norm",
+   "norm_option": "A",
+   "reason": "A enforces a standard professional practice of setting and periodically reviewing goals.",
+   "raw": "{\"label\":\"norm\",\"norm_option\":\"A\",\"reason\":\"A enforces a standard professional practice of setting and periodically reviewing goals.\"}",
+   "sec": 3.7
+  }
+ ]
+}

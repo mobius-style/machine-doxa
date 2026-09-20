@@ -1,0 +1,119 @@
+{
+ "full": {
+  "subset": [
+   "claude-haiku",
+   "claude-sonnet",
+   "deepseek-v4",
+   "gemma4-12b",
+   "gemma4-26b",
+   "gpt-oss-120b",
+   "qwen3.6-27b"
+  ],
+  "norm": "24/28",
+  "pref": "9/20",
+  "rate_norm": 0.857,
+  "rate_pref": 0.45,
+  "delta": 0.407,
+  "perm_p": 0.0039,
+  "winner_is_norm_option": "24/24"
+ },
+ "drop_alibaba": {
+  "subset": [
+   "claude-haiku",
+   "claude-sonnet",
+   "deepseek-v4",
+   "gemma4-12b",
+   "gemma4-26b",
+   "gpt-oss-120b"
+  ],
+  "norm": "24/28",
+  "pref": "11/21",
+  "rate_norm": 0.857,
+  "rate_pref": 0.524,
+  "delta": 0.333,
+  "perm_p": 0.0111,
+  "winner_is_norm_option": "24/24"
+ },
+ "drop_anthropic": {
+  "subset": [
+   "deepseek-v4",
+   "gemma4-12b",
+   "gemma4-26b",
+   "gpt-oss-120b",
+   "qwen3.6-27b"
+  ],
+  "norm": "27/28",
+  "pref": "11/22",
+  "rate_norm": 0.964,
+  "rate_pref": 0.5,
+  "delta": 0.464,
+  "perm_p": 0.0004,
+  "winner_is_norm_option": "27/27"
+ },
+ "drop_deepseek": {
+  "subset": [
+   "claude-haiku",
+   "claude-sonnet",
+   "gemma4-12b",
+   "gemma4-26b",
+   "gpt-oss-120b",
+   "qwen3.6-27b"
+  ],
+  "norm": "24/28",
+  "pref": "11/20",
+  "rate_norm": 0.857,
+  "rate_pref": 0.55,
+  "delta": 0.307,
+  "perm_p": 0.0204,
+  "winner_is_norm_option": "24/24"
+ },
+ "drop_google": {
+  "subset": [
+   "claude-haiku",
+   "claude-sonnet",
+   "deepseek-v4",
+   "gpt-oss-120b",
+   "qwen3.6-27b"
+  ],
+  "norm": "26/30",
+  "pref": "11/22",
+  "rate_norm": 0.867,
+  "rate_pref": 0.5,
+  "delta": 0.367,
+  "perm_p": 0.0053,
+  "winner_is_norm_option": "26/26"
+ },
+ "drop_openai": {
+  "subset": [
+   "claude-haiku",
+   "claude-sonnet",
+   "deepseek-v4",
+   "gemma4-12b",
+   "gemma4-26b",
+   "qwen3.6-27b"
+  ],
+  "norm": "24/28",
+  "pref": "10/22",
+  "rate_norm": 0.857,
+  "rate_pref": 0.455,
+  "delta": 0.403,
+  "perm_p": 0.0028,
+  "winner_is_norm_option": "24/24"
+ },
+ "non_anthropic_only": {
+  "subset": [
+   "deepseek-v4",
+   "gemma4-12b",
+   "gemma4-26b",
+   "gpt-oss-120b",
+   "qwen3.6-27b"
+  ],
+  "norm": "27/28",
+  "pref": "11/22",
+  "rate_norm": 0.964,
+  "rate_pref": 0.5,
+  "delta": 0.464,
+  "perm_p": 0.0004,
+  "winner_is_norm_option": "27/27"
+ }
+}
