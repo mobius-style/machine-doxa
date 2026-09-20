@@ -101,7 +101,7 @@ comparable this way because no base weights are published for them. It does not
 decompose tuning into its stages (supervised fine-tuning, preference
 optimisation), and it says nothing about the closed API subjects.
 
-## 9. Amendment, 2026-09-21T00:20+09:00, before any battery item was scored
+## 9. Amendment 1, 2026-09-21T00:09:20+09:00, before any battery item was scored
 
 Recorded before Study B touched any of the 60 items; the only prompts run so
 far were throwaway smoke tests ("日本の首都はどれか", "1+1は何か") used to check
@@ -118,7 +118,7 @@ the server plumbing. Two corrections to Section 4:
    If thinking cannot be disabled for a model, B3 is reported as not runnable
    for that model rather than worked around.
 
-## 10. Amendment 2, 2026-09-21T00:35+09:00, before any battery item was scored
+## 10. Amendment 2, 2026-09-21T00:11:24+09:00, before any battery item was scored
 
 Still before Study B touched any of the 60 items. The Section 4 prompt was
 calibrated on throwaway factual questions and replaced, for one reason: with a
@@ -140,7 +140,7 @@ on `gemma-4-12b-it-qat-q4_0` (a local file, not one of the four Study B models)
 gave 7 of 8 correct with one NR, and verdicts distributed A2 B1 C2 D2, which is
 the evidence that led to freezing this prompt.
 
-## 11. Amendment 3, 2026-09-21T01:05+09:00, before any battery item was scored
+## 11. Amendment 3, 2026-09-21T00:20:01+09:00, before any battery item was scored
 
 Still before Study B touched any of the 60 items; the first pair was still
 downloading. Section 3 is revised after two findings.
@@ -173,7 +173,7 @@ uncorrected exact p and is not counted for or against B1. Models larger than a
 single card are served across both GPUs with `--tensor-split 2,1`; placement
 does not change the arithmetic, only where it runs.
 
-## 12. Amendment 4, 2026-09-21T01:30+09:00, before any battery item was scored
+## 12. Amendment 4, 2026-09-21T00:25:29+09:00, before any battery item was scored
 
 Confirmed still pre-data-contact: `run_all.log` is empty, no scorer has run, and
 the files in `/home/happy/models/base_compare` are incomplete downloads. A
@@ -205,3 +205,21 @@ who can be audited at all:
 
 B1 is Holm-corrected across pairs G, A, I and N. Quantisation differs between
 pairs but never within one, which is what the comparison requires.
+
+
+## 13. Correction to the amendment timestamps, made after scoring began
+
+The four amendment headings above originally carried times written by hand
+(00:20, 00:35, 01:05, 01:30) that did not match the machine record. The true
+freeze times, from `FREEZE_RECORD.txt`, are 00:09:20, 00:11:24, 00:20:01 and
+00:25:29, and each was pushed to the public repository within seconds of being
+frozen (commits 13cd1d1, 27fa82c, a45648a and their predecessor 0198186). The
+headings have been corrected to the machine times. Nothing else changed.
+
+The ordering the amendments assert is unaffected and is verifiable from the
+record: the last amendment was frozen at 00:25:29 and pushed at 00:25:38, while
+the first battery item was scored at 01:20:47, when the downloads finished, and
+the first output file was written at 01:21:00. Every design decision therefore
+preceded every measurement by about an hour. This correction is recorded rather
+than silently applied, on the same principle as the enforcement record in the
+main manuscript.
