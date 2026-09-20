@@ -1,0 +1,23 @@
+{
+ "n_items": 48,
+ "median_determinacy": 0.537,
+ "n_base_models_used": 5,
+ "strata": {
+  "low_determinacy": {
+   "norm": "5/8",
+   "preference": "8/16",
+   "rate_norm": 0.625,
+   "rate_pref": 0.5,
+   "delta": 0.125
+  },
+  "high_determinacy": {
+   "norm": "19/20",
+   "preference": "1/4",
+   "rate_norm": 0.95,
+   "rate_pref": 0.25,
+   "delta": 0.7
+  }
+ },
+ "stratified_delta": 0.412,
+ "stratified_permutation_p_one_sided": 0.0065
+}

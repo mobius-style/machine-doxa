@@ -37,3 +37,5 @@ f5cc45d3ae57dc3e730c97911d6c184373a0a5a1238abd76a1b102e66a520dcb  PREREG.md
 02540527cd12e7aa1d31c63a34379f8c9ff071e9da062aba3e92f170701f8e45  calibrate.py
 1e48845f17a67ecd00778afa7bb4432e4f4c6e414c9c9b40a535c3c5ca75f266  analyze_base.py
 factual corrections to amendment 4; docstring fix (no measurement change) 2026-09-21T02:49:29+09:00
+d098a3792330ed0b1b6e599d8c8917d6d3986b4f5942ae08a2faa16d3873739a  exploratory_matched.py
+exploratory determinacy-matched H2 (NOT pre-registered) 2026-09-21T03:06:39+09:00

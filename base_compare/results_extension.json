@@ -1,0 +1,72 @@
+{
+ "n_valid_habitus": 81,
+ "n_consensus": 30,
+ "n_nonconsensus": 51,
+ "per_base_model": {
+  "gemma4_12b_base": {
+   "determinacy_consensus_items": 0.572,
+   "determinacy_nonconsensus_items": 0.498,
+   "difference": 0.074,
+   "mannwhitney_u": 974.0,
+   "p_two_sided": 0.041,
+   "n_consensus_scored": 30,
+   "n_nonconsensus_scored": 51,
+   "determinacy_norm_layer": 0.687,
+   "determinacy_preference_layer": 0.507,
+   "determinacy_habitus_layer": 0.507,
+   "norm_vs_habitus_p": 0.0
+  },
+  "gemma4_26b_base": {
+   "determinacy_consensus_items": 0.569,
+   "determinacy_nonconsensus_items": 0.498,
+   "difference": 0.071,
+   "mannwhitney_u": 1004.0,
+   "p_two_sided": 0.0194,
+   "n_consensus_scored": 30,
+   "n_nonconsensus_scored": 51,
+   "determinacy_norm_layer": 0.755,
+   "determinacy_preference_layer": 0.48,
+   "determinacy_habitus_layer": 0.511,
+   "norm_vs_habitus_p": 0.0
+  },
+  "granite4_small_base": {
+   "determinacy_consensus_items": 0.49,
+   "determinacy_nonconsensus_items": 0.473,
+   "difference": 0.017,
+   "mannwhitney_u": 823.0,
+   "p_two_sided": 0.5706,
+   "n_consensus_scored": 30,
+   "n_nonconsensus_scored": 51,
+   "determinacy_norm_layer": 0.599,
+   "determinacy_preference_layer": 0.474,
+   "determinacy_habitus_layer": 0.468,
+   "norm_vs_habitus_p": 0.0
+  },
+  "ling_mini_base": {
+   "determinacy_consensus_items": 0.607,
+   "determinacy_nonconsensus_items": 0.557,
+   "difference": 0.051,
+   "mannwhitney_u": 912.0,
+   "p_two_sided": 0.1505,
+   "n_consensus_scored": 30,
+   "n_nonconsensus_scored": 51,
+   "determinacy_norm_layer": 0.64,
+   "determinacy_preference_layer": 0.564,
+   "determinacy_habitus_layer": 0.557,
+   "norm_vs_habitus_p": 0.0073
+  },
+  "llama31_8b_base": {
+   "determinacy_consensus_items": 0.424,
+   "determinacy_nonconsensus_items": 0.389,
+   "difference": 0.035,
+   "mannwhitney_u": 788.0,
+   "p_two_sided": 0.822,
+   "n_consensus_scored": 30,
+   "n_nonconsensus_scored": 51,
+   "determinacy_norm_layer": 0.526,
+   "determinacy_preference_layer": 0.397,
+   "determinacy_habitus_layer": 0.398,
+   "norm_vs_habitus_p": 0.0
+  }
+ }
+}

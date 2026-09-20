@@ -1,0 +1,10060 @@
+{
+ "model": "/home/happy/models/base_compare/gemma4-26B-A4B-it-Q8_0.gguf",
+ "tag": "gemma4_26b_it",
+ "chat": false,
+ "n": 120,
+ "items": [
+  {
+   "id": 1,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9865,
+      "B": 0.002,
+      "A": 0.0004,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " most",
+      "D",
+      " B",
+      "답",
+      " A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9941,
+      "D": 0.0035,
+      "C": 0.0022,
+      "B": 0.0003
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " \\",
+      " L"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.994,
+      "A": 0.0053,
+      "D": 0.0003,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " [",
+      " 正"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9979,
+      "D": 0.0011,
+      "B": 0.001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      "\n\n",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8894,
+      "B": 0.0592,
+      "C": 0.0276,
+      "D": 0.0236
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      " E"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9992,
+      "D": 0.0005,
+      "B": 0.0003,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " [",
+      " C",
+      " $"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9898,
+      "D": 0.0085,
+      "B": 0.0016,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9735,
+      "A": 0.0204,
+      "D": 0.0051,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " E",
+      " B",
+      " ว่า"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.6619,
+      "D": 0.3198,
+      "B": 0.0169,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      "D",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.4358,
+      "B": 0.3319,
+      "C": 0.2087,
+      "D": 0.0212
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.8648,
+      "A": 0.1156,
+      "D": 0.0196,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " ប",
+      " L"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9989,
+      "B": 0.0008,
+      "D": 0.0003,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " C",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.979,
+      "B": 0.0203,
+      "C": 0.0005,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.7983,
+      "A": 0.1793,
+      "B": 0.0217,
+      "C": 0.0007
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " R",
+      " E"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9722,
+      "B": 0.0144,
+      "A": 0.0131,
+      "D": 0.0003
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9746,
+      "A": 0.0238,
+      "C": 0.0009,
+      "D": 0.0006
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9355,
+      "B": 0.0643,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " \\\\",
+      " D",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.8414,
+      "D": 0.086,
+      "A": 0.071
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      "D",
+      " ",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9325,
+      "B": 0.0541,
+      "D": 0.0086
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.994,
+      "D": 0.0059,
+      "C": 0.0001,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " C",
+      " A",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9772,
+      "A": 0.0135,
+      "D": 0.0091,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " [",
+      " ",
+      " C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9724,
+      "C": 0.0267,
+      "D": 0.0008,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " \\",
+      " B",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9007,
+      "B": 0.0806,
+      "A": 0.0187,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " \\",
+      " C",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9998,
+      "B": 0.0001,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      " L"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8668,
+      "B": 0.1244,
+      "C": 0.0088,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " 아닌",
+      " [",
+      " BU"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8761,
+      "B": 0.1227,
+      "D": 0.0006,
+      "C": 0.0005
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.4942,
+      "D": 0.4533,
+      "C": 0.0488,
+      "B": 0.0022
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " ",
+      ":"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.6695,
+      "B": 0.329,
+      "C": 0.001,
+      "A": 0.0004
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " \\",
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9937,
+      "A": 0.0063,
+      "C": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      "D",
+      " \\",
+      " Dra"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.5228,
+      "C": 0.4014,
+      "B": 0.0715,
+      "D": 0.0042
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " \\",
+      " _)"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 1.0,
+      "A": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      "B",
+      " 가장"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9998,
+      "D": 0.0002,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      "\n\n",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 1.0,
+      "B": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " [",
+      " C",
+      " L"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9996,
+      "B": 0.0003,
+      "A": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " [",
+      " ",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9994,
+      "A": 0.0003,
+      "B": 0.0003,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " [",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9999,
+      "A": 0.0001,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " [",
+      " ",
+      " D",
+      " 正"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9997,
+      "A": 0.0002,
+      "B": 0.0001,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9944,
+      "D": 0.0056,
+      "C": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " [",
+      " C",
+      " ",
+      " A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9993,
+      "C": 0.0006,
+      "B": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " \\",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9997,
+      "A": 0.0003,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " |",
+      "D",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.689,
+      "D": 0.2308,
+      "C": 0.0772,
+      "B": 0.0019
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 1.0,
+      "B": 0.0,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      "D",
+      " C",
+      " Д"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8896,
+      "B": 0.071,
+      "C": 0.0267,
+      "D": 0.0126
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " \\",
+      " L"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.8733,
+      "A": 0.1209,
+      "D": 0.0058,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " [",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9913,
+      "C": 0.0083,
+      "D": 0.0003,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8421,
+      "B": 0.1575,
+      "A": 0.0002,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.5663,
+      "A": 0.2665,
+      "C": 0.1659,
+      "D": 0.0012
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " \\",
+      " ABC"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.908,
+      "A": 0.0712,
+      "B": 0.0208,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " |",
+      " \\",
+      ":"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5128,
+      "B": 0.4867,
+      "D": 0.0004,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " [",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9962,
+      "D": 0.0036,
+      "B": 0.0001,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " K"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9788,
+      "B": 0.0173,
+      "D": 0.0037,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 1.0,
+      "D": 0.0,
+      "C": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " \\",
+      " \\\\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9394,
+      "B": 0.0599,
+      "D": 0.0006,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      " L"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9978,
+      "B": 0.0021,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9693,
+      "D": 0.0305,
+      "B": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " |"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9747,
+      "B": 0.0198,
+      "C": 0.0052,
+      "D": 0.0004
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " \\",
+      " В"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.8484,
+      "A": 0.1505,
+      "D": 0.0008,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " E",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9966,
+      "D": 0.0033,
+      "A": 0.0001,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " B",
+      "C",
+      ":"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9908,
+      "A": 0.0089,
+      "C": 0.0002,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9997,
+      "B": 0.0002,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " C",
+      " L"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9346,
+      "B": 0.0604,
+      "D": 0.0035,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.5548,
+      "C": 0.4177,
+      "A": 0.0186,
+      "D": 0.0088
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " 正",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8728,
+      "D": 0.1267,
+      "B": 0.0004,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9983,
+      "B": 0.0016,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " कार्यवाही",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.6817,
+      "B": 0.2856,
+      "D": 0.0264,
+      "C": 0.0054
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " 更新",
+      " कार्यवाही"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9898,
+      "D": 0.0101,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.8832,
+      "A": 0.1135,
+      "C": 0.0029,
+      "D": 0.0004
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " 문제",
+      " E"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9798,
+      "B": 0.0185,
+      "C": 0.0016,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " E"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9693,
+      "B": 0.0303,
+      "C": 0.0003,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " E"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.6291,
+      "A": 0.3708,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      "\n\n",
+      "D",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9891,
+      "D": 0.0108,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      "\n\n",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.992,
+      "A": 0.007,
+      "D": 0.0009,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9996,
+      "A": 0.0003,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " [",
+      " D",
+      " ",
+      " C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9999,
+      "B": 0.0001,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " [",
+      " E",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 1.0,
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      "D",
+      " [",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9818,
+      "B": 0.0122,
+      "A": 0.006,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " ",
+      " [",
+      " **"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9804,
+      "B": 0.0171,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " [",
+      " L",
+      "\n\n",
+      "："
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9857,
+      "A": 0.0138,
+      "B": 0.0005,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " [",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9635,
+      "B": 0.0361,
+      "A": 0.0003,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " ",
+      " [",
+      " D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9595,
+      "A": 0.0388,
+      "C": 0.0013,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " [",
+      " E"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9455,
+      "C": 0.0382,
+      "A": 0.0155,
+      "D": 0.0005
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9772,
+      "A": 0.0213,
+      "C": 0.001,
+      "D": 0.0005
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " [",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.7194,
+      "B": 0.2789,
+      "C": 0.0013,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.5285,
+      "A": 0.4606,
+      "C": 0.0097,
+      "D": 0.0009
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " [",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9996,
+      "A": 0.0004,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      "D",
+      " Dra",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9634,
+      "C": 0.0348,
+      "A": 0.0012,
+      "B": 0.0006
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9921,
+      "D": 0.0058,
+      "A": 0.002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " \\\\",
+      " |"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8313,
+      "B": 0.1681,
+      "D": 0.0006,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " 】",
+      " [",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8707,
+      "D": 0.0934,
+      "B": 0.0288,
+      "A": 0.0015
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " ",
+      " A",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9496,
+      "B": 0.0437,
+      "D": 0.0061,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.7358,
+      "A": 0.2311,
+      "D": 0.0063,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " [",
+      " ?"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.734,
+      "A": 0.008,
+      "B": 0.0059,
+      "C": 0.0019
+     },
+     "top_tokens": [
+      " D",
+      " [",
+      "D",
+      " A",
+      " B",
+      " الد"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4806,
+      "B": 0.4791,
+      "C": 0.0379,
+      "D": 0.0022
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.6028,
+      "B": 0.3573,
+      "D": 0.039,
+      "C": 0.0009
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " E",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9108,
+      "B": 0.076,
+      "D": 0.0119,
+      "C": 0.0008
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9393,
+      "B": 0.0457,
+      "D": 0.0096,
+      "C": 0.0053
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " E",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5259,
+      "A": 0.4588,
+      "C": 0.0132,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " [",
+      " ",
+      " D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9085,
+      "B": 0.0912,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " [",
+      " C",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8593,
+      "C": 0.0869,
+      "D": 0.0473,
+      "B": 0.0051
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.5779,
+      "A": 0.2487,
+      "D": 0.1022,
+      "C": 0.0682
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.1865,
+      "D": 0.0233,
+      "C": 0.0181,
+      "B": 0.0053
+     },
+     "top_tokens": [
+      " A",
+      "\n\n",
+      " \\",
+      " 가장",
+      " 다음",
+      " $\\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.6976,
+      "D": 0.0029,
+      "A": 0.0024
+     },
+     "top_tokens": [
+      " B",
+      "\n\n",
+      " 最",
+      " ",
+      " 가장",
+      " 推"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9858,
+      "A": 0.01,
+      "B": 0.0028,
+      "D": 0.0013
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " [",
+      " 受"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.5372,
+      "A": 0.4627,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " ប",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9706,
+      "A": 0.0269,
+      "B": 0.0024,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " [",
+      " ",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.995,
+      "A": 0.0048,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9999,
+      "C": 0.0001,
+      "B": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9995,
+      "A": 0.0004,
+      "C": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " $",
+      " C",
+      " E",
+      " B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9954,
+      "D": 0.004,
+      "A": 0.0004,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " [",
+      " E"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9987,
+      "B": 0.0013,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9715,
+      "D": 0.0283,
+      "B": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9064,
+      "C": 0.0424,
+      "D": 0.0281,
+      "B": 0.0226
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " [",
+      " E"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8264,
+      "B": 0.1391,
+      "A": 0.0282,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      " [",
+      " 가장"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9519,
+      "B": 0.0319,
+      "C": 0.016,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " E"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9936,
+      "D": 0.0054,
+      "B": 0.001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      "\n\n",
+      " C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 1.0,
+      "B": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5562,
+      "B": 0.4437,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\",
+      " ប"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9874,
+      "B": 0.0124,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " 】",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9761,
+      "B": 0.0237,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " D",
+      " \\",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.6116,
+      "B": 0.3866,
+      "D": 0.0006
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " D",
+      " \\\\",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.6738,
+      "A": 0.274,
+      "B": 0.0447,
+      "D": 0.0067
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      " あなた"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9965,
+      "A": 0.0034,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8088,
+      "B": 0.1906,
+      "D": 0.0006
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\",
+      " ប"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9971,
+      "D": 0.0001,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      "A",
+      "                ",
+      " D",
+      " Maintain",
+      " 【"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9991,
+      "C": 0.0008,
+      "D": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " \\",
+      " AER"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.4799,
+      "B": 0.2285,
+      "D": 0.186,
+      "C": 0.105
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.668,
+      "B": 0.2056,
+      "C": 0.1263,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " \\",
+      " D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.7055,
+      "D": 0.2944,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " AER",
+      " \\",
+      "        "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.7979,
+      "C": 0.1563,
+      "B": 0.0458,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ABC",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8092,
+      "B": 0.1898,
+      "C": 0.0009,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9829,
+      "B": 0.017,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9109,
+      "B": 0.0667,
+      "C": 0.0215,
+      "D": 0.0006
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9976,
+      "B": 0.0023,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9743,
+      "A": 0.0249,
+      "B": 0.0007,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " \\",
+      "\n\n",
+      "答案"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.6793,
+      "D": 0.1234,
+      "B": 0.1039,
+      "C": 0.0933
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      "答案"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 1.0,
+      "A": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " \\",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9363,
+      "A": 0.0637,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " \\",
+      " ",
+      " 】",
+      " D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9993,
+      "B": 0.0007,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " \\\\",
+      " \\",
+      " ",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.6357,
+      "B": 0.2823,
+      "A": 0.0817,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9312,
+      "C": 0.0514,
+      "B": 0.0106,
+      "D": 0.0032
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 1.0,
+      "B": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\\\",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9932,
+      "B": 0.0043,
+      "A": 0.0025,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " ",
+      " ប",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.7362,
+      "B": 0.2587,
+      "D": 0.0034,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " C",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9985,
+      "A": 0.0008,
+      "D": 0.0006
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " ប",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 1.0,
+      "D": 0.0,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      "\n\n",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9952,
+      "D": 0.0047,
+      "C": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " ด",
+      " K"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9497,
+      "D": 0.0491,
+      "B": 0.0012,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " K",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9993,
+      "B": 0.0006,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      " K"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.786,
+      "A": 0.1968,
+      "D": 0.0159,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " [",
+      " 研究",
+      " none"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9998,
+      "D": 0.0002,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      "\n\n",
+      "A",
+      " B",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9977,
+      "A": 0.0019,
+      "B": 0.0003,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      " Ans"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.7808,
+      "C": 0.2042,
+      "B": 0.0145,
+      "A": 0.0004
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      " 研究"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9597,
+      "D": 0.0393,
+      "B": 0.0007,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      " [",
+      " CD"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.6181,
+      "C": 0.3809,
+      "A": 0.0006,
+      "D": 0.0003
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " [",
+      " E"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9971,
+      "B": 0.0029,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " C",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.968,
+      "D": 0.0296,
+      "B": 0.0014,
+      "C": 0.0004
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9675,
+      "B": 0.0321,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " D",
+      "A",
+      " $"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9928,
+      "B": 0.0002,
+      "C": 0.0001,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " *",
+      " G",
+      " B",
+      " C",
+      " E"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.1111,
+      "B": 0.0561,
+      "C": 0.0225,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      " Fit",
+      " D",
+      " B",
+      " C",
+      " *",
+      " G"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9417,
+      "D": 0.0492,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " \\",
+      " *",
+      " Fit",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.86,
+      "A": 0.1341,
+      "B": 0.0049,
+      "C": 0.0005
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9962,
+      "B": 0.0028,
+      "A": 0.001,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8026,
+      "B": 0.1844,
+      "D": 0.0122,
+      "C": 0.0007
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " L"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9998,
+      "B": 0.0001,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " [",
+      " D",
+      " C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5298,
+      "C": 0.3925,
+      "B": 0.0773,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " ",
+      " [",
+      " D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9993,
+      "A": 0.0003,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " \\",
+      " ",
+      "\n\n",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.998,
+      "B": 0.0014,
+      "D": 0.0002,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " [",
+      " C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9061,
+      "D": 0.0769,
+      "A": 0.0167,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9821,
+      "A": 0.0151,
+      "B": 0.0024,
+      "D": 0.0005
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " \\",
+      " Y"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.8131,
+      "A": 0.1868,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9999,
+      "B": 0.0001,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9996,
+      "A": 0.0004,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      "D",
+      " Dra",
+      " Д"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.7758,
+      "C": 0.2024,
+      "B": 0.01,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " ค",
+      " 研究",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.7019,
+      "B": 0.2474,
+      "A": 0.0496,
+      "D": 0.0009
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.6562,
+      "B": 0.0699,
+      "D": 0.0619,
+      "C": 0.0133
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " আপনি",
+      "了"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.6204,
+      "A": 0.3623,
+      "B": 0.0087,
+      "D": 0.0084
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.5471,
+      "B": 0.3936,
+      "A": 0.0227,
+      "D": 0.0022
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " ",
+      " 最",
+      " D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 1.0,
+      "A": 0.0,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " [",
+      " D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.4466,
+      "A": 0.3496,
+      "B": 0.1078,
+      "C": 0.0089
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " 過",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.999,
+      "A": 0.0005,
+      "B": 0.0004,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 1.0,
+      "A": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 1.0,
+      "B": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9998,
+      "B": 0.0002,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      "\n\n",
+      " **",
+      " $\\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.862,
+      "A": 0.1367,
+      "B": 0.0012,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9887,
+      "B": 0.008,
+      "A": 0.0003,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " ",
+      " [",
+      " A",
+      " D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9999,
+      "C": 0.0,
+      "A": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9977,
+      "A": 0.0004,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      "プロジェクト",
+      " ",
+      " あなた"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9854,
+      "A": 0.0137,
+      "B": 0.0007,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " ",
+      " C",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.997,
+      "B": 0.0027,
+      "C": 0.0002,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      " [",
+      " D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9995,
+      "B": 0.0001,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " [",
+      " B",
+      " A",
+      " ",
+      " 最"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.8276,
+      "A": 0.1713,
+      "D": 0.0002,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " ",
+      " D",
+      " B",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 1.0,
+      "D": 0.0,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " [",
+      " ",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.921,
+      "B": 0.0733,
+      "D": 0.0056,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9969,
+      "B": 0.0025,
+      "D": 0.0005
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " 】",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8686,
+      "B": 0.0976,
+      "D": 0.0334,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9109,
+      "B": 0.0879,
+      "C": 0.0005,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " [",
+      " ",
+      " D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9405,
+      "B": 0.0592,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " \\",
+      " D",
+      " ",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9994,
+      "B": 0.0003,
+      "C": 0.0002,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      "：",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.8858,
+      "D": 0.0644,
+      "A": 0.0477,
+      "C": 0.0018
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " 】",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9977,
+      "A": 0.0016,
+      "C": 0.0003,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " ",
+      " [",
+      " ?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.8821,
+      "A": 0.0331,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " ",
+      " A",
+      "\n\n",
+      " \\",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9959,
+      "C": 0.0022,
+      "B": 0.0014,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " \\",
+      " ",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9681,
+      "A": 0.0172,
+      "D": 0.0021,
+      "C": 0.0012
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9435,
+      "C": 0.0454,
+      "B": 0.0067,
+      "D": 0.0038
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.7056,
+      "D": 0.2903,
+      "B": 0.0038,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      " ",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.4672,
+      "A": 0.2419,
+      "C": 0.2359,
+      "D": 0.0528
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.7757,
+      "B": 0.2227,
+      "D": 0.0014,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " 】",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9973,
+      "D": 0.0013,
+      "B": 0.0007,
+      "C": 0.0007
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9983,
+      "B": 0.0017,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " \\\\",
+      " ---"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.7778,
+      "A": 0.2128,
+      "D": 0.0094,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " [",
+      " C",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.6838,
+      "C": 0.2787,
+      "A": 0.0066,
+      "B": 0.0064
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " [",
+      " A",
+      " B",
+      " E"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.898,
+      "D": 0.0767,
+      "A": 0.0199,
+      "C": 0.0049
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9986,
+      "B": 0.0013,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9944,
+      "B": 0.0052,
+      "D": 0.0003,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " E"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8664,
+      "B": 0.129,
+      "C": 0.0038,
+      "D": 0.0008
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " E",
+      " ခ"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9943,
+      "B": 0.0057,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.8612,
+      "A": 0.1272,
+      "D": 0.0048,
+      "C": 0.0003
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " [",
+      " レ"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9939,
+      "B": 0.004,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " [",
+      " ",
+      " $",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.6161,
+      "B": 0.3113,
+      "A": 0.0495,
+      "C": 0.0192
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.8796,
+      "A": 0.1156,
+      "B": 0.0018,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " ",
+      " B",
+      " [",
+      " $"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8111,
+      "B": 0.1852,
+      "C": 0.0036,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " \\",
+      " D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9754,
+      "B": 0.0246,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " C",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9775,
+      "D": 0.0063,
+      "B": 0.0005,
+      "C": 0.0004
+     },
+     "top_tokens": [
+      " A",
+      " ア",
+      " D",
+      " [",
+      " B",
+      " C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9943,
+      "C": 0.0051,
+      "D": 0.0005,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " \\",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9309,
+      "B": 0.0403,
+      "D": 0.0241,
+      "A": 0.0045
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " \\\\",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9985,
+      "A": 0.0007,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " \\\\",
+      " D",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.5639,
+      "B": 0.4246,
+      "D": 0.0089
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\\\",
+      " \\",
+      ":"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 1.0,
+      "A": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      "D",
+      "</sub>",
+      " B",
+      " ด"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8249,
+      "B": 0.1739,
+      "D": 0.0007,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " [",
+      " ",
+      " طريقة"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5634,
+      "A": 0.4351,
+      "B": 0.0012,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9761,
+      "B": 0.0121,
+      "D": 0.0028,
+      "A": 0.001
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " [",
+      " ",
+      " A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9974,
+      "A": 0.0014,
+      "D": 0.0011,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " ",
+      " ด"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5131,
+      "A": 0.472,
+      "D": 0.0139,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " ប",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.999,
+      "C": 0.0006,
+      "B": 0.0002,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " 維",
+      "                               "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.7814,
+      "A": 0.1782,
+      "B": 0.0378,
+      "D": 0.0024
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      " none"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.879,
+      "A": 0.1194,
+      "D": 0.0006,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " บ",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9774,
+      "B": 0.0214,
+      "C": 0.0013,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8502,
+      "D": 0.1262,
+      "B": 0.0236,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      "\n\n",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.7161,
+      "A": 0.2784,
+      "B": 0.0053,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " [",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.7197,
+      "A": 0.2778,
+      "D": 0.0023,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " \\",
+      " ABC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8133,
+      "A": 0.1862,
+      "B": 0.0004,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      "A",
+      "集",
+      " な"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8067,
+      "C": 0.1759,
+      "B": 0.0135,
+      "A": 0.0013
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " ",
+      " A",
+      " 最"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9905,
+      "A": 0.0094,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " \\\\",
+      " ប"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9912,
+      "B": 0.008,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      "A",
+      " D",
+      " الأولى"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8125,
+      "A": 0.1874,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.8617,
+      "A": 0.1369,
+      "B": 0.001,
+      "D": 0.0003
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " [",
+      "维护"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9548,
+      "D": 0.0238,
+      "A": 0.0213,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " [",
+      " コ"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 1.0,
+      "B": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9722,
+      "B": 0.0261,
+      "C": 0.0012,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.4417,
+      "A": 0.2898,
+      "B": 0.2603,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " ",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8843,
+      "B": 0.1073,
+      "C": 0.006,
+      "D": 0.0018
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.975,
+      "A": 0.0167,
+      "D": 0.0004
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " \\",
+      " \\\\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.998,
+      "B": 0.0017,
+      "D": 0.0002,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      " 最"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9993,
+      "A": 0.0007,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " \\",
+      " ប"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9996,
+      "D": 0.0003,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " [",
+      " \\",
+      " C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.999,
+      "B": 0.001,
+      "C": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " 研究",
+      " DCA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9998,
+      "D": 0.0002,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      "\n\n",
+      " de",
+      " [",
+      " B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9735,
+      "C": 0.0013,
+      "A": 0.0001,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      ":",
+      "\n\n",
+      "D",
+      "文",
+      "修正"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9124,
+      "C": 0.0872,
+      "A": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " [",
+      " A",
+      " D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9989,
+      "A": 0.0009,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " C",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9243,
+      "B": 0.0713,
+      "C": 0.0038,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9999,
+      "D": 0.0001,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " ",
+      " B",
+      " \\",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9583,
+      "B": 0.0234,
+      "A": 0.0104,
+      "D": 0.0072
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      " ABC"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9819,
+      "C": 0.0093,
+      "A": 0.0077,
+      "D": 0.0009
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8193,
+      "D": 0.1795,
+      "B": 0.0009,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " K",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.958,
+      "C": 0.039,
+      "B": 0.0027,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " \\",
+      " ",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9011,
+      "D": 0.0802,
+      "B": 0.0187,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      "\n\n",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9612,
+      "D": 0.0386,
+      "B": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      "\n\n",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.5479,
+      "B": 0.4493,
+      "C": 0.0002,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " ",
+      " [",
+      " C",
+      " A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9286,
+      "B": 0.0578,
+      "A": 0.0124,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " ",
+      " [",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8271,
+      "B": 0.1727,
+      "A": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " ",
+      " C",
+      " 解析"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9991,
+      "B": 0.0005,
+      "D": 0.0004,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9864,
+      "A": 0.0117,
+      "D": 0.0016,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9447,
+      "D": 0.0536,
+      "B": 0.0017,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.6871,
+      "C": 0.1758,
+      "B": 0.1349,
+      "D": 0.0018
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9864,
+      "B": 0.0134,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9988,
+      "B": 0.0012,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " 】",
+      " D",
+      " \\",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9913,
+      "A": 0.0078,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " ",
+      " [",
+      " ?",
+      " B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8202,
+      "C": 0.1624,
+      "A": 0.0175,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " \\",
+      " 】",
+      " B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.8219,
+      "A": 0.1756,
+      "C": 0.0014,
+      "D": 0.0012
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " 】",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9821,
+      "D": 0.0128,
+      "B": 0.0049,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " [",
+      " ",
+      " C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9746,
+      "B": 0.0161,
+      "C": 0.0053,
+      "A": 0.001
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " ",
+      " A",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.8888,
+      "B": 0.1045,
+      "A": 0.0066,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " [",
+      " コ",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 1.0,
+      "A": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " [",
+      " ",
+      " D",
+      " 【"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.997,
+      "C": 0.0018,
+      "A": 0.0007,
+      "D": 0.0005
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " ",
+      " Answers"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9977,
+      "B": 0.0023,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " D",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9362,
+      "B": 0.0566,
+      "D": 0.0026
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " D",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.98,
+      "D": 0.0139,
+      "C": 0.0057,
+      "B": 0.0003
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " ",
+      " \\\\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9603,
+      "D": 0.0397,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " ",
+      "\n\n",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.6469,
+      "D": 0.3176,
+      "C": 0.0227,
+      "A": 0.0114
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " C",
+      " A",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.6344,
+      "A": 0.3443,
+      "D": 0.0145,
+      "C": 0.0065
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9465,
+      "B": 0.0492,
+      "D": 0.0044,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8402,
+      "A": 0.1595,
+      "B": 0.0003,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      "\n\n",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8088,
+      "D": 0.1483,
+      "B": 0.0416,
+      "C": 0.0011
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.608,
+      "A": 0.3875,
+      "D": 0.0043,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " C",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9999,
+      "D": 0.0001,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9807,
+      "A": 0.0097,
+      "C": 0.0079,
+      "B": 0.0016
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      " Д",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9263,
+      "C": 0.0525,
+      "A": 0.0211,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9177,
+      "A": 0.0704,
+      "D": 0.0094
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " 】",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.7729,
+      "A": 0.227,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " Д",
+      " B",
+      "D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9465,
+      "B": 0.0531,
+      "D": 0.0003,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 1.0,
+      "C": 0.0,
+      "B": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8723,
+      "D": 0.1277,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " |",
+      " \\",
+      " C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.7998,
+      "C": 0.1991,
+      "D": 0.001,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " \\",
+      " |"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8785,
+      "C": 0.0626,
+      "D": 0.0575,
+      "B": 0.001
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.4197,
+      "D": 0.3896,
+      "A": 0.1889,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " \\",
+      " ",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9739,
+      "B": 0.0146,
+      "D": 0.0098,
+      "C": 0.0009
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.4363,
+      "B": 0.0447,
+      "A": 0.0043
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " 由于",
+      " ಮಾಹಿತ",
+      " 研究",
+      " 分析"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9993,
+      "B": 0.0007,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " R",
+      " A",
+      " C",
+      " 由于"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9967,
+      "D": 0.0029,
+      "C": 0.0003,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9822,
+      "B": 0.0142,
+      "D": 0.0036,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9883,
+      "C": 0.0092,
+      "B": 0.0024,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " ",
+      " D",
+      " **"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.7728,
+      "C": 0.1403,
+      "B": 0.0782,
+      "A": 0.0036
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9356,
+      "C": 0.0599,
+      "D": 0.0035,
+      "B": 0.001
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " \\",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9967,
+      "B": 0.0021,
+      "D": 0.0012,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " C",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9792,
+      "D": 0.0208,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " \\",
+      " C",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9991,
+      "A": 0.0008,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9355,
+      "B": 0.035,
+      "C": 0.0264,
+      "D": 0.0024
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.894,
+      "B": 0.0664,
+      "A": 0.0393,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " \\",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9391,
+      "B": 0.015,
+      "C": 0.0141,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " ",
+      " B",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9994,
+      "B": 0.0004,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9943,
+      "D": 0.0057,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " K"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.6129,
+      "D": 0.3852,
+      "B": 0.0019,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.57,
+      "B": 0.4131,
+      "C": 0.0168,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " \\",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.7691,
+      "A": 0.2255,
+      "D": 0.0042
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 1.0,
+      "B": 0.0,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      "A",
+      " \\",
+      " B",
+      " ",
+      ":"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8151,
+      "A": 0.1197,
+      "B": 0.0622,
+      "C": 0.0009
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " ",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9824,
+      "A": 0.0173,
+      "B": 0.0001,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " c",
+      " D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.913,
+      "C": 0.0817,
+      "D": 0.0048,
+      "B": 0.0005
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9898,
+      "D": 0.0077,
+      "B": 0.0013,
+      "C": 0.0012
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " K"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.8618,
+      "A": 0.0742,
+      "C": 0.0617,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      "\n\n",
+      ":",
+      "                               "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9843,
+      "B": 0.0153,
+      "D": 0.0001,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " E"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9523,
+      "A": 0.0459,
+      "D": 0.0013,
+      "C": 0.0004
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.999,
+      "B": 0.0009,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.6828,
+      "B": 0.3135,
+      "C": 0.0026,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9985,
+      "B": 0.0015,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " [",
+      " C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.71,
+      "A": 0.2506,
+      "B": 0.0389,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " [",
+      " D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9747,
+      "D": 0.0246,
+      "B": 0.0008,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9999,
+      "B": 0.0,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.7258,
+      "A": 0.2726,
+      "C": 0.0013,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " \\",
+      " D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.8474,
+      "A": 0.151,
+      "C": 0.0004,
+      "D": 0.0004
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " [",
+      " C",
+      " D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8392,
+      "B": 0.1602,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " \\",
+      " 】",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9924,
+      "B": 0.0065,
+      "D": 0.0011,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.8899,
+      "A": 0.0838,
+      "B": 0.0135,
+      "C": 0.0113
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8901,
+      "B": 0.103,
+      "C": 0.0008,
+      "A": 0.0006
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " ",
+      " [",
+      " C",
+      " A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9795,
+      "A": 0.0124,
+      "B": 0.0077,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " ",
+      " D",
+      " コ"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9865,
+      "D": 0.0115,
+      "A": 0.002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " ",
+      " \\",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9908,
+      "C": 0.0072,
+      "B": 0.0008,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " ",
+      " B",
+      " [",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9963,
+      "B": 0.0036,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8834,
+      "B": 0.0329,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " ",
+      " B",
+      "\n\n",
+      " \\",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9992,
+      "B": 0.0006,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      "\n\n",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9382,
+      "C": 0.0374,
+      "D": 0.0221,
+      "B": 0.0019
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.8064,
+      "A": 0.1927,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " \\",
+      " ",
+      " D",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.6338,
+      "B": 0.3627,
+      "C": 0.0034,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      " [",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9786,
+      "A": 0.0206,
+      "D": 0.0008,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " E",
+      " __",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8345,
+      "B": 0.1109,
+      "C": 0.036,
+      "D": 0.0151
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9028,
+      "B": 0.0504,
+      "C": 0.0291,
+      "A": 0.0147
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.955,
+      "B": 0.0411,
+      "A": 0.0034,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " ",
+      " [",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9993,
+      "A": 0.0006,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " [",
+      "  "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9797,
+      "B": 0.0189,
+      "C": 0.0008,
+      "D": 0.0004
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8074,
+      "B": 0.1916,
+      "D": 0.0005,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " [",
+      " ?"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9307,
+      "C": 0.0474,
+      "D": 0.0147,
+      "B": 0.007
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.879,
+      "C": 0.0733,
+      "B": 0.0458,
+      "A": 0.0014
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " [",
+      " ?"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9205,
+      "A": 0.0671,
+      "C": 0.0116,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " [",
+      " ",
+      " D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.6999,
+      "C": 0.2988,
+      "B": 0.0013,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " ",
+      " \\",
+      " D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9911,
+      "B": 0.0087,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      "\n\n",
+      " \\",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.801,
+      "D": 0.0563,
+      "C": 0.035,
+      "B": 0.0265
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " [",
+      " B",
+      "█"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9998,
+      "A": 0.0002,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " \\",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9917,
+      "A": 0.0082,
+      "C": 0.0001,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " [",
+      " $"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9115,
+      "A": 0.0875,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      "\n\n",
+      "1",
+      " B",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9286,
+      "A": 0.0714,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      "D",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9375,
+      "A": 0.043,
+      "B": 0.0194,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " [",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9201,
+      "D": 0.0791,
+      "C": 0.0008,
+      "B": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      "D",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9727,
+      "D": 0.0255,
+      "B": 0.001,
+      "C": 0.0007
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " ABC"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9549,
+      "D": 0.045,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " \\",
+      " L"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9993,
+      "B": 0.0004,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " [",
+      " E"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9451,
+      "C": 0.0441,
+      "B": 0.0107,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9921,
+      "A": 0.0039,
+      "B": 0.0039,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " $",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9955,
+      "A": 0.0039,
+      "D": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9915,
+      "D": 0.0085,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " ",
+      " \\",
+      " 】"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9995,
+      "B": 0.0004,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " \\",
+      " C",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9617,
+      "D": 0.0382,
+      "A": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " [",
+      " ",
+      " C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8546,
+      "C": 0.0935,
+      "B": 0.0451,
+      "D": 0.0066
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "答案",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.7616,
+      "B": 0.2295,
+      "D": 0.0088,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " BU",
+      " \\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9992,
+      "D": 0.0007,
+      "B": 0.0001,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      " ",
+      " $"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9988,
+      "A": 0.0009,
+      "C": 0.0001,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9998,
+      "B": 0.0001,
+      "C": 0.0001,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " $"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.7481,
+      "A": 0.2404,
+      "B": 0.0111,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " $",
+      " 보여",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9183,
+      "C": 0.0523,
+      "A": 0.0283,
+      "D": 0.0005
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9417,
+      "A": 0.0582,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " [",
+      " \\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9961,
+      "B": 0.003,
+      "C": 0.0002,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " C",
+      " D",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.4591,
+      "D": 0.2747,
+      "C": 0.2555,
+      "B": 0.0106
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " [",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9996,
+      "A": 0.0003,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      "答案",
+      "D",
+      " B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8101,
+      "B": 0.1507,
+      "C": 0.0365,
+      "A": 0.0023
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " ",
+      " 正"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9023,
+      "A": 0.097,
+      "D": 0.0007,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " ",
+      " \\",
+      " 色"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9633,
+      "B": 0.0367,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      "A",
+      " \\",
+      " AB"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9783,
+      "A": 0.0087,
+      "C": 0.0048,
+      "D": 0.0006
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      "答案",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9288,
+      "A": 0.0441,
+      "B": 0.0271,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " ",
+      " 色",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.6123,
+      "B": 0.166,
+      "D": 0.1479,
+      "A": 0.0732
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9163,
+      "C": 0.0479,
+      "D": 0.0338,
+      "A": 0.0017
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.7444,
+      "B": 0.1901,
+      "A": 0.0532,
+      "D": 0.0122
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9949,
+      "A": 0.0019,
+      "C": 0.0009,
+      "D": 0.0007
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " C",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9848,
+      "B": 0.0029,
+      "C": 0.0008,
+      "D": 0.0007
+     },
+     "top_tokens": [
+      " A",
+      " ",
+      " B",
+      ":",
+      " C",
+      " D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.5112,
+      "A": 0.4166,
+      "B": 0.07,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " [",
+      " ",
+      " 最"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9651,
+      "C": 0.0256,
+      "D": 0.0038,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      "A",
+      " [",
+      " $"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 1.0,
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      "D",
+      " Д",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9893,
+      "A": 0.0106,
+      "B": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.997,
+      "D": 0.0011,
+      "A": 0.0004,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " ",
+      " D",
+      " A",
+      " [",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9178,
+      "D": 0.0569,
+      "C": 0.019,
+      "A": 0.0061
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " C",
+      " A",
+      " [",
+      " 指"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.5887,
+      "A": 0.3697,
+      "C": 0.0006
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " \\",
+      "\n\n",
+      " ブ"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.5472,
+      "A": 0.3396,
+      "D": 0.1128,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " \\",
+      " ",
+      " ប"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.6897,
+      "D": 0.2906,
+      "B": 0.0192,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " ア",
+      " C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9841,
+      "A": 0.0136,
+      "B": 0.0022,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      "D",
+      " L",
+      " C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.4842,
+      "D": 0.4155,
+      "A": 0.0825,
+      "C": 0.0147
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " N",
+      " L"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9953,
+      "A": 0.0033,
+      "D": 0.0013,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " L",
+      " Br",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9984,
+      "A": 0.0013,
+      "D": 0.0003,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9554,
+      "A": 0.0424,
+      "B": 0.0022,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " [",
+      " C",
+      " $"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9884,
+      "B": 0.0079,
+      "D": 0.0031,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " nothing",
+      " c"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9994,
+      "A": 0.0004,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " C",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9998,
+      "B": 0.0002,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " \\\\",
+      " \\",
+      " [...]"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9946,
+      "A": 0.0012,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      "B",
+      " A",
+      "\n\n",
+      "\n\n\n\n",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.5443,
+      "D": 0.4295,
+      "B": 0.0259,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " ",
+      " E",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 1.0,
+      "C": 0.0,
+      "B": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " ",
+      "D",
+      " B",
+      " A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.6129,
+      "C": 0.387,
+      "D": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      "C",
+      "B",
+      " D",
+      " A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9568,
+      "C": 0.0422,
+      "D": 0.0006,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " ",
+      " 研究",
+      " A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.8999,
+      "A": 0.0961,
+      "D": 0.0017,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " C",
+      " L"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9704,
+      "B": 0.0133,
+      "D": 0.0023
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      "答案",
+      " 研究",
+      " D",
+      "防御"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.7147,
+      "A": 0.2591,
+      "D": 0.0199,
+      "B": 0.0031
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9281,
+      "D": 0.0368,
+      "B": 0.0202,
+      "A": 0.014
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      " [",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.6132,
+      "B": 0.3711,
+      "A": 0.013,
+      "D": 0.0004
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " [",
+      " ",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9929,
+      "A": 0.007,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " [",
+      " 正",
+      " C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9961,
+      "B": 0.0038,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " E",
+      " 透明"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8858,
+      "B": 0.0829,
+      "A": 0.0297,
+      "D": 0.0007
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9553,
+      "A": 0.0447,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " [",
+      " Ans"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9997,
+      "B": 0.0002,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9269,
+      "A": 0.0713,
+      "B": 0.0016,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9946,
+      "A": 0.0054,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      " \\",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9968,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " 一",
+      " \\",
+      " 方法",
+      "一",
+      " A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9791,
+      "A": 0.0136,
+      "C": 0.0047,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " \\",
+      "D",
+      " B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9989,
+      "A": 0.0009,
+      "B": 0.0002,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " ",
+      " D",
+      "答案"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 119,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.6506,
+      "B": 0.2378,
+      "C": 0.1103,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.7527,
+      "B": 0.2437,
+      "D": 0.0033,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      "A",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.1921,
+      "D": 0.0266,
+      "A": 0.0125
+     },
+     "top_tokens": [
+      " B",
+      "B",
+      "\n\n",
+      " 不",
+      "内容は",
+      " D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9422,
+      "A": 0.0402,
+      "B": 0.0169,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " [",
+      " ",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8915,
+      "B": 0.102,
+      "A": 0.0012,
+      "D": 0.0005
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " ",
+      " A",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9977,
+      "A": 0.0019,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " D",
+      " [",
+      " E"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9995,
+      "B": 0.0004,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " D",
+      " \\\\",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9924,
+      "A": 0.0035,
+      "C": 0.0016,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " ",
+      " C",
+      " none",
+      " B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.8145,
+      "D": 0.1434,
+      "A": 0.0421,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " ",
+      " 】",
+      " C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9734,
+      "B": 0.0254,
+      "C": 0.001,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " [",
+      " コ",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9884,
+      "D": 0.0077,
+      "B": 0.0037,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " ",
+      " [",
+      " ?"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9996,
+      "B": 0.0003,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      " \\\\"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5324,
+      "D": 0.407,
+      "B": 0.0605,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " ",
+      " \\\\",
+      " ប"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9999,
+      "B": 0.0001,
+      "D": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " \\\\",
+      " 】"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.0372,
+      "A": 0.0094
+     },
+     "top_tokens": [
+      "D",
+      " значения",
+      "<|\"|>",
+      " Rich",
+      "[]",
+      " 바탕"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.6815,
+      "A": 0.3135,
+      "C": 0.0041,
+      "B": 0.0006
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      " ",
+      " As"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9149,
+      "B": 0.0675,
+      "D": 0.0027,
+      "A": 0.0021
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " ",
+      " D",
+      " A",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.998,
+      "A": 0.0019,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " ",
+      " C",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9973,
+      "B": 0.0023,
+      "D": 0.0003,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " ",
+      " E",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9891,
+      "C": 0.0091,
+      "A": 0.0012,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " ",
+      " B",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 1.0,
+      "D": 0.0,
+      "C": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      "B",
+      " [",
+      " C",
+      " A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9995,
+      "B": 0.0004,
+      "C": 0.0001,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      " \\",
+      " \\\\"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.5678,
+      "B": 0.432,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " 바랍니다",
+      " [",
+      " \\"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9992,
+      "B": 0.0004,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " \\",
+      " \\\\",
+      " C",
+      " D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 1.0,
+      "D": 0.0,
+      "B": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " ",
+      " [",
+      " A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9999,
+      "D": 0.0,
+      "C": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " C",
+      " 문제",
+      " A",
+      " 正"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9997,
+      "D": 0.0002,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " ",
+      " B",
+      " C",
+      " L"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 1.0,
+      "B": 0.0,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " 最",
+      " A",
+      " ",
+      " ["
+     ]
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9839,
+      "A": 0.016,
+      "B": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9289,
+      "D": 0.0669,
+      "A": 0.0034,
+      "C": 0.0006
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " ",
+      " ["
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9983,
+      "B": 0.0015,
+      "C": 0.0001,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " ",
+      " D",
+      " ["
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9017,
+      "A": 0.0966,
+      "B": 0.0016,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " ",
+      " [",
+      " C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9999,
+      "C": 0.0001,
+      "B": 0.0,
+      "A": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      " 研究"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9887,
+      "C": 0.0063,
+      "A": 0.0029,
+      "D": 0.0022
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " ",
+      " 研究"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9769,
+      "A": 0.0228,
+      "C": 0.0002,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " ",
+      " 正"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9496,
+      "D": 0.0497,
+      "B": 0.0004,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " ",
+      " [",
+      " 正"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "layer": "habitus",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9773,
+      "D": 0.019,
+      "A": 0.0032,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " ",
+      " B",
+      " ["
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9998,
+      "D": 0.0002,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " ",
+      " Ans"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9985,
+      "B": 0.0013,
+      "C": 0.0,
+      "D": 0.0
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " ",
+      " C",
+      " D",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9981,
+      "B": 0.0015,
+      "A": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " ",
+      " コ",
+      " ["
+     ]
+    }
+   ]
+  }
+ ]
+}
