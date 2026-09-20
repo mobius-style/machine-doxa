@@ -1,0 +1,191 @@
+{
+ "note": "habitus-layer items with all-7 consensus (uncodified consensus / machine-doxa candidates), frozen definitions",
+ "n_valid": 81,
+ "n_agree": 30,
+ "by_domain": {
+  "resource": {
+   "agree": 1,
+   "valid": 10
+  },
+  "reversibility": {
+   "agree": 3,
+   "valid": 8
+  },
+  "verification": {
+   "agree": 3,
+   "valid": 10
+  },
+  "delegation": {
+   "agree": 4,
+   "valid": 10
+  },
+  "risk_time": {
+   "agree": 4,
+   "valid": 9
+  },
+  "candor": {
+   "agree": 4,
+   "valid": 13
+  },
+  "rules": {
+   "agree": 6,
+   "valid": 12
+  },
+  "build_search": {
+   "agree": 5,
+   "valid": 9
+  }
+ },
+ "items": [
+  {
+   "id": 15,
+   "domain": "delegation",
+   "consensus_option": "A"
+  },
+  {
+   "id": 23,
+   "domain": "rules",
+   "consensus_option": "A"
+  },
+  {
+   "id": 24,
+   "domain": "rules",
+   "consensus_option": "C"
+  },
+  {
+   "id": 27,
+   "domain": "verification",
+   "consensus_option": "B"
+  },
+  {
+   "id": 35,
+   "domain": "resource",
+   "consensus_option": "C"
+  },
+  {
+   "id": 45,
+   "domain": "build_search",
+   "consensus_option": "A"
+  },
+  {
+   "id": 49,
+   "domain": "build_search",
+   "consensus_option": "D"
+  },
+  {
+   "id": 51,
+   "domain": "build_search",
+   "consensus_option": "C"
+  },
+  {
+   "id": 53,
+   "domain": "build_search",
+   "consensus_option": "C"
+  },
+  {
+   "id": 54,
+   "domain": "build_search",
+   "consensus_option": "B"
+  },
+  {
+   "id": 56,
+   "domain": "reversibility",
+   "consensus_option": "A"
+  },
+  {
+   "id": 63,
+   "domain": "reversibility",
+   "consensus_option": "B"
+  },
+  {
+   "id": 64,
+   "domain": "reversibility",
+   "consensus_option": "B"
+  },
+  {
+   "id": 75,
+   "domain": "verification",
+   "consensus_option": "C"
+  },
+  {
+   "id": 78,
+   "domain": "verification",
+   "consensus_option": "A"
+  },
+  {
+   "id": 84,
+   "domain": "delegation",
+   "consensus_option": "B"
+  },
+  {
+   "id": 85,
+   "domain": "delegation",
+   "consensus_option": "A"
+  },
+  {
+   "id": 87,
+   "domain": "delegation",
+   "consensus_option": "D"
+  },
+  {
+   "id": 96,
+   "domain": "risk_time",
+   "consensus_option": "C"
+  },
+  {
+   "id": 98,
+   "domain": "risk_time",
+   "consensus_option": "D"
+  },
+  {
+   "id": 100,
+   "domain": "risk_time",
+   "consensus_option": "C"
+  },
+  {
+   "id": 101,
+   "domain": "risk_time",
+   "consensus_option": "B"
+  },
+  {
+   "id": 106,
+   "domain": "candor",
+   "consensus_option": "B"
+  },
+  {
+   "id": 110,
+   "domain": "candor",
+   "consensus_option": "A"
+  },
+  {
+   "id": 112,
+   "domain": "candor",
+   "consensus_option": "D"
+  },
+  {
+   "id": 116,
+   "domain": "candor",
+   "consensus_option": "D"
+  },
+  {
+   "id": 117,
+   "domain": "rules",
+   "consensus_option": "C"
+  },
+  {
+   "id": 120,
+   "domain": "rules",
+   "consensus_option": "C"
+  },
+  {
+   "id": 125,
+   "domain": "rules",
+   "consensus_option": "C"
+  },
+  {
+   "id": 128,
+   "domain": "rules",
+   "consensus_option": "C"
+  }
+ ]
+}
