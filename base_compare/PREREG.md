@@ -139,3 +139,36 @@ Study B result is reported as uninformative rather than as a null. Calibration
 on `gemma-4-12b-it-qat-q4_0` (a local file, not one of the four Study B models)
 gave 7 of 8 correct with one NR, and verdicts distributed A2 B1 C2 D2, which is
 the evidence that led to freezing this prompt.
+
+## 11. Amendment 3, 2026-09-21T01:05+09:00, before any battery item was scored
+
+Still before Study B touched any of the 60 items; the first pair was still
+downloading. Section 3 is revised after two findings.
+
+1. **Alibaba publishes no base weights from Qwen3.5 onward.** `Qwen3-8B-Base`
+   and `Qwen2.5-7B` exist, but `Qwen3.5-27B-Base`, `Qwen3.6-27B-Base` and
+   `Qwen3.8-27B-Base` do not, and the Qwen3.8 repositories are all
+   instruction-tuned. The subject family Alibaba therefore cannot be paired at
+   any generation contemporary with the study, which is itself a reportable
+   fact about who can be audited this way.
+2. **Google publishes the base of the second Gemma subject**, and IBM publishes
+   a current-generation base and its tuned sibling from one repository. Both
+   were missed in the first pass.
+
+The confirmatory family becomes the three current-generation pairs below;
+Llama-3.1-8B (2024) is demoted to a supplementary older-generation comparison,
+reported in full but outside the Holm family, on the same logic that kept
+mixtral 8x7b as an older-generation coder in the main manuscript. Within every
+pair both files keep the same publisher and the same quantisation.
+
+| pair | base | tuned | relation to the doxa study | quant |
+|---|---|---|---|---|
+| G | ggml-org/gemma-4-12B-GGUF | ggml-org/gemma-4-12B-it-GGUF | tuned sibling is the non-QAT counterpart of subject `gemma4-12b` | Q8_0 |
+| A | ggml-org/gemma-4-26B-A4B-GGUF | ggml-org/gemma-4-26B-A4B-it-GGUF | tuned sibling is the non-QAT counterpart of subject `gemma4-26b` | Q8_0 |
+| I | ibm-granite/granite-4.0-h-small-base-GGUF | ibm-granite/granite-4.0-h-small-GGUF | not a subject; a current-generation vendor outside the subject set | Q4_K_M |
+| L (supplementary) | QuantFactory/Meta-Llama-3.1-8B-GGUF | QuantFactory/Meta-Llama-3.1-8B-Instruct-GGUF | older generation, outside the subject set | Q8_0 |
+
+B1 is now Holm-corrected across pairs G, A and I. Pair L is reported with an
+uncorrected exact p and is not counted for or against B1. Models larger than a
+single card are served across both GPUs with `--tensor-split 2,1`; placement
+does not change the arithmetic, only where it runs.

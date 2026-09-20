@@ -13,8 +13,11 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 BASE = HERE.parent
-PAIRS = [("G", "gemma4_12b_base", "gemma4_12b_it"),
-         ("L", "llama31_8b_base", "llama31_8b_it")]
+CONFIRMATORY = [("G", "gemma4_12b_base", "gemma4_12b_it"),
+                ("A", "gemma4_26b_base", "gemma4_26b_it"),
+                ("I", "granite4_small_base", "granite4_small_it")]
+SUPPLEMENTARY = [("L", "llama31_8b_base", "llama31_8b_it")]
+PAIRS = CONFIRMATORY + SUPPLEMENTARY
 LETTERS = ["A", "B", "C", "D"]
 
 
@@ -72,7 +75,8 @@ def main():
         only_t = len([i for i in usable if i in tc and i not in bc])
         only_b = len([i for i in usable if i in bc and i not in tc])
         p = mcnemar_one_sided(only_t, only_b)
-        pvals.append((label, p))
+        if label in [x[0] for x in CONFIRMATORY]:
+            pvals.append((label, p))
         res["B1"][label] = {
             "base": base_tag, "tuned": it_tag,
             "n_norm_items_usable": len(usable),
@@ -84,6 +88,7 @@ def main():
             "tuned_rate": round(len(tc) / len(usable), 3) if usable else None,
             "discordant_tuned_only": only_t, "discordant_base_only": only_b,
             "mcnemar_exact_one_sided_p": round(p, 5),
+            "role": "confirmatory" if label in [x[0] for x in CONFIRMATORY] else "supplementary (older generation, outside Holm family)",
         }
         # B2
         for layer in ("norm", "preference"):

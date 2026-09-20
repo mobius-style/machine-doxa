@@ -10,10 +10,10 @@ L = ["A", "B", "C", "D"]
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--model", required=True); ap.add_argument("--tag", required=True)
-ap.add_argument("--gpu", default="0")
+ap.add_argument("--gpu", default="0"); ap.add_argument("--split", action="store_true")
 a = ap.parse_args()
 cal = json.load(open(HERE / "calibration_items.json"))["items"]
-proc = S.start_server(a.model, a.gpu)
+proc = S.start_server(a.model, a.gpu, split=a.split)
 rows, ok = [], 0
 try:
     for it in cal:

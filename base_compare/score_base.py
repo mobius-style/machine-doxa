@@ -63,10 +63,14 @@ def items():
     return [it for it in data if it["id"] in range(201, 231) or it["id"] in range(301, 331)]
 
 
-def start_server(model, gpu="0", ctx=2048):
+def start_server(model, gpu="0", ctx=2048, split=False):
+    cmd = [SERVER, "-m", model, "-ngl", "99", "-c", str(ctx), "--host", "127.0.0.1",
+           "--port", str(PORT), "--no-warmup"]
+    if split:
+        gpu = "0,1"
+        cmd += ["--tensor-split", "2,1"]
     proc = subprocess.Popen(
-        [SERVER, "-m", model, "-ngl", "99", "-c", str(ctx), "--host", "127.0.0.1",
-         "--port", str(PORT), "--no-warmup"],
+        cmd,
         env={**__import__("os").environ, "CUDA_VISIBLE_DEVICES": gpu,
              "LD_LIBRARY_PATH": str(Path(SERVER).parent) + ":" +
                                 __import__("os").environ.get("LD_LIBRARY_PATH", "")},
@@ -138,9 +142,10 @@ def main():
     ap.add_argument("--tag", required=True)
     ap.add_argument("--gpu", default="0")
     ap.add_argument("--chat", action="store_true")
+    ap.add_argument("--split", action="store_true", help="serve across both GPUs")
     a = ap.parse_args()
 
-    proc = start_server(a.model, a.gpu)
+    proc = start_server(a.model, a.gpu, split=a.split)
     results = []
     try:
         for it in items():

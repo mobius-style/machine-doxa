@@ -11,3 +11,7 @@ amendment 1 frozen 2026-09-21T00:09:20+09:00
 1bd9178f8301b62476938ab5e899837509532a333dbca6f37f12cdc82dae6d62  calibrate.py
 2d73cfd3d7876d8ddd7517fafc139aeb0dbf58f38a437dcbba799fd2c0a7d632  calibration_items.json
 amendment 2 frozen 2026-09-21T00:11:24+09:00
+c0c3e002134fe617dc170091d9d200a87cb92643ca571d2338b19b59591f110a  PREREG.md
+amendment 3 frozen 2026-09-21T00:20:01+09:00
+10eb7281787ae6a01909d6594dc1534fbaef07910a9acf7f4bba5ebacb64b08b  analyze_base.py
+analysis updated for 3+1 pairs 2026-09-21T00:20:50+09:00
