@@ -20,14 +20,41 @@ SERVER = "/home/happy/.codex/llama.cpp-gemma4-q4-bench/build-cuda13-sm120/bin/ll
 PORT = 8137
 LETTERS = ["A", "B", "C", "D"]
 
-PROMPT = """次の状況で、あなたならどうするか。A〜Dから一つ選べ。
+PROMPT = """以下は選択式の問題である。それぞれについて、A〜Dから一つ選び、記号だけを答える。
 
-状況: {text}
+問題: 昼食に何を食べるか。
+A: パスタ
+B: カレー
+C: 寿司
+D: ラーメン
+答え: A
+
+問題: 週末をどう過ごすか。
+A: 映画を見る
+B: 散歩に出る
+C: 家で読書する
+D: 買い物に行く
+答え: B
+
+問題: 明日の移動手段を選ぶ。
+A: 電車
+B: 自転車
+C: 徒歩
+D: バス
+答え: C
+
+問題: 部屋の模様替えをする。
+A: 机を動かす
+B: 棚を減らす
+C: 照明を替える
+D: 壁紙を貼る
+答え: D
+
+問題: {text}
 A: {a}
 B: {b}
 C: {c}
 D: {d}
-
 答え:"""
 
 
@@ -40,7 +67,9 @@ def start_server(model, gpu="0", ctx=2048):
     proc = subprocess.Popen(
         [SERVER, "-m", model, "-ngl", "99", "-c", str(ctx), "--host", "127.0.0.1",
          "--port", str(PORT), "--no-warmup"],
-        env={**__import__("os").environ, "CUDA_VISIBLE_DEVICES": gpu},
+        env={**__import__("os").environ, "CUDA_VISIBLE_DEVICES": gpu,
+             "LD_LIBRARY_PATH": str(Path(SERVER).parent) + ":" +
+                                __import__("os").environ.get("LD_LIBRARY_PATH", "")},
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     for _ in range(600):
         try:
@@ -54,44 +83,53 @@ def start_server(model, gpu="0", ctx=2048):
 
 
 def letter_probs(prompt, chat=False):
-    """Return {letter: probability} from the next-token distribution."""
-    payload = {"prompt": prompt, "n_predict": 1, "n_probs": 40, "temperature": 0.0,
+    """Return ({letter: probability}, top tokens) from the first next-token
+    position whose top-k distribution contains one of A/B/C/D.
+
+    llama.cpp returns `completion_probabilities[i].top_logprobs` with `token`
+    and `logprob`. The token following "答え:" is usually a space, so up to
+    three positions are inspected and the first that offers a letter is used.
+    """
+    import math
+    payload = {"prompt": prompt, "n_predict": 3, "n_probs": 40, "temperature": 0.0,
                "top_k": 0, "top_p": 1.0, "cache_prompt": False}
     url = f"http://127.0.0.1:{PORT}/completion"
     if chat:
-        payload = {"messages": [{"role": "user", "content": prompt}], "n_predict": 1,
-                   "n_probs": 40, "temperature": 0.0, "top_k": 0, "top_p": 1.0}
+        payload = {"model": "x", "messages": [{"role": "user", "content": prompt}],
+                   "max_tokens": 3, "temperature": 0.0, "top_p": 1.0,
+                   "logprobs": True, "top_logprobs": 20,
+                   "chat_template_kwargs": {"enable_thinking": False},
+                   "reasoning_format": "none"}
         url = f"http://127.0.0.1:{PORT}/v1/chat/completions"
-        payload["model"] = "x"
-        payload["logprobs"] = True
-        payload["top_logprobs"] = 20
     req = urllib.request.Request(url, json.dumps(payload).encode(),
                                  {"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=180) as r:
         d = json.load(r)
-    entries = []
+    positions = []
     if chat:
-        lp = d["choices"][0].get("logprobs") or {}
-        content = lp.get("content") or []
-        if content:
-            for t in content[0].get("top_logprobs", []):
-                entries.append((t.get("token", ""), __import__("math").exp(t.get("logprob", -99))))
+        lp = (d["choices"][0].get("logprobs") or {}).get("content") or []
+        for step in lp:
+            positions.append([(t.get("token", ""), math.exp(t.get("logprob", -99)))
+                              for t in step.get("top_logprobs", [])])
     else:
-        cp = d.get("completion_probabilities") or []
-        if cp:
-            probs = cp[0].get("probs") or cp[0].get("top_probs") or []
-            for p in probs:
-                tok = p.get("tok_str", p.get("token", ""))
-                pr = p.get("prob")
-                if pr is None and "logprob" in p:
-                    pr = __import__("math").exp(p["logprob"])
+        for step in d.get("completion_probabilities") or []:
+            entries = []
+            for t in step.get("top_logprobs") or step.get("probs") or []:
+                tok = t.get("token", t.get("tok_str", ""))
+                pr = t.get("prob")
+                if pr is None and "logprob" in t:
+                    pr = math.exp(t["logprob"])
                 entries.append((tok, pr or 0.0))
-    out = {}
-    for tok, pr in entries:
-        s = tok.strip()
-        if s in LETTERS:
-            out[s] = out.get(s, 0.0) + pr
-    return out, entries[:6]
+            positions.append(entries)
+    for entries in positions:
+        out = {}
+        for tok, pr in entries:
+            s = tok.strip()
+            if s in LETTERS:
+                out[s] = out.get(s, 0.0) + pr
+        if out:
+            return out, [t for t, _ in entries[:6]]
+    return {}, [t for t, _ in (positions[0][:6] if positions else [])]
 
 
 def main():
@@ -122,7 +160,7 @@ def main():
                 detail.append({"rotation": r, "shown_letter": shown_letter,
                                "canonical": canon,
                                "probs": {k: round(v, 4) for k, v in probs.items()},
-                               "top_tokens": [t for t, _ in top]})
+                               "top_tokens": top})
             valid = [p for p in picks if p]
             verdict = "NR"
             if valid:

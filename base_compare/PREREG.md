@@ -100,3 +100,42 @@ It compares two open-weight families; five of the seven subjects are not
 comparable this way because no base weights are published for them. It does not
 decompose tuning into its stages (supervised fine-tuning, preference
 optimisation), and it says nothing about the closed API subjects.
+
+## 9. Amendment, 2026-09-21T00:20+09:00, before any battery item was scored
+
+Recorded before Study B touched any of the 60 items; the only prompts run so
+far were throwaway smoke tests ("日本の首都はどれか", "1+1は何か") used to check
+the server plumbing. Two corrections to Section 4:
+
+1. llama.cpp returns the distribution as `completion_probabilities[i].top_logprobs`,
+   not the field this script first read, and the token following "答え:" is
+   usually a space rather than a letter. `n_predict` is therefore 3 rather than
+   1, and the letter distribution is taken from the first of those positions
+   whose top-k contains A, B, C or D. Everything else is unchanged.
+2. For the B3 chat-template check, thinking is disabled
+   (`enable_thinking: false`, `reasoning_format: "none"`), because the tuned
+   Gemma model otherwise emits reasoning-channel tokens before any answer.
+   If thinking cannot be disabled for a model, B3 is reported as not runnable
+   for that model rather than worked around.
+
+## 10. Amendment 2, 2026-09-21T00:35+09:00, before any battery item was scored
+
+Still before Study B touched any of the 60 items. The Section 4 prompt was
+calibrated on throwaway factual questions and replaced, for one reason: with a
+bare prompt the models continue in prose rather than emitting a symbol, so the
+four letters carry almost no probability mass and the argmax among them reflects
+a letter prior rather than the content. The frozen prompt now carries four
+worked examples whose answers are A, B, C and D exactly once each, which both
+puts the model in symbol-emitting mode (letter mass 0.96-0.99 in calibration)
+and balances the letter prior. The four exemplars are neutral everyday choices
+with no normative content and no overlap with the battery.
+
+**Instrument check, fixed here and reported whatever it shows.** Before the
+battery is scored, every Study B model is run by `calibrate.py` on the eight
+factual items in `calibration_items.json`, whose correct answers are known and
+are spread across all four canonical positions. A model that cannot recover
+these answers cannot be read as expressing a preference on the battery, so its
+Study B result is reported as uninformative rather than as a null. Calibration
+on `gemma-4-12b-it-qat-q4_0` (a local file, not one of the four Study B models)
+gave 7 of 8 correct with one NR, and verdicts distributed A2 B1 C2 D2, which is
+the evidence that led to freezing this prompt.

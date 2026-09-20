@@ -1,0 +1,85 @@
+{
+ "note": "instrument check for Study B; factual items with a known answer, gold spread across all four canonical positions; not part of the doxa battery",
+ "items": [
+  {
+   "text": "日本の首都はどれか。",
+   "options": {
+    "A": "東京",
+    "B": "大阪",
+    "C": "札幌",
+    "D": "福岡"
+   },
+   "gold": "A"
+  },
+  {
+   "text": "最も大きい数はどれか。",
+   "options": {
+    "A": "3",
+    "B": "17",
+    "C": "8",
+    "D": "5"
+   },
+   "gold": "B"
+  },
+  {
+   "text": "犬はどれか。",
+   "options": {
+    "A": "猫",
+    "B": "鯉",
+    "C": "柴犬",
+    "D": "鳩"
+   },
+   "gold": "C"
+  },
+  {
+   "text": "水の沸点は摂氏何度か。",
+   "options": {
+    "A": "50度",
+    "B": "0度",
+    "C": "200度",
+    "D": "100度"
+   },
+   "gold": "D"
+  },
+  {
+   "text": "金属はどれか。",
+   "options": {
+    "A": "鉄",
+    "B": "木材",
+    "C": "紙",
+    "D": "布"
+   },
+   "gold": "A"
+  },
+  {
+   "text": "一年で最も日が短いのはどの季節か。",
+   "options": {
+    "A": "春",
+    "B": "冬",
+    "C": "夏",
+    "D": "秋"
+   },
+   "gold": "B"
+  },
+  {
+   "text": "富士山があるのはどの国か。",
+   "options": {
+    "A": "韓国",
+    "B": "中国",
+    "C": "日本",
+    "D": "タイ"
+   },
+   "gold": "C"
+  },
+  {
+   "text": "赤信号で運転者がすべきことはどれか。",
+   "options": {
+    "A": "加速する",
+    "B": "右折する",
+    "C": "警笛を鳴らす",
+    "D": "停止する"
+   },
+   "gold": "D"
+  }
+ ]
+}
