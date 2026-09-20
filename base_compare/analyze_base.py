@@ -2,7 +2,7 @@
 """Study B analysis, frozen with PREREG.md before any model was run.
 
 B1: exact one-sided McNemar per pair (tuned selects the frozen norm_option more
-often than base), Holm-corrected across the two pairs.
+often than base), Holm-corrected across the four confirmatory pairs.
 B2: agreement with the seven-subject consensus of the main study.
 B3: chat-template re-scoring of the tuned models, if present.
 """
@@ -124,7 +124,7 @@ def main():
             res["B3"][label] = {"n": len(ids), "tuned_chat_norm_option_rate": f"{hit}/{len(ids)}",
                                 "mcnemar_vs_base_p": round(mcnemar_one_sided(ot, ob), 5)}
 
-    # Holm across the two B1 tests
+    # Holm across the confirmatory B1 tests
     order = sorted(pvals, key=lambda x: x[1])
     holm, prev = {}, 0.0
     for k, (label, p) in enumerate(order):

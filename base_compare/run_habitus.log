@@ -1,0 +1,10 @@
+=== gemma4_12b_base 2026-09-21T02:45:45+09:00
+128 NR
+DONE gemma4_12b_base NR=15/120 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_12b_base_habitus.json
+=== gemma4_12b_it 2026-09-21T02:47:01+09:00
+128 C
+DONE gemma4_12b_it NR=24/120 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_12b_it_habitus.json
+=== gemma4_26b_base 2026-09-21T02:48:17+09:00
+128 NR
+DONE gemma4_26b_base NR=16/120 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_26b_base_habitus.json
+=== gemma4_26b_it 2026-09-21T02:51:13+09:00

@@ -58,8 +58,10 @@ D: {d}
 答え:"""
 
 
-def items():
+def items(habitus=False):
     data = json.load(open(BATTERY))["items"]
+    if habitus:
+        return [it for it in data if it.get("layer", "habitus") == "habitus"]
     return [it for it in data if it["id"] in range(201, 231) or it["id"] in range(301, 331)]
 
 
@@ -143,12 +145,13 @@ def main():
     ap.add_argument("--gpu", default="0")
     ap.add_argument("--chat", action="store_true")
     ap.add_argument("--split", action="store_true", help="serve across both GPUs")
+    ap.add_argument("--habitus", action="store_true", help="score the 120 habitus items instead")
     a = ap.parse_args()
 
     proc = start_server(a.model, a.gpu, split=a.split)
     results = []
     try:
-        for it in items():
+        for it in items(a.habitus):
             opts = [it["options"][L] for L in LETTERS]
             picks, detail = [], []
             for r in range(4):
@@ -182,7 +185,7 @@ def main():
             proc.wait(timeout=30)
         except Exception:
             proc.kill()
-    out = HERE / f"{a.tag}{'_chat' if a.chat else ''}.json"
+    out = HERE / f"{a.tag}{'_habitus' if a.habitus else ''}{'_chat' if a.chat else ''}.json"
     json.dump({"model": a.model, "tag": a.tag, "chat": a.chat,
                "n": len(results), "items": results},
               open(out, "w"), ensure_ascii=False, indent=1)

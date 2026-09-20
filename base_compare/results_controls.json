@@ -1,0 +1,151 @@
+{
+ "C1_format_reliability": {
+  "G": {
+   "norm": {
+    "tuned_raw_vs_tuned_chat": "27/27",
+    "tuned_raw_vs_tuned_chat_rate": 1.0,
+    "base_vs_tuned": "23/23",
+    "base_vs_tuned_rate": 1.0
+   },
+   "preference": {
+    "tuned_raw_vs_tuned_chat": "18/24",
+    "tuned_raw_vs_tuned_chat_rate": 0.75,
+    "base_vs_tuned": "15/20",
+    "base_vs_tuned_rate": 0.75
+   }
+  },
+  "A": {
+   "norm": {
+    "tuned_raw_vs_tuned_chat": "29/29",
+    "tuned_raw_vs_tuned_chat_rate": 1.0,
+    "base_vs_tuned": "28/28",
+    "base_vs_tuned_rate": 1.0
+   },
+   "preference": {
+    "tuned_raw_vs_tuned_chat": "16/18",
+    "tuned_raw_vs_tuned_chat_rate": 0.889,
+    "base_vs_tuned": "10/19",
+    "base_vs_tuned_rate": 0.526
+   }
+  },
+  "I": {
+   "norm": {
+    "tuned_raw_vs_tuned_chat": "28/28",
+    "tuned_raw_vs_tuned_chat_rate": 1.0,
+    "base_vs_tuned": "24/25",
+    "base_vs_tuned_rate": 0.96
+   },
+   "preference": {
+    "tuned_raw_vs_tuned_chat": "17/20",
+    "tuned_raw_vs_tuned_chat_rate": 0.85,
+    "base_vs_tuned": "19/23",
+    "base_vs_tuned_rate": 0.826
+   }
+  },
+  "N": {
+   "norm": {
+    "tuned_raw_vs_tuned_chat": "27/28",
+    "tuned_raw_vs_tuned_chat_rate": 0.964,
+    "base_vs_tuned": "25/27",
+    "base_vs_tuned_rate": 0.926
+   },
+   "preference": {
+    "tuned_raw_vs_tuned_chat": "18/22",
+    "tuned_raw_vs_tuned_chat_rate": 0.818,
+    "base_vs_tuned": "17/26",
+    "base_vs_tuned_rate": 0.654
+   }
+  },
+  "L": {
+   "norm": {
+    "tuned_raw_vs_tuned_chat": "22/23",
+    "tuned_raw_vs_tuned_chat_rate": 0.957,
+    "base_vs_tuned": "22/24",
+    "base_vs_tuned_rate": 0.917
+   },
+   "preference": {
+    "tuned_raw_vs_tuned_chat": "20/23",
+    "tuned_raw_vs_tuned_chat_rate": 0.87,
+    "base_vs_tuned": "14/19",
+    "base_vs_tuned_rate": 0.737
+   }
+  }
+ },
+ "C2_generic_sharpening": {
+  "G": {
+   "n": 30,
+   "designated_base": 0.647,
+   "designated_tuned": 0.711,
+   "peak_base": 0.687,
+   "peak_tuned": 0.901,
+   "designated_share_of_peak_base": 0.91,
+   "designated_share_of_peak_tuned": 0.787
+  },
+  "A": {
+   "n": 30,
+   "designated_base": 0.74,
+   "designated_tuned": 0.877,
+   "peak_base": 0.755,
+   "peak_tuned": 0.948,
+   "designated_share_of_peak_base": 0.966,
+   "designated_share_of_peak_tuned": 0.919
+  },
+  "I": {
+   "n": 30,
+   "designated_base": 0.529,
+   "designated_tuned": 0.77,
+   "peak_base": 0.599,
+   "peak_tuned": 0.813,
+   "designated_share_of_peak_base": 0.861,
+   "designated_share_of_peak_tuned": 0.926
+  },
+  "N": {
+   "n": 30,
+   "designated_base": 0.574,
+   "designated_tuned": 0.689,
+   "peak_base": 0.64,
+   "peak_tuned": 0.86,
+   "designated_share_of_peak_base": 0.871,
+   "designated_share_of_peak_tuned": 0.786
+  },
+  "L": {
+   "n": 30,
+   "designated_base": 0.497,
+   "designated_tuned": 0.688,
+   "peak_base": 0.526,
+   "peak_tuned": 0.708,
+   "designated_share_of_peak_base": 0.92,
+   "designated_share_of_peak_tuned": 0.955
+  }
+ },
+ "C3_length": {
+  "designated_is_longest": "20/30",
+  "per_base_model": {
+   "G": {
+    "norm_items_where_designated_not_longest": "7/8",
+    "preference_items_longest_chosen": "4/24",
+    "preference_longest_rate": 0.167
+   },
+   "A": {
+    "norm_items_where_designated_not_longest": "9/10",
+    "preference_items_longest_chosen": "8/27",
+    "preference_longest_rate": 0.296
+   },
+   "I": {
+    "norm_items_where_designated_not_longest": "7/9",
+    "preference_items_longest_chosen": "5/24",
+    "preference_longest_rate": 0.208
+   },
+   "N": {
+    "norm_items_where_designated_not_longest": "8/10",
+    "preference_items_longest_chosen": "5/28",
+    "preference_longest_rate": 0.179
+   },
+   "L": {
+    "norm_items_where_designated_not_longest": "7/9",
+    "preference_items_longest_chosen": "7/22",
+    "preference_longest_rate": 0.318
+   }
+  }
+ }
+}

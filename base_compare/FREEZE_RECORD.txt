@@ -26,3 +26,14 @@ exploratory margin script written (NOT pre-registered) 2026-09-21T01:23:41+09:00
 80a0e84a727f551bff2407675f87546defcffc076df73310945d0e53acfd5d47  PREREG.md
 f91df44731b14168578d579defde49dff7cc77f6cdc4e35fcce2c7cad074ce0b  score_base.py
 placement correction 1,1 (no measurement change) 2026-09-21T02:21:37+09:00
+02128618bc80e1bbd5e13bafb0d3fa01e0e1d547d8fc9ba1f335f251e83f15c9  EXTENSION.md
+extension frozen 2026-09-21T02:45:45+09:00
+977406f0b5ef7b83c87f95a20921fdb4f84c2d025c731895ae1637419e8a0736  score_base.py
+4c36d67aa9934f440c06dbeeba00b4cba09d084532736e8ac7614950a31c4e59  run_habitus.sh
+f1eadaffab63aa631df0c34d0fa021701f40afd393946943472a9cb366c77b6f  analyze_extension.py
+e986c7e46711b201bcf927edfa6057c1b511527348a7aea2fddd0cf5a7477cbb  controls.py
+extension+controls analysis frozen 2026-09-21T02:47:23+09:00
+f5cc45d3ae57dc3e730c97911d6c184373a0a5a1238abd76a1b102e66a520dcb  PREREG.md
+02540527cd12e7aa1d31c63a34379f8c9ff071e9da062aba3e92f170701f8e45  calibrate.py
+1e48845f17a67ecd00778afa7bb4432e4f4c6e414c9c9b40a535c3c5ca75f266  analyze_base.py
+factual corrections to amendment 4; docstring fix (no measurement change) 2026-09-21T02:49:29+09:00

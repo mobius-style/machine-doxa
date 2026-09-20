@@ -224,7 +224,7 @@ preceded every measurement by about an hour. This correction is recorded rather
 than silently applied, on the same principle as the enforcement record in the
 main manuscript.
 
-## 14. Placement correction, 2026-09-21T02:25+09:00, after scoring began
+## 14. Placement correction, 2026-09-21T02:21:37+09:00, after scoring began
 
 Pair A (gemma-4-26B-A4B, 26.9 GB at Q8_0) failed to load and both of its runs
 aborted. The cause was the GPU split ratio written into Section 11: this machine
@@ -233,3 +233,32 @@ has two cards of equal size, so `--tensor-split 2,1` asked for 17.4 GB on a
 A is re-run. This changes where the weights sit, not what is computed: the
 prompts, the rotations, the decision rule and the analysis are untouched, and
 the pairs already scored are unaffected. The failed attempts are in the run log.
+
+## 15. Factual corrections to Amendment 4, made after Study B was complete
+
+A pre-submission referee checked Amendment 4's vendor-availability survey against
+the Hugging Face API and found three of its claims wrong. The cause is method,
+not outcome: the survey guessed repository names and read HTTP 401 as "does not
+exist", instead of searching each vendor's namespace. Nothing measured changes,
+but Amendment 4's claims must not stand as written.
+
+| Amendment 4 said | Actually |
+|---|---|
+| DeepSeek publishes a V3 base but no V4 base | `deepseek-ai/DeepSeek-V4-Pro-Base` and `DeepSeek-V4-Flash-Base` exist (2026-04-22). The base of the subject deployment **is** published; at roughly 1.6T parameters it cannot be served on this hardware |
+| Alibaba stopped publishing base weights after Qwen3 | `Qwen/Qwen3.5-35B-A3B-Base`, `-9B-Base`, `-4B-Base`, `-2B-Base`, `-0.8B-Base` exist (2026-02). The cut-off is after Qwen3.5. No Qwen3.6 base exists, so the subject remains unpairable |
+| Anthropic and OpenAI publish no weights at all | Anthropic publishes none. OpenAI publishes `gpt-oss-120b`, itself a subject deployment, but only as a post-trained checkpoint with no pre-trained base |
+| Zhipu listed among the five subject families | Zhipu is not a subject family. Its GLM-4.5-Base exists; none is published for the GLM-4.7 generation |
+
+The corrected statement: of the five subject families, **two** publish the
+pre-trained weights behind a deployed model — Google, whose Gemma bases are
+audited here, and DeepSeek, whose V4-Pro base is published but far beyond this
+hardware. OpenAI publishes a subject deployment without its base. Alibaba
+publishes bases for other generations but not the subject's. Anthropic publishes
+nothing. What is scarce is therefore not published base weights but published
+base weights that anyone outside a well-funded lab can actually run.
+
+Also corrected: Section 14's hand-written header time reads 02:25 where the
+machine record is 02:21:37, the same error class Section 13 exists to correct;
+and `calibrate.py` was edited under Amendment 3 without its new hash being added
+to `FREEZE_RECORD.txt` (the change, adding a `--split` flag, is described in the
+Amendment 3 prose and predates data contact).
