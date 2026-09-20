@@ -26,3 +26,6 @@ DONE ling_mini_it NR=13/120 -> /home/happy/.codex/projects/machine_doxa/base_com
 128 C
 DONE llama31_8b_base NR=18/120 -> /home/happy/.codex/projects/machine_doxa/base_compare/llama31_8b_base_habitus.json
 === llama31_8b_it 2026-09-21T03:07:57+09:00
+128 B
+DONE llama31_8b_it NR=14/120 -> /home/happy/.codex/projects/machine_doxa/base_compare/llama31_8b_it_habitus.json
+HABITUS_SCORING_DONE
