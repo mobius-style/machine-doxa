@@ -99,21 +99,5 @@
   "delta": 0.403,
   "perm_p": 0.0028,
   "winner_is_norm_option": "24/24"
- },
- "non_anthropic_only": {
-  "subset": [
-   "deepseek-v4",
-   "gemma4-12b",
-   "gemma4-26b",
-   "gpt-oss-120b",
-   "qwen3.6-27b"
-  ],
-  "norm": "27/28",
-  "pref": "11/22",
-  "rate_norm": 0.964,
-  "rate_pref": 0.5,
-  "delta": 0.464,
-  "perm_p": 0.0004,
-  "winner_is_norm_option": "27/27"
  }
 }
