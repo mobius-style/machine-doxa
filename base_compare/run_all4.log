@@ -1,0 +1,73 @@
+stage 4 start 2026-09-21T02:28:37+09:00
+=== gemma4_26b_base 2026-09-21T02:28:37+09:00
+CALIBRATION gemma4_26b_base: 8/8
+330 A
+DONE gemma4_26b_base NR=4/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_26b_base.json
+=== gemma4_26b_it 2026-09-21T02:30:39+09:00
+CALIBRATION gemma4_26b_it: 8/8
+330 C
+DONE gemma4_26b_it NR=10/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_26b_it.json
+330 NR
+DONE gemma4_26b_it NR=5/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_26b_it_chat.json
+=== final analysis (all pairs)
+  },
+  "L": {
+   "n": 21,
+   "tuned_chat_norm_option_rate": "20/21",
+   "mcnemar_vs_base_p": 1.0
+  }
+ },
+ "descriptive": {
+  "G": {
+   "preference_base_tuned_same": "15/20",
+   "norm_base_tuned_same": "23/23"
+  },
+  "A": {
+   "preference_base_tuned_same": "10/19",
+   "norm_base_tuned_same": "28/28"
+  },
+  "I": {
+   "preference_base_tuned_same": "19/23",
+   "norm_base_tuned_same": "24/25"
+  },
+  "N": {
+   "preference_base_tuned_same": "17/26",
+   "norm_base_tuned_same": "25/27"
+  },
+  "L": {
+   "preference_base_tuned_same": "14/19",
+   "norm_base_tuned_same": "22/24"
+  }
+ },
+ "B1_holm": {
+  "I": 1.0,
+  "N": 1.0,
+  "G": 1.0,
+  "A": 1.0
+ },
+ "subject_consensus_items": {
+  "norm": 24,
+  "preference": 9
+ }
+}
+  "items_where_tuned_higher": 29,
+  "permutation_p_one_sided": 0.0001
+ },
+ "N": {
+  "n_items": 30,
+  "base_mean_mass_on_norm_option": 0.574,
+  "tuned_mean_mass_on_norm_option": 0.689,
+  "mean_difference": 0.115,
+  "items_where_tuned_higher": 23,
+  "permutation_p_one_sided": 0.0016
+ },
+ "L": {
+  "n_items": 30,
+  "base_mean_mass_on_norm_option": 0.497,
+  "tuned_mean_mass_on_norm_option": 0.688,
+  "mean_difference": 0.191,
+  "items_where_tuned_higher": 29,
+  "permutation_p_one_sided": 0.0001
+ }
+}
+STUDY_B_FINAL_DONE

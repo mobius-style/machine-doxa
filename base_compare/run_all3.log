@@ -1,0 +1,44 @@
+stage 3 start 2026-09-21T02:27:38+09:00
+=== ling_mini_base 2026-09-21T02:27:38+09:00
+CALIBRATION ling_mini_base: 8/8
+330 A
+DONE ling_mini_base NR=5/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/ling_mini_base.json
+=== ling_mini_it 2026-09-21T02:28:01+09:00
+CALIBRATION ling_mini_it: 8/8
+330 A
+DONE ling_mini_it NR=5/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/ling_mini_it.json
+=== B3 chat run
+330 A
+DONE ling_mini_it NR=9/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/ling_mini_it_chat.json
+=== final analysis (G, A, I, N confirmatory; L supplementary)
+  }
+ },
+ "descriptive": {
+  "G": {
+   "preference_base_tuned_same": "15/20",
+   "norm_base_tuned_same": "23/23"
+  },
+  "I": {
+   "preference_base_tuned_same": "19/23",
+   "norm_base_tuned_same": "24/25"
+  },
+  "N": {
+   "preference_base_tuned_same": "17/26",
+   "norm_base_tuned_same": "25/27"
+  },
+  "L": {
+   "preference_base_tuned_same": "14/19",
+   "norm_base_tuned_same": "22/24"
+  }
+ },
+ "B1_holm": {
+  "I": 1.0,
+  "N": 1.0,
+  "G": 1.0
+ },
+ "subject_consensus_items": {
+  "norm": 24,
+  "preference": 9
+ }
+}
+STUDY_B_ALL_DONE

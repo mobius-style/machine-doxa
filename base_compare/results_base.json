@@ -1,0 +1,220 @@
+{
+ "B1": {
+  "G": {
+   "base": "gemma4_12b_base",
+   "tuned": "gemma4_12b_it",
+   "n_norm_items_usable": 23,
+   "nr_base": 4,
+   "nr_tuned": 3,
+   "base_norm_option_rate": "22/23",
+   "tuned_norm_option_rate": "22/23",
+   "base_rate": 0.957,
+   "tuned_rate": 0.957,
+   "discordant_tuned_only": 0,
+   "discordant_base_only": 0,
+   "mcnemar_exact_one_sided_p": 1.0,
+   "role": "confirmatory"
+  },
+  "A": {
+   "base": "gemma4_26b_base",
+   "tuned": "gemma4_26b_it",
+   "n_norm_items_usable": 28,
+   "nr_base": 1,
+   "nr_tuned": 1,
+   "base_norm_option_rate": "28/28",
+   "tuned_norm_option_rate": "28/28",
+   "base_rate": 1.0,
+   "tuned_rate": 1.0,
+   "discordant_tuned_only": 0,
+   "discordant_base_only": 0,
+   "mcnemar_exact_one_sided_p": 1.0,
+   "role": "confirmatory"
+  },
+  "I": {
+   "base": "granite4_small_base",
+   "tuned": "granite4_small_it",
+   "n_norm_items_usable": 25,
+   "nr_base": 4,
+   "nr_tuned": 2,
+   "base_norm_option_rate": "22/25",
+   "tuned_norm_option_rate": "23/25",
+   "base_rate": 0.88,
+   "tuned_rate": 0.92,
+   "discordant_tuned_only": 1,
+   "discordant_base_only": 0,
+   "mcnemar_exact_one_sided_p": 0.5,
+   "role": "confirmatory"
+  },
+  "N": {
+   "base": "ling_mini_base",
+   "tuned": "ling_mini_it",
+   "n_norm_items_usable": 27,
+   "nr_base": 3,
+   "nr_tuned": 2,
+   "base_norm_option_rate": "22/27",
+   "tuned_norm_option_rate": "23/27",
+   "base_rate": 0.815,
+   "tuned_rate": 0.852,
+   "discordant_tuned_only": 1,
+   "discordant_base_only": 0,
+   "mcnemar_exact_one_sided_p": 0.5,
+   "role": "confirmatory"
+  },
+  "L": {
+   "base": "llama31_8b_base",
+   "tuned": "llama31_8b_it",
+   "n_norm_items_usable": 24,
+   "nr_base": 2,
+   "nr_tuned": 4,
+   "base_norm_option_rate": "21/24",
+   "tuned_norm_option_rate": "22/24",
+   "base_rate": 0.875,
+   "tuned_rate": 0.917,
+   "discordant_tuned_only": 1,
+   "discordant_base_only": 0,
+   "mcnemar_exact_one_sided_p": 0.5,
+   "role": "supplementary (older generation, outside Holm family)"
+  }
+ },
+ "B2": {
+  "G": {
+   "norm": {
+    "n": 21,
+    "base_match": 21,
+    "tuned_match": 21,
+    "gap": 0.0,
+    "mcnemar_exact_one_sided_p": 1.0
+   },
+   "preference": {
+    "n": 6,
+    "base_match": 4,
+    "tuned_match": 5,
+    "gap": 0.167,
+    "mcnemar_exact_one_sided_p": 0.5
+   }
+  },
+  "A": {
+   "norm": {
+    "n": 24,
+    "base_match": 24,
+    "tuned_match": 24,
+    "gap": 0.0,
+    "mcnemar_exact_one_sided_p": 1.0
+   },
+   "preference": {
+    "n": 5,
+    "base_match": 3,
+    "tuned_match": 5,
+    "gap": 0.4,
+    "mcnemar_exact_one_sided_p": 0.25
+   }
+  },
+  "I": {
+   "norm": {
+    "n": 21,
+    "base_match": 20,
+    "tuned_match": 20,
+    "gap": 0.0,
+    "mcnemar_exact_one_sided_p": 1.0
+   },
+   "preference": {
+    "n": 8,
+    "base_match": 5,
+    "tuned_match": 7,
+    "gap": 0.25,
+    "mcnemar_exact_one_sided_p": 0.25
+   }
+  },
+  "N": {
+   "norm": {
+    "n": 22,
+    "base_match": 19,
+    "tuned_match": 20,
+    "gap": 0.045,
+    "mcnemar_exact_one_sided_p": 0.5
+   },
+   "preference": {
+    "n": 8,
+    "base_match": 6,
+    "tuned_match": 7,
+    "gap": 0.125,
+    "mcnemar_exact_one_sided_p": 0.5
+   }
+  },
+  "L": {
+   "norm": {
+    "n": 20,
+    "base_match": 19,
+    "tuned_match": 19,
+    "gap": 0.0,
+    "mcnemar_exact_one_sided_p": 1.0
+   },
+   "preference": {
+    "n": 7,
+    "base_match": 3,
+    "tuned_match": 3,
+    "gap": 0.0,
+    "mcnemar_exact_one_sided_p": 1.0
+   }
+  }
+ },
+ "B3": {
+  "G": {
+   "n": 23,
+   "tuned_chat_norm_option_rate": "22/23",
+   "mcnemar_vs_base_p": 1.0
+  },
+  "A": {
+   "n": 28,
+   "tuned_chat_norm_option_rate": "28/28",
+   "mcnemar_vs_base_p": 1.0
+  },
+  "I": {
+   "n": 25,
+   "tuned_chat_norm_option_rate": "23/25",
+   "mcnemar_vs_base_p": 0.5
+  },
+  "N": {
+   "n": 27,
+   "tuned_chat_norm_option_rate": "23/27",
+   "mcnemar_vs_base_p": 0.5
+  },
+  "L": {
+   "n": 21,
+   "tuned_chat_norm_option_rate": "20/21",
+   "mcnemar_vs_base_p": 1.0
+  }
+ },
+ "descriptive": {
+  "G": {
+   "preference_base_tuned_same": "15/20",
+   "norm_base_tuned_same": "23/23"
+  },
+  "A": {
+   "preference_base_tuned_same": "10/19",
+   "norm_base_tuned_same": "28/28"
+  },
+  "I": {
+   "preference_base_tuned_same": "19/23",
+   "norm_base_tuned_same": "24/25"
+  },
+  "N": {
+   "preference_base_tuned_same": "17/26",
+   "norm_base_tuned_same": "25/27"
+  },
+  "L": {
+   "preference_base_tuned_same": "14/19",
+   "norm_base_tuned_same": "22/24"
+  }
+ },
+ "B1_holm": {
+  "I": 1.0,
+  "N": 1.0,
+  "G": 1.0,
+  "A": 1.0
+ },
+ "subject_consensus_items": {
+  "norm": 24,
+  "preference": 9
+ }
+}

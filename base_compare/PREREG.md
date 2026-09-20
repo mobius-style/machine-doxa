@@ -223,3 +223,13 @@ the first output file was written at 01:21:00. Every design decision therefore
 preceded every measurement by about an hour. This correction is recorded rather
 than silently applied, on the same principle as the enforcement record in the
 main manuscript.
+
+## 14. Placement correction, 2026-09-21T02:25+09:00, after scoring began
+
+Pair A (gemma-4-26B-A4B, 26.9 GB at Q8_0) failed to load and both of its runs
+aborted. The cause was the GPU split ratio written into Section 11: this machine
+has two cards of equal size, so `--tensor-split 2,1` asked for 17.4 GB on a
+16.3 GB card and the allocation failed. The ratio is corrected to `1,1` and pair
+A is re-run. This changes where the weights sit, not what is computed: the
+prompts, the rotations, the decision rule and the analysis are untouched, and
+the pairs already scored are unaffected. The failed attempts are in the run log.

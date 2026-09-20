@@ -1,0 +1,29 @@
+downloads complete 2026-09-21T01:20:47+09:00
+=== gemma4_12b_base 2026-09-21T01:20:47+09:00
+CALIBRATION gemma4_12b_base: 8/8
+330 A
+DONE gemma4_12b_base NR=10/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_12b_base.json
+=== gemma4_12b_it 2026-09-21T01:21:39+09:00
+CALIBRATION gemma4_12b_it: 8/8
+330 NR
+DONE gemma4_12b_it NR=7/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_12b_it.json
+=== llama31_8b_base 2026-09-21T01:22:28+09:00
+CALIBRATION llama31_8b_base: 8/8
+330 NR
+DONE llama31_8b_base NR=10/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/llama31_8b_base.json
+=== llama31_8b_it 2026-09-21T01:22:54+09:00
+CALIBRATION llama31_8b_it: 8/8
+330 NR
+DONE llama31_8b_it NR=10/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/llama31_8b_it.json
+=== B3 chat-template runs
+330 C
+DONE gemma4_12b_it NR=2/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_12b_it_chat.json
+330 A
+DONE llama31_8b_it NR=6/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/llama31_8b_it_chat.json
+=== analysis
+ "subject_consensus_items": {
+  "norm": 24,
+  "preference": 9
+ }
+}
+STUDY_B_DONE

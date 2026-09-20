@@ -1,0 +1,4998 @@
+{
+ "model": "/home/happy/models/base_compare/granite4-small-it-Q4KM.gguf",
+ "tag": "granite4_small_it",
+ "chat": true,
+ "n": 60,
+ "items": [
+  {
+   "id": 201,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.906,
+      "D": 0.0293,
+      "C": 0.0056,
+      "B": 0.0011
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9457,
+      "A": 0.0026,
+      "B": 0.0007,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      "この"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.8924,
+      "D": 0.0451,
+      "A": 0.0017,
+      "B": 0.0006
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9005,
+      "D": 0.055,
+      "C": 0.0018,
+      "A": 0.0018
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8023,
+      "D": 0.1026,
+      "A": 0.0022,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "問",
+      "A",
+      "この"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9173,
+      "C": 0.0464,
+      "D": 0.0069,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "C",
+      "",
+      "D",
+      "問",
+      "この"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.6421,
+      "C": 0.2173,
+      "B": 0.0546,
+      "D": 0.0169
+     },
+     "top_tokens": [
+      "A",
+      "C",
+      "",
+      "B",
+      "D",
+      "問"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9618,
+      "A": 0.0057,
+      "C": 0.0001,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "問",
+      "C",
+      "解"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 203,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.6036,
+      "D": 0.0821,
+      "C": 0.0767,
+      "A": 0.0273
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "C",
+      "A",
+      "問"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.628,
+      "D": 0.1175,
+      "B": 0.0377,
+      "C": 0.0071
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "B",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.3907,
+      "A": 0.1753,
+      "C": 0.1507,
+      "B": 0.0049
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "C",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.5756,
+      "D": 0.1855,
+      "B": 0.0101,
+      "A": 0.0077
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "B",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 204,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9669,
+      "A": 0.0009,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "安",
+      "正"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.894,
+      "D": 0.0041,
+      "A": 0.0004,
+      "B": 0.0003
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "安"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9366,
+      "A": 0.0004,
+      "D": 0.0003,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "問",
+      "A",
+      "安",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8647,
+      "B": 0.0146,
+      "D": 0.0038,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "B",
+      "問",
+      "D",
+      "安"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 205,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9699,
+      "D": 0.0052,
+      "C": 0.0008,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "C",
+      "ア"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9757,
+      "A": 0.0005,
+      "B": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      ""
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9734,
+      "D": 0.0013,
+      "A": 0.0007,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "この"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9811,
+      "D": 0.0025,
+      "A": 0.0001,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 206,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5834,
+      "D": 0.3212,
+      "A": 0.002,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "問",
+      "A",
+      "E"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9151,
+      "D": 0.0131,
+      "C": 0.0003,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "ア",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9472,
+      "B": 0.0054,
+      "A": 0.0038,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "B",
+      "A",
+      "E"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.448,
+      "A": 0.3165,
+      "D": 0.0632,
+      "B": 0.001
+     },
+     "top_tokens": [
+      "C",
+      "A",
+      "",
+      "D",
+      "問",
+      "E"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 207,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.5228,
+      "A": 0.3295,
+      "B": 0.0082,
+      "C": 0.0035
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.635,
+      "C": 0.0928,
+      "A": 0.0408,
+      "B": 0.0204
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "C",
+      "A",
+      "B",
+      "問"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.5766,
+      "C": 0.2456,
+      "A": 0.0675,
+      "B": 0.0194
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "",
+      "A",
+      "B",
+      "問"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.5838,
+      "D": 0.2651,
+      "C": 0.0253,
+      "A": 0.007
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "C",
+      "問",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 208,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9497,
+      "D": 0.0034,
+      "B": 0.0018,
+      "A": 0.0005
+     },
+     "top_tokens": [
+      "C",
+      "問",
+      "",
+      "D",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9192,
+      "D": 0.0299,
+      "A": 0.0025,
+      "C": 0.0009
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9217,
+      "D": 0.0295,
+      "C": 0.0007,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9577,
+      "A": 0.0066,
+      "C": 0.0002,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "C",
+      "この"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 209,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.944,
+      "D": 0.0033,
+      "A": 0.0028,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "問",
+      "D",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.4121,
+      "A": 0.4103,
+      "B": 0.0002,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "",
+      "問",
+      "B",
+      ""
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.5145,
+      "C": 0.3841,
+      "A": 0.003,
+      "B": 0.0011
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.8659,
+      "B": 0.0518,
+      "D": 0.003,
+      "A": 0.0015
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "B",
+      "問",
+      "D",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 210,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9323,
+      "A": 0.0191,
+      "D": 0.0184,
+      "C": 0.0024
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "A",
+      "D",
+      "C",
+      "問"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8781,
+      "D": 0.0837,
+      "B": 0.0009,
+      "C": 0.0003
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9747,
+      "C": 0.0084,
+      "A": 0.0026,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "C",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9142,
+      "B": 0.0096,
+      "D": 0.0067,
+      "A": 0.001
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "B",
+      "D",
+      "問",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 211,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8444,
+      "D": 0.0274,
+      "A": 0.0066,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "この"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.4677,
+      "B": 0.4281,
+      "C": 0.0021,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.7062,
+      "C": 0.0962,
+      "D": 0.0271,
+      "B": 0.0018
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "C",
+      "D",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9295,
+      "A": 0.0061,
+      "B": 0.002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      "この"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 212,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9549,
+      "A": 0.0021,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "",
+      "この"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9028,
+      "D": 0.0038,
+      "A": 0.0011,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "この"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9588,
+      "C": 0.0031,
+      "D": 0.0018,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "問",
+      "C",
+      "D",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.9546,
+      "D": 0.0106,
+      "B": 0.0006,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "ア",
+      "この"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 213,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9708,
+      "D": 0.0045,
+      "C": 0.0001,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "安",
+      "ア"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.972,
+      "C": 0.0007,
+      "A": 0.0004,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "問",
+      "",
+      "C",
+      "A",
+      "この"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.954,
+      "B": 0.0057,
+      "A": 0.0001,
+      "D": 0.0001
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "B",
+      "A",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9615,
+      "A": 0.0165,
+      "D": 0.0014,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "A",
+      "問",
+      "D",
+      "安"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 214,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.965,
+      "D": 0.0064,
+      "C": 0.0022,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9626,
+      "D": 0.0059,
+      "B": 0.0021,
+      "C": 0.0009
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.937,
+      "A": 0.0076,
+      "B": 0.0002,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      ""
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.7929,
+      "D": 0.0582,
+      "A": 0.0017,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "A",
+      "この"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 215,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9738,
+      "B": 0.0028,
+      "A": 0.0003,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      "C",
+      "問",
+      "",
+      "B",
+      "解",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.9849,
+      "D": 0.0035,
+      "A": 0.001,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "問",
+      "D",
+      "A",
+      "解"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9739,
+      "C": 0.006,
+      "D": 0.006,
+      "B": 0.0003
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "C",
+      "D",
+      "問",
+      "解"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9748,
+      "C": 0.0102,
+      "A": 0.0001,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "問",
+      "",
+      "解",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "id": 216,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9516,
+      "B": 0.0017,
+      "A": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "B",
+      "A",
+      "安"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.7186,
+      "A": 0.132,
+      "D": 0.0019,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "C",
+      "A",
+      "",
+      "問",
+      "D",
+      "安"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.8681,
+      "D": 0.018,
+      "A": 0.0002,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "安",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8962,
+      "C": 0.0012,
+      "D": 0.0008,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "問",
+      "C",
+      "D",
+      "安"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 217,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9397,
+      "D": 0.0325,
+      "A": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "問",
+      "",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9076,
+      "C": 0.0005,
+      "B": 0.0003,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "問",
+      "C",
+      "B",
+      "この"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9765,
+      "A": 0.0006,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      ""
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9425,
+      "D": 0.0026,
+      "A": 0.0005,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "この"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 218,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.5427,
+      "C": 0.3229,
+      "A": 0.0482,
+      "B": 0.0244
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "A",
+      "",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.4934,
+      "D": 0.4741,
+      "A": 0.0034,
+      "C": 0.0009
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.6151,
+      "A": 0.1986,
+      "B": 0.0537,
+      "D": 0.0204
+     },
+     "top_tokens": [
+      "C",
+      "A",
+      "",
+      "B",
+      "問",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.5902,
+      "B": 0.3423,
+      "A": 0.0047,
+      "C": 0.0038
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 219,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8404,
+      "B": 0.1307,
+      "C": 0.0055,
+      "A": 0.0007
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9234,
+      "B": 0.0363,
+      "D": 0.0063,
+      "A": 0.0031
+     },
+     "top_tokens": [
+      "C",
+      "B",
+      "",
+      "問",
+      "D",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.959,
+      "A": 0.02,
+      "C": 0.0019,
+      "D": 0.0019
+     },
+     "top_tokens": [
+      "B",
+      "A",
+      "",
+      "問",
+      "C",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8745,
+      "D": 0.0969,
+      "B": 0.0035,
+      "C": 0.0024
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 220,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.7038,
+      "A": 0.1469,
+      "D": 0.0808,
+      "B": 0.0041
+     },
+     "top_tokens": [
+      "C",
+      "A",
+      "D",
+      "",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.6381,
+      "D": 0.2864,
+      "C": 0.0052,
+      "A": 0.0043
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "C",
+      "問",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.5093,
+      "D": 0.3621,
+      "C": 0.0558,
+      "B": 0.0061
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "C",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.8023,
+      "B": 0.154,
+      "C": 0.0067,
+      "A": 0.0036
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 221,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9629,
+      "D": 0.0122,
+      "C": 0.0013,
+      "A": 0.0012
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8715,
+      "D": 0.0733,
+      "B": 0.0016,
+      "C": 0.0012
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9495,
+      "B": 0.009,
+      "C": 0.0039,
+      "A": 0.0034
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "B",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.8895,
+      "D": 0.0235,
+      "A": 0.0216,
+      "B": 0.0054
+     },
+     "top_tokens": [
+      "C",
+      "問",
+      "",
+      "D",
+      "A",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 222,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.7909,
+      "D": 0.0343,
+      "B": 0.0002,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "B",
+      ""
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9601,
+      "A": 0.0005,
+      "C": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "",
+      ""
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.927,
+      "D": 0.0034,
+      "A": 0.0002,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9611,
+      "D": 0.0055,
+      "A": 0.0015,
+      "C": 0.0007
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 223,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9627,
+      "A": 0.0038,
+      "D": 0.0001,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "A",
+      "この",
+      "D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.982,
+      "A": 0.0002,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "問",
+      "A",
+      "この",
+      "解"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.867,
+      "C": 0.0064,
+      "D": 0.0008,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "問",
+      "C",
+      "D",
+      "解"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9731,
+      "B": 0.001,
+      "A": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "B",
+      "A",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "id": 224,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9586,
+      "A": 0.0102,
+      "C": 0.0003,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.904,
+      "D": 0.0222,
+      "A": 0.0024,
+      "B": 0.0005
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9347,
+      "C": 0.0094,
+      "D": 0.0039,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "C",
+      "問",
+      "D",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.921,
+      "D": 0.005,
+      "B": 0.0023,
+      "C": 0.0003
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "問",
+      "D",
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 225,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8471,
+      "D": 0.0913,
+      "B": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "問",
+      "この",
+      "提"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9691,
+      "C": 0.0034,
+      "B": 0.0003,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "C",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9426,
+      "B": 0.0257,
+      "A": 0.0004,
+      "D": 0.0003
+     },
+     "top_tokens": [
+      "C",
+      "B",
+      "",
+      "問",
+      "A",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.9884,
+      "A": 0.002,
+      "D": 0.0001,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "A",
+      "問",
+      "D",
+      "解"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 226,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.8591,
+      "D": 0.0387,
+      "C": 0.0002,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9235,
+      "D": 0.004,
+      "C": 0.0007,
+      "B": 0.0007
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "問",
+      "D",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9494,
+      "A": 0.0047,
+      "B": 0.0008,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      "解"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.8777,
+      "A": 0.0115,
+      "D": 0.0013,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "A",
+      "D",
+      "計"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 227,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9163,
+      "B": 0.0172,
+      "A": 0.0101,
+      "C": 0.0005
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "A",
+      "安"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.7294,
+      "A": 0.1256,
+      "D": 0.0194,
+      "B": 0.0144
+     },
+     "top_tokens": [
+      "C",
+      "A",
+      "",
+      "問",
+      "D",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9034,
+      "D": 0.0303,
+      "A": 0.0282,
+      "C": 0.0017
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "A",
+      "",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.759,
+      "D": 0.0902,
+      "B": 0.0109,
+      "C": 0.007
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 228,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8683,
+      "D": 0.0574,
+      "B": 0.0011,
+      "A": 0.0006
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "問",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.8772,
+      "D": 0.0242,
+      "C": 0.0134,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "C",
+      "問",
+      "この"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.8645,
+      "D": 0.0278,
+      "B": 0.0061,
+      "C": 0.0003
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9711,
+      "A": 0.0021,
+      "B": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "この",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 229,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9608,
+      "D": 0.0013,
+      "C": 0.0003,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "問",
+      "D",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9616,
+      "B": 0.0005,
+      "D": 0.0004,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "問",
+      "B",
+      "D",
+      "ア"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9796,
+      "B": 0.0001,
+      "A": 0.0,
+      "C": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "B",
+      "",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9495,
+      "B": 0.0012,
+      "D": 0.0005,
+      "A": 0.0003
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "B",
+      "D",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 230,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.9268,
+      "A": 0.0023,
+      "C": 0.0,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "正",
+      ""
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.931,
+      "D": 0.0014,
+      "A": 0.0008,
+      "B": 0.0
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "A",
+      "正"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.9757,
+      "C": 0.0018,
+      "A": 0.0002,
+      "D": 0.0002
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "問",
+      "C",
+      "A",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8909,
+      "B": 0.0013,
+      "D": 0.0003,
+      "C": 0.0002
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "問",
+      "B",
+      "D",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 301,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5354,
+      "C": 0.083,
+      "D": 0.0266,
+      "B": 0.0136
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "C",
+      "D",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8123,
+      "B": 0.0434,
+      "A": 0.0129,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "A",
+      "問",
+      "この"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.5564,
+      "D": 0.1047,
+      "A": 0.0108,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "A",
+      "この"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.6109,
+      "B": 0.2511,
+      "C": 0.0025,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "C",
+      "この"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 302,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4135,
+      "D": 0.3221,
+      "B": 0.0005,
+      "C": 0.0004
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8082,
+      "C": 0.009,
+      "B": 0.0018,
+      "A": 0.0015
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "C",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.7144,
+      "D": 0.027,
+      "B": 0.0222,
+      "A": 0.0015
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.7419,
+      "D": 0.097,
+      "A": 0.0207,
+      "C": 0.0046
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "A",
+      "問",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 303,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5588,
+      "C": 0.3197,
+      "D": 0.0129,
+      "B": 0.0041
+     },
+     "top_tokens": [
+      "A",
+      "C",
+      "",
+      "問",
+      "D",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5479,
+      "B": 0.4054,
+      "A": 0.0036,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "A",
+      ""
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.7032,
+      "A": 0.132,
+      "D": 0.0654,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "C",
+      "A",
+      "D",
+      "問",
+      "",
+      "この"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.8818,
+      "B": 0.0645,
+      "C": 0.0002,
+      "A": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 304,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.3596,
+      "B": 0.2152,
+      "A": 0.0265,
+      "C": 0.0191
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5685,
+      "A": 0.0538,
+      "C": 0.0331,
+      "B": 0.0198
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.2961,
+      "D": 0.2872,
+      "A": 0.0399,
+      "B": 0.0264
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.3579,
+      "B": 0.1897,
+      "C": 0.0656,
+      "A": 0.0125
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "C",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 305,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.7963,
+      "D": 0.0847,
+      "B": 0.0349,
+      "A": 0.0023
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "B",
+      "問",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5448,
+      "B": 0.343,
+      "C": 0.0141,
+      "A": 0.0061
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.399,
+      "A": 0.3919,
+      "B": 0.083,
+      "C": 0.0008
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "",
+      "B",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.8805,
+      "A": 0.0534,
+      "C": 0.0045,
+      "B": 0.0006
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "",
+      "問",
+      "C",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 306,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.6118,
+      "D": 0.0951,
+      "B": 0.0216,
+      "C": 0.0027
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8347,
+      "A": 0.0047,
+      "C": 0.0001,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.7096,
+      "D": 0.0229,
+      "B": 0.0022,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "D",
+      "B",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 307,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.897,
+      "D": 0.041,
+      "A": 0.0022,
+      "C": 0.0008
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.646,
+      "D": 0.1335,
+      "C": 0.0261,
+      "B": 0.0012
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "問",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8218,
+      "B": 0.0317,
+      "C": 0.0099,
+      "A": 0.0004
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.813,
+      "B": 0.025,
+      "A": 0.0114,
+      "D": 0.0072
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "問",
+      "B",
+      "A",
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 308,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8045,
+      "A": 0.029,
+      "D": 0.028,
+      "B": 0.009
+     },
+     "top_tokens": [
+      "C",
+      "問",
+      "",
+      "A",
+      "D",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.7559,
+      "D": 0.1906,
+      "C": 0.0012,
+      "A": 0.0005
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.7174,
+      "D": 0.079,
+      "C": 0.057,
+      "B": 0.0213
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "C",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9006,
+      "B": 0.0241,
+      "A": 0.0087,
+      "C": 0.0012
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 309,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5067,
+      "D": 0.0749,
+      "C": 0.0342,
+      "B": 0.0087
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "D",
+      "C",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5595,
+      "B": 0.0776,
+      "A": 0.0065,
+      "C": 0.0061
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.4106,
+      "D": 0.2122,
+      "A": 0.0196,
+      "C": 0.0081
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "A",
+      "問",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 310,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5545,
+      "A": 0.226,
+      "D": 0.0398,
+      "C": 0.0258
+     },
+     "top_tokens": [
+      "B",
+      "A",
+      "",
+      "問",
+      "D",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.5462,
+      "D": 0.2626,
+      "B": 0.05,
+      "C": 0.0021
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "B",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9364,
+      "A": 0.0072,
+      "B": 0.0031,
+      "C": 0.0003
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.8273,
+      "D": 0.0302,
+      "B": 0.0274,
+      "A": 0.0103
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "B",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 311,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.6547,
+      "B": 0.1775,
+      "A": 0.0267,
+      "C": 0.0074
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.4176,
+      "D": 0.2977,
+      "A": 0.0463,
+      "B": 0.0048
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.4825,
+      "B": 0.2699,
+      "A": 0.0214,
+      "C": 0.0173
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.2132,
+      "A": 0.2056,
+      "C": 0.2046,
+      "B": 0.0538
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "C",
+      "",
+      "問",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 312,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8725,
+      "A": 0.0318,
+      "B": 0.0127,
+      "D": 0.0092
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "A",
+      "問",
+      "B",
+      "D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.6945,
+      "D": 0.2294,
+      "C": 0.001,
+      "A": 0.0004
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.5554,
+      "D": 0.3367,
+      "C": 0.0013,
+      "B": 0.0001
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "問",
+      "C",
+      "文"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9184,
+      "C": 0.0197,
+      "B": 0.0018,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "C",
+      "B",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 313,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.7199,
+      "B": 0.0726,
+      "D": 0.0407,
+      "C": 0.0004
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "B",
+      "D",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9324,
+      "C": 0.0033,
+      "A": 0.0006,
+      "B": 0.0003
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "C",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.8942,
+      "D": 0.0313,
+      "B": 0.0037,
+      "A": 0.0002
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.8506,
+      "A": 0.0715,
+      "D": 0.0139,
+      "C": 0.004
+     },
+     "top_tokens": [
+      "B",
+      "A",
+      "",
+      "D",
+      "問",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 314,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.4426,
+      "A": 0.2338,
+      "B": 0.0064,
+      "C": 0.0027
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.4741,
+      "C": 0.197,
+      "A": 0.0106,
+      "B": 0.0065
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "C",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.4713,
+      "D": 0.2636,
+      "C": 0.0823,
+      "A": 0.0009
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "C",
+      "問",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.4587,
+      "B": 0.2334,
+      "D": 0.0376,
+      "C": 0.0372
+     },
+     "top_tokens": [
+      "A",
+      "B",
+      "",
+      "問",
+      "D",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 315,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.4229,
+      "C": 0.3605,
+      "D": 0.0186,
+      "A": 0.0003
+     },
+     "top_tokens": [
+      "B",
+      "C",
+      "",
+      "問",
+      "D",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.512,
+      "B": 0.1248,
+      "D": 0.0664,
+      "C": 0.0069
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "B",
+      "問",
+      "D",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8045,
+      "A": 0.0518,
+      "C": 0.0108,
+      "B": 0.0032
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.5454,
+      "D": 0.1348,
+      "A": 0.0005,
+      "B": 0.0002
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "A",
+      "計"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 316,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.7244,
+      "A": 0.0705,
+      "B": 0.0626,
+      "C": 0.008
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "B",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8233,
+      "C": 0.0804,
+      "A": 0.0245,
+      "B": 0.0018
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "",
+      "A",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.7972,
+      "D": 0.1133,
+      "C": 0.0479,
+      "A": 0.002
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "C",
+      "",
+      "問",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.5751,
+      "D": 0.1812,
+      "B": 0.0449,
+      "C": 0.0158
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "B",
+      "問",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 317,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4605,
+      "B": 0.2301,
+      "D": 0.189,
+      "C": 0.0071
+     },
+     "top_tokens": [
+      "A",
+      "B",
+      "D",
+      "",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9522,
+      "B": 0.0118,
+      "A": 0.0093,
+      "C": 0.0003
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "A",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8996,
+      "C": 0.0425,
+      "A": 0.0059,
+      "B": 0.0007
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "問",
+      "",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.4586,
+      "C": 0.3398,
+      "D": 0.1321,
+      "A": 0.0067
+     },
+     "top_tokens": [
+      "B",
+      "C",
+      "D",
+      "問",
+      "",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 318,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.5518,
+      "A": 0.0566,
+      "B": 0.0463,
+      "C": 0.0144
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.4309,
+      "B": 0.2046,
+      "A": 0.079,
+      "C": 0.0081
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "A",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.5536,
+      "A": 0.1529,
+      "C": 0.025,
+      "B": 0.0058
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "問",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.5617,
+      "A": 0.0689,
+      "B": 0.041,
+      "C": 0.0389
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 319,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.7777,
+      "B": 0.0464,
+      "D": 0.032,
+      "C": 0.0096
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "B",
+      "D",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8139,
+      "A": 0.0065,
+      "C": 0.0061,
+      "B": 0.0045
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.631,
+      "D": 0.1519,
+      "A": 0.0082,
+      "B": 0.0052
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.7045,
+      "D": 0.0569,
+      "A": 0.0207,
+      "C": 0.0073
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "問",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 320,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4756,
+      "D": 0.3193,
+      "B": 0.0018,
+      "C": 0.001
+     },
+     "top_tokens": [
+      "A",
+      "D",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.7961,
+      "C": 0.0779,
+      "B": 0.0025,
+      "A": 0.0018
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "",
+      "問",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.5884,
+      "B": 0.2201,
+      "D": 0.0093,
+      "A": 0.0003
+     },
+     "top_tokens": [
+      "C",
+      "B",
+      "",
+      "問",
+      "D",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.4425,
+      "A": 0.2916,
+      "D": 0.037,
+      "C": 0.0005
+     },
+     "top_tokens": [
+      "B",
+      "A",
+      "",
+      "問",
+      "D",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 321,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.501,
+      "A": 0.2431,
+      "B": 0.0214,
+      "C": 0.005
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.4674,
+      "C": 0.3333,
+      "B": 0.0205,
+      "A": 0.01
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "",
+      "問",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 322,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8591,
+      "A": 0.0811,
+      "B": 0.0177,
+      "C": 0.0003
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.4639,
+      "A": 0.2004,
+      "D": 0.1797,
+      "B": 0.0024
+     },
+     "top_tokens": [
+      "C",
+      "A",
+      "D",
+      "",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.6804,
+      "B": 0.2311,
+      "A": 0.0031,
+      "C": 0.0017
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8007,
+      "C": 0.1012,
+      "D": 0.0139,
+      "B": 0.01
+     },
+     "top_tokens": [
+      "A",
+      "C",
+      "",
+      "問",
+      "D",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 323,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8055,
+      "A": 0.0376,
+      "B": 0.0361,
+      "C": 0.0006
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8563,
+      "C": 0.0354,
+      "A": 0.0208,
+      "B": 0.0013
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "C",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.3359,
+      "C": 0.3059,
+      "B": 0.0854,
+      "A": 0.0059
+     },
+     "top_tokens": [
+      "D",
+      "C",
+      "",
+      "B",
+      "問",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 324,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5827,
+      "B": 0.1512,
+      "C": 0.0006,
+      "A": 0.0005
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.355,
+      "C": 0.2542,
+      "D": 0.0392,
+      "B": 0.0067
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "C",
+      "問",
+      "D",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.658,
+      "B": 0.1532,
+      "A": 0.0087,
+      "C": 0.0009
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 325,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�回",
+      "�",
+      "�",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.6773,
+      "A": 0.0699,
+      "B": 0.0297,
+      "C": 0.0044
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "問",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.6522,
+      "C": 0.0915,
+      "B": 0.0288,
+      "A": 0.0014
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "C",
+      "問",
+      "B",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 326,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.4504,
+      "D": 0.0957,
+      "C": 0.0648,
+      "A": 0.0622
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "C",
+      "問",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.7693,
+      "B": 0.033,
+      "A": 0.0276,
+      "C": 0.0006
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "B",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.7821,
+      "A": 0.0144,
+      "C": 0.0123,
+      "B": 0.0052
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "A",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.2784,
+      "D": 0.2333,
+      "A": 0.0709,
+      "B": 0.0595
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "A",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 327,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.3231,
+      "D": 0.2036,
+      "A": 0.1588,
+      "C": 0.0706
+     },
+     "top_tokens": [
+      "B",
+      "",
+      "D",
+      "A",
+      "C",
+      "問"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.4121,
+      "B": 0.1589,
+      "A": 0.1069,
+      "C": 0.0066
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "A",
+      "問",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.5841,
+      "A": 0.1797,
+      "C": 0.0464,
+      "B": 0.0009
+     },
+     "top_tokens": [
+      "D",
+      "A",
+      "",
+      "問",
+      "C",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.599,
+      "D": 0.194,
+      "C": 0.0354,
+      "A": 0.0006
+     },
+     "top_tokens": [
+      "B",
+      "D",
+      "",
+      "問",
+      "C",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 328,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.7694,
+      "B": 0.058,
+      "A": 0.0334,
+      "C": 0.005
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "B",
+      "問",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.4507,
+      "D": 0.3516,
+      "A": 0.008,
+      "B": 0.0072
+     },
+     "top_tokens": [
+      "C",
+      "D",
+      "",
+      "問",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.662,
+      "C": 0.0824,
+      "B": 0.0361,
+      "A": 0.0058
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "C",
+      "問",
+      "B",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 329,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": null,
+     "canonical": null,
+     "probs": {},
+     "top_tokens": [
+      "�",
+      "�",
+      "�",
+      "�回",
+      "�",
+      "�"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.7353,
+      "A": 0.0479,
+      "C": 0.0457,
+      "B": 0.0119
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "A",
+      "C",
+      "問",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.4166,
+      "D": 0.2331,
+      "B": 0.042,
+      "A": 0.0118
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "D",
+      "問",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.3161,
+      "B": 0.2954,
+      "C": 0.0624,
+      "A": 0.0531
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "C",
+      "問",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 330,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.6654,
+      "C": 0.1021,
+      "D": 0.0343,
+      "B": 0.0004
+     },
+     "top_tokens": [
+      "A",
+      "",
+      "C",
+      "問",
+      "D",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9053,
+      "B": 0.0091,
+      "A": 0.0001,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "",
+      "問",
+      "B",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.5898,
+      "A": 0.0842,
+      "D": 0.0258,
+      "B": 0.0038
+     },
+     "top_tokens": [
+      "C",
+      "",
+      "A",
+      "問",
+      "D",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.4263,
+      "B": 0.4007,
+      "A": 0.0065,
+      "C": 0.0001
+     },
+     "top_tokens": [
+      "D",
+      "B",
+      "",
+      "問",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  }
+ ]
+}

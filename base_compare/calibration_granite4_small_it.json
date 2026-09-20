@@ -1,0 +1,101 @@
+{
+ "tag": "granite4_small_it",
+ "correct": 8,
+ "n": 8,
+ "verdict_distribution": {
+  "A": 2,
+  "B": 2,
+  "C": 2,
+  "D": 2
+ },
+ "rows": [
+  {
+   "text": "日本の首都はどれか。",
+   "gold": "A",
+   "verdict": "A",
+   "rotations": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ]
+  },
+  {
+   "text": "最も大きい数はどれか。",
+   "gold": "B",
+   "verdict": "B",
+   "rotations": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ]
+  },
+  {
+   "text": "犬はどれか。",
+   "gold": "C",
+   "verdict": "C",
+   "rotations": [
+    "C",
+    "C",
+    "C",
+    "C"
+   ]
+  },
+  {
+   "text": "水の沸点は摂氏何度か。",
+   "gold": "D",
+   "verdict": "D",
+   "rotations": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ]
+  },
+  {
+   "text": "金属はどれか。",
+   "gold": "A",
+   "verdict": "A",
+   "rotations": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ]
+  },
+  {
+   "text": "一年で最も日が短いのはどの季節か。",
+   "gold": "B",
+   "verdict": "B",
+   "rotations": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ]
+  },
+  {
+   "text": "富士山があるのはどの国か。",
+   "gold": "C",
+   "verdict": "C",
+   "rotations": [
+    "C",
+    "C",
+    "C",
+    "C"
+   ]
+  },
+  {
+   "text": "赤信号で運転者がすべきことはどれか。",
+   "gold": "D",
+   "verdict": "D",
+   "rotations": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ]
+  }
+ ]
+}

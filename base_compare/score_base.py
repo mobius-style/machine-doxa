@@ -68,7 +68,7 @@ def start_server(model, gpu="0", ctx=2048, split=False):
            "--port", str(PORT), "--no-warmup"]
     if split:
         gpu = "0,1"
-        cmd += ["--tensor-split", "2,1"]
+        cmd += ["--tensor-split", "1,1"]
     proc = subprocess.Popen(
         cmd,
         env={**__import__("os").environ, "CUDA_VISIBLE_DEVICES": gpu,

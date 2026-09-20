@@ -1,0 +1,46 @@
+stage 2 start 2026-09-21T02:14:50+09:00
+=== granite4_small_base 2026-09-21T02:14:50+09:00
+CALIBRATION granite4_small_base: 8/8
+330 A
+DONE granite4_small_base NR=10/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/granite4_small_base.json
+=== granite4_small_it 2026-09-21T02:17:51+09:00
+CALIBRATION granite4_small_it: 8/8
+330 A
+DONE granite4_small_it NR=8/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/granite4_small_it.json
+=== gemma4_26b_base 2026-09-21T02:20:49+09:00
+    raise RuntimeError("llama-server exited during startup")
+RuntimeError: llama-server exited during startup
+    raise RuntimeError("llama-server exited during startup")
+RuntimeError: llama-server exited during startup
+=== gemma4_26b_it 2026-09-21T02:21:02+09:00
+    raise RuntimeError("llama-server exited during startup")
+RuntimeError: llama-server exited during startup
+    raise RuntimeError("llama-server exited during startup")
+RuntimeError: llama-server exited during startup
+=== B3 chat runs
+330 A
+DONE granite4_small_it NR=5/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/granite4_small_it_chat.json
+330 NR
+DONE gemma4_26b_it NR=5/60 -> /home/happy/.codex/projects/machine_doxa/base_compare/gemma4_26b_it_chat.json
+=== full analysis
+   "norm_base_tuned_same": "23/23"
+  },
+  "I": {
+   "preference_base_tuned_same": "19/23",
+   "norm_base_tuned_same": "24/25"
+  },
+  "L": {
+   "preference_base_tuned_same": "14/19",
+   "norm_base_tuned_same": "22/24"
+  }
+ },
+ "B1_holm": {
+  "I": 1.0,
+  "G": 1.0
+ },
+ "subject_consensus_items": {
+  "norm": 24,
+  "preference": 9
+ }
+}
+STUDY_B_STAGE2_DONE

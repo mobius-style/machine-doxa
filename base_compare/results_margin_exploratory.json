@@ -1,0 +1,42 @@
+{
+ "G": {
+  "n_items": 30,
+  "base_mean_mass_on_norm_option": 0.647,
+  "tuned_mean_mass_on_norm_option": 0.711,
+  "mean_difference": 0.064,
+  "items_where_tuned_higher": 21,
+  "permutation_p_one_sided": 0.0328
+ },
+ "A": {
+  "n_items": 30,
+  "base_mean_mass_on_norm_option": 0.74,
+  "tuned_mean_mass_on_norm_option": 0.877,
+  "mean_difference": 0.137,
+  "items_where_tuned_higher": 25,
+  "permutation_p_one_sided": 0.0004
+ },
+ "I": {
+  "n_items": 30,
+  "base_mean_mass_on_norm_option": 0.529,
+  "tuned_mean_mass_on_norm_option": 0.77,
+  "mean_difference": 0.241,
+  "items_where_tuned_higher": 29,
+  "permutation_p_one_sided": 0.0001
+ },
+ "N": {
+  "n_items": 30,
+  "base_mean_mass_on_norm_option": 0.574,
+  "tuned_mean_mass_on_norm_option": 0.689,
+  "mean_difference": 0.115,
+  "items_where_tuned_higher": 23,
+  "permutation_p_one_sided": 0.0016
+ },
+ "L": {
+  "n_items": 30,
+  "base_mean_mass_on_norm_option": 0.497,
+  "tuned_mean_mass_on_norm_option": 0.688,
+  "mean_difference": 0.191,
+  "items_where_tuned_higher": 29,
+  "permutation_p_one_sided": 0.0001
+ }
+}

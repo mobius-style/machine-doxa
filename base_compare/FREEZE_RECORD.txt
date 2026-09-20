@@ -21,3 +21,8 @@ d115663fbfab520ee9ccee592e844cdf18900f6f7594e3feb131fc95d39137cd  analyze_base.p
 analysis updated for 4+1 pairs 2026-09-21T00:25:38+09:00
 b4ee6f1e2b8221569e1f2fb056ed411ee8dc8ad6072e7308e8df56c524213888  PREREG.md
 timestamp correction (no design change) 2026-09-21T01:21:22+09:00
+3cbe27be4ba3404a78b2f69e4da1d261bf0ed5b92f9285b9a3a03bbafc65689e  exploratory_margin.py
+exploratory margin script written (NOT pre-registered) 2026-09-21T01:23:41+09:00
+80a0e84a727f551bff2407675f87546defcffc076df73310945d0e53acfd5d47  PREREG.md
+f91df44731b14168578d579defde49dff7cc77f6cdc4e35fcce2c7cad074ce0b  score_base.py
+placement correction 1,1 (no measurement change) 2026-09-21T02:21:37+09:00
