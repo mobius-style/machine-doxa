@@ -12,15 +12,15 @@ identifiers:
     value: 10.5281/zenodo.22867323
     description: "Reanalysis data, code and verification archive (reanalysis-2026-09-21)"
   - type: doi
-    value: 10.5281/zenodo.21982857
-    description: "Manuscript preprint (v1.0)"
+    value: 10.5281/zenodo.22867486
+    description: "Manuscript preprint v2.2.1 (current)"
 
 preferred-citation:
   type: article
-  title: "Machine Doxa: Where All Models Agree — Normatively Structured Consensus and Its Limits in LLM Practice Space"
+  title: "Machine Doxa and Machine Orthodoxy: Where Aligned Language Models Agree"
   authors:
     - family-names: Toeda
       given-names: Taiko
       affiliation: MOBIUS LLC
   year: 2026
-  doi: 10.5281/zenodo.21982857
+  doi: 10.5281/zenodo.22867486
