@@ -7,6 +7,14 @@ authors:
     affiliation: MOBIUS LLC
     orcid: "https://orcid.org/0009-0001-7267-0201"
 license: AGPL-3.0-or-later
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22867323
+    description: "Reanalysis data, code and verification archive (reanalysis-2026-09-21)"
+  - type: doi
+    value: 10.5281/zenodo.21982857
+    description: "Manuscript preprint (v1.0)"
+
 preferred-citation:
   type: article
   title: "Machine Doxa: Where All Models Agree — Normatively Structured Consensus and Its Limits in LLM Practice Space"

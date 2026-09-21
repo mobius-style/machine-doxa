@@ -2,6 +2,8 @@
 
 Artifacts for **"Machine Doxa: Where All Models Agree — Normatively Structured Consensus and Its Limits in LLM Practice Space"** (Toeda, 2026; DOI 10.5281/zenodo.21982857, live on Zenodo publication). Companion to [machine-habitus](https://github.com/mobius-style/machine-habitus) (DOI 10.5281/zenodo.21982393).
 
+The exploratory consensus reanalysis of 2026-09-21 — hashed inputs, dated plan, code, pinned dependencies, all outputs and verification records — is archived separately at **DOI [10.5281/zenodo.22867323](https://doi.org/10.5281/zenodo.22867323)**, mirrored as release [`reanalysis-2026-09-21`](https://github.com/mobius-style/machine-doxa/releases/tag/reanalysis-2026-09-21). Its additional tests do not pass Holm correction at .05; it is not an independent replication.
+
 Pre-registered two-part study: Part A characterizes all-model consensus on the companion study's data (exploratory); Part B tests three frozen hypotheses on fresh data (180 items incl. 30 norm-transparent / 30 preference-pure with authoring-time labels; 7 models × 3 sessions). All three confirmed: consensus is rarer than a pooled-marginal independence null (differentiation dominance), strongly normatively structured (85.7% vs 45.0%), and the doxa classification replicates across studies (κ = 0.649 on the registered scope).
 
 ## Layout
