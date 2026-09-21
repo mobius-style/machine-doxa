@@ -1,0 +1,12 @@
+{
+ "note": "exploratory; determinacy averaged over the five pre-trained models per item",
+ "n_consensus": 30,
+ "n_nonconsensus": 51,
+ "mean_determinacy_consensus": 0.533,
+ "mean_determinacy_nonconsensus": 0.483,
+ "difference": 0.05,
+ "mannwhitney_u": 953.0,
+ "p_two_sided": 0.066,
+ "rank_biserial": 0.246,
+ "probability_of_superiority": 0.623
+}
