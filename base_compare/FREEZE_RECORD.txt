@@ -41,3 +41,5 @@ d098a3792330ed0b1b6e599d8c8917d6d3986b4f5942ae08a2faa16d3873739a  exploratory_ma
 exploratory determinacy-matched H2 (NOT pre-registered) 2026-09-21T03:06:39+09:00
 02757a8538dd01216f118848c9ad34b2a66560c07461b5247ab0cc60167b8b0c  exploratory_pooled.py
 exploratory pooled determinacy test (NOT pre-registered, reviewer-prompted) 2026-09-21T10:36:59+09:00
+d26b962d9ad437fc5e88288552c8d5bc1db3dc6bd5c75acaea32cfc097d44fae  results_pooled_codified.json
+like-for-like codified-layer comparison (exploratory) 2026-09-21T10:43:56+09:00

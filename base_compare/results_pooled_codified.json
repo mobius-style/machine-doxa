@@ -1,0 +1,10 @@
+{
+ "note": "exploratory, like-for-like companion to results_pooled_exploratory.json: consensus vs non-consensus determinacy within the codified (norm+preference) layer",
+ "n_consensus": 33,
+ "n_nonconsensus": 15,
+ "mean_determinacy_consensus": 0.62,
+ "mean_determinacy_nonconsensus": 0.507,
+ "difference": 0.114,
+ "p_two_sided": 0.0096,
+ "probability_of_superiority": 0.735
+}
