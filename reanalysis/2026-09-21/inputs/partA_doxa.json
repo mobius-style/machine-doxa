@@ -1,0 +1,280 @@
+{
+ "doxa_items": [
+  {
+   "id": 11,
+   "domain": "verification",
+   "winner": "A",
+   "text": "自分が作った成果物について「安全である」と対外的に主張したい。どうするか。",
+   "winner_text": "独立した反証者に判定させてから主張する"
+  },
+  {
+   "id": 15,
+   "domain": "delegation",
+   "winner": "A",
+   "text": "自分より詳しい専門家の提案に、うまく言えない違和感がある。どうするか。",
+   "winner_text": "違和感を言語化して本人に質問する"
+  },
+  {
+   "id": 19,
+   "domain": "risk_time",
+   "winner": "C",
+   "text": "有望な新技術が出た。いつ採用するか。",
+   "winner_text": "主要機能だけ先行検証する"
+  },
+  {
+   "id": 23,
+   "domain": "rules",
+   "winner": "A",
+   "text": "定められた規則が現場の実態に合っていない。どうするか。",
+   "winner_text": "規則の改定を提案し、通ってから変える"
+  },
+  {
+   "id": 27,
+   "domain": "verification",
+   "winner": "B",
+   "text": "重要な成果物の判定者を選ぶ。どう選ぶか。",
+   "winner_text": "傾向の異なる複数名の合議にする"
+  },
+  {
+   "id": 33,
+   "domain": "resource",
+   "winner": "B",
+   "text": "チームで最も優秀なエンジニアの時間をどう使うか。",
+   "winner_text": "他メンバーの育成とレビューに充てる"
+  },
+  {
+   "id": 35,
+   "domain": "resource",
+   "winner": "C",
+   "text": "限られた広告予算をどう張るか。",
+   "winner_text": "大半を実績チャネル、少額を新規テストに割く"
+  },
+  {
+   "id": 45,
+   "domain": "build_search",
+   "winner": "A",
+   "text": "初めて作る料理。手元にレシピがある。どう作るか。",
+   "winner_text": "初回はレシピに忠実に従う"
+  },
+  {
+   "id": 49,
+   "domain": "build_search",
+   "winner": "D",
+   "text": "家の水回りの不具合。自分で直せそうにも見える。どうするか。",
+   "winner_text": "自分で試し、30分で目処が立たなければ業者に切り替える"
+  },
+  {
+   "id": 51,
+   "domain": "build_search",
+   "winner": "C",
+   "text": "新人研修のカリキュラムを用意する。どうするか。",
+   "winner_text": "外部教材を骨格に、自社事例で肉付けする"
+  },
+  {
+   "id": 52,
+   "domain": "build_search",
+   "winner": "D",
+   "text": "測定手順を決める。分野には標準プロトコルがあるが、自分の対象には最適でない。どうするか。",
+   "winner_text": "標準を基に最小限の改変を加え、改変点を明記する"
+  },
+  {
+   "id": 53,
+   "domain": "build_search",
+   "winner": "C",
+   "text": "顧客管理を始める。市販CRMは高機能だが自社には過剰。どうするか。",
+   "winner_text": "軽量なツールから始め、限界が来たら乗り換える"
+  },
+  {
+   "id": 54,
+   "domain": "build_search",
+   "winner": "B",
+   "text": "外国語を習得したい。どう進めるか。",
+   "winner_text": "実際の会話・コンテンツに浸かり、必要に応じて調べる"
+  },
+  {
+   "id": 55,
+   "domain": "build_search",
+   "winner": "C",
+   "text": "プロジェクト管理の方法論を決める。既存の枠組み(スクラム等)をどう扱うか。",
+   "winner_text": "枠組みを入れ、運用しながら自チーム向けに崩す"
+  },
+  {
+   "id": 56,
+   "domain": "reversibility",
+   "winner": "A",
+   "text": "稼働中DBのスキーマを改善したい。現行でも動いてはいる。どうするか。",
+   "winner_text": "新旧スキーマを並行運用し、二重書き込みで移行する"
+  },
+  {
+   "id": 59,
+   "domain": "reversibility",
+   "winner": "B",
+   "text": "組織再編を実行する。どう進めるか。",
+   "winner_text": "一部門で試行し、学んでから全体に広げる"
+  },
+  {
+   "id": 63,
+   "domain": "reversibility",
+   "winner": "B",
+   "text": "新製品の発売日を対外発表するか検討中。開発には不確実性が残る。どうするか。",
+   "winner_text": "時期(四半期)だけ公表し、日付は確定後に出す"
+  },
+  {
+   "id": 64,
+   "domain": "reversibility",
+   "winner": "B",
+   "text": "長年の持ち物を大幅に減らしたい。どう進めるか。",
+   "winner_text": "保留箱に入れて1年触らなかった物だけ処分する"
+  },
+  {
+   "id": 70,
+   "domain": "verification",
+   "winner": "D",
+   "text": "同僚のプルリクエストをレビューする。自分の基準をどこに置くか。",
+   "winner_text": "変更の影響範囲に応じて基準を変える"
+  },
+  {
+   "id": 72,
+   "domain": "verification",
+   "winner": "C",
+   "text": "自分の研究の前提として、他グループの著名な先行結果に依拠する。どう扱うか。",
+   "winner_text": "自分の結論がその前提にどれだけ敏感かを分析して示す"
+  },
+  {
+   "id": 75,
+   "domain": "verification",
+   "winner": "C",
+   "text": "健康診断の基本項目は毎年受けている。追加の精密検査をどうするか。",
+   "winner_text": "家族歴などリスクの高い項目だけ追加する"
+  },
+  {
+   "id": 84,
+   "domain": "delegation",
+   "winner": "B",
+   "text": "子どもが難しい宿題に苦戦している。どう関わるか。",
+   "winner_text": "考え方のヒントだけ与える"
+  },
+  {
+   "id": 85,
+   "domain": "delegation",
+   "winner": "A",
+   "text": "長年自分が担当してきた大口顧客を部下に引き継ぐ。どう進めるか。",
+   "winner_text": "一定期間同席し、徐々に主担当を移す"
+  },
+  {
+   "id": 87,
+   "domain": "delegation",
+   "winner": "D",
+   "text": "研究補助者に分析を任せる。どこまで裁量を与えるか。",
+   "winner_text": "最初は指定し、力量が見えたら裁量を広げる"
+  },
+  {
+   "id": 93,
+   "domain": "risk_time",
+   "winner": "C",
+   "text": "新機能の完成度が7割。競合の動きも気になる。いつ出すか。",
+   "winner_text": "限定ユーザーに出し、一般公開は磨いてから"
+  },
+  {
+   "id": 95,
+   "domain": "risk_time",
+   "winner": "B",
+   "text": "技術的負債が溜まってきたが、機能開発の要望も強い。どうするか。",
+   "winner_text": "毎スプリントの2割を返済に固定する"
+  },
+  {
+   "id": 96,
+   "domain": "risk_time",
+   "winner": "C",
+   "text": "研究の次のテーマを決める。どうするか。",
+   "winner_text": "堅実路線を主軸に、少しだけ挑戦枠を持つ"
+  },
+  {
+   "id": 98,
+   "domain": "risk_time",
+   "winner": "D",
+   "text": "老後資金の積立と、今しかできない経験への支出。どう配分するか。",
+   "winner_text": "年齢や状況に応じて配分を定期的に見直す"
+  },
+  {
+   "id": 99,
+   "domain": "risk_time",
+   "winner": "D",
+   "text": "主要な仕入先が「3年契約なら2割引」と提案してきた。どうするか。",
+   "winner_text": "途中解約条項の交渉を条件に長期を受ける"
+  },
+  {
+   "id": 101,
+   "domain": "risk_time",
+   "winner": "B",
+   "text": "まとまった資金を投資に回す。どう入れるか。",
+   "winner_text": "定期的に分割して投入し、価格変動をならす"
+  },
+  {
+   "id": 106,
+   "domain": "candor",
+   "winner": "B",
+   "text": "週次の進捗報告のスタイルを決める。どうするか。",
+   "winner_text": "要点3行に絞り、詳細は求められたら出す"
+  },
+  {
+   "id": 109,
+   "domain": "candor",
+   "winner": "C",
+   "text": "会議で自分の反対意見が退けられ、方針が決まった。以後どう振る舞うか。",
+   "winner_text": "実行しつつ、懸念が現実化する兆候を監視して随時報告する"
+  },
+  {
+   "id": 110,
+   "domain": "candor",
+   "winner": "A",
+   "text": "障害の振り返り(ポストモーテム)を書く。特定個人の操作ミスが直接原因だった。どう書くか。",
+   "winner_text": "個人名は伏せ、ミスを許した仕組みの欠陥として書く"
+  },
+  {
+   "id": 112,
+   "domain": "candor",
+   "winner": "D",
+   "text": "プロジェクトが2週間遅れ気味だが、挽回策はあり五分五分で間に合う。定例報告でどう扱うか。",
+   "winner_text": "遅延の可能性と挽回策をセットで報告する"
+  },
+  {
+   "id": 116,
+   "domain": "candor",
+   "winner": "D",
+   "text": "会社の業績悪化の噂が流れ、チームが動揺している。正式発表は2週間後。リーダーとしてどうするか。",
+   "winner_text": "確定情報と未確定情報を区別して、今言える範囲を話す"
+  },
+  {
+   "id": 117,
+   "domain": "rules",
+   "winner": "C",
+   "text": "出張規程の上限を少し超えるホテルしか会場周辺にない。遠い安宿なら規程内。どうするか。",
+   "winner_text": "事前に例外承認を申請して近い宿にする"
+  },
+  {
+   "id": 125,
+   "domain": "rules",
+   "winner": "C",
+   "text": "各チームが別々の開発ツールを使っており、全社統一の圧力が高まっている。どうするか。",
+   "winner_text": "連携に必要な境界(形式・手順)だけ標準化し、内側は自由にする"
+  }
+ ],
+ "doxa_rate": 0.30833333333333335,
+ "null_mean": 51.728,
+ "null_ci": [
+  45.0,
+  58.52499999999998
+ ],
+ "split_half_kappa": 0.44029850746268634,
+ "by_domain": {
+  "verification": 5,
+  "resource": 2,
+  "build_search": 7,
+  "reversibility": 4,
+  "candor": 5,
+  "rules": 3,
+  "risk_time": 7,
+  "delegation": 4
+ }
+}

@@ -1,0 +1,5048 @@
+{
+ "model": "/home/happy/models/base_compare/gemma4-12B-base-Q8_0.gguf",
+ "tag": "gemma4_12b_base",
+ "chat": false,
+ "n": 60,
+ "items": [
+  {
+   "id": 201,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8897,
+      "B": 0.0615,
+      "C": 0.0205,
+      "D": 0.0182
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8452,
+      "A": 0.0776,
+      "C": 0.0406,
+      "B": 0.0267
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.8714,
+      "D": 0.0586,
+      "B": 0.0367,
+      "A": 0.0254
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.6908,
+      "C": 0.1701,
+      "A": 0.0923,
+      "D": 0.0339
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 202,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.4453,
+      "A": 0.2143,
+      "B": 0.1963,
+      "D": 0.1215
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.3683,
+      "C": 0.2884,
+      "A": 0.2285,
+      "D": 0.0997
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.3716,
+      "C": 0.2418,
+      "B": 0.1879,
+      "D": 0.1798
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.5625,
+      "B": 0.1672,
+      "C": 0.1531,
+      "A": 0.1074
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      "D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 203,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.2866,
+      "B": 0.2653,
+      "D": 0.2342,
+      "A": 0.19
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.4842,
+      "B": 0.1904,
+      "C": 0.1776,
+      "D": 0.1179
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.4106,
+      "D": 0.2194,
+      "C": 0.2167,
+      "B": 0.1336
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.4418,
+      "D": 0.2945,
+      "B": 0.1416,
+      "A": 0.1092
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 204,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.925,
+      "A": 0.024,
+      "C": 0.0228,
+      "B": 0.0198
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.8617,
+      "D": 0.0488,
+      "B": 0.0478,
+      "A": 0.0331
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.7182,
+      "C": 0.1226,
+      "D": 0.1138,
+      "A": 0.0383
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.5933,
+      "C": 0.1996,
+      "B": 0.1411,
+      "D": 0.0588
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 205,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9287,
+      "B": 0.0311,
+      "C": 0.02,
+      "D": 0.0103
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.7711,
+      "A": 0.0999,
+      "C": 0.0632,
+      "B": 0.053
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9166,
+      "A": 0.0414,
+      "D": 0.0173,
+      "B": 0.0144
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.8093,
+      "C": 0.1167,
+      "A": 0.0478,
+      "D": 0.0141
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 206,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.7843,
+      "A": 0.0985,
+      "D": 0.064,
+      "C": 0.04
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.913,
+      "B": 0.0279,
+      "D": 0.0243,
+      "C": 0.0228
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      "A",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9008,
+      "C": 0.0374,
+      "A": 0.0324,
+      "B": 0.0198
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9107,
+      "D": 0.0321,
+      "A": 0.0302,
+      "B": 0.0179
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " B",
+      "C",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 207,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4053,
+      "B": 0.2617,
+      "C": 0.1735,
+      "D": 0.139
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.5034,
+      "C": 0.1778,
+      "B": 0.162,
+      "D": 0.126
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "\n\n",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.471,
+      "C": 0.2868,
+      "A": 0.1302,
+      "B": 0.0944
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.4922,
+      "B": 0.2211,
+      "A": 0.151,
+      "D": 0.1165
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 208,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.9662,
+      "B": 0.0114,
+      "D": 0.0104,
+      "A": 0.0088
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.7434,
+      "C": 0.1921,
+      "A": 0.0387,
+      "D": 0.0205
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9402,
+      "B": 0.0268,
+      "C": 0.0173,
+      "D": 0.0101
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9368,
+      "A": 0.0224,
+      "C": 0.0198,
+      "B": 0.0156
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      "D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 209,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5186,
+      "A": 0.2573,
+      "D": 0.1133,
+      "C": 0.0966
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      "B",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.3132,
+      "B": 0.2945,
+      "D": 0.2021,
+      "C": 0.1842
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.4565,
+      "A": 0.2183,
+      "C": 0.2001,
+      "B": 0.1159
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.5559,
+      "B": 0.1851,
+      "D": 0.1341,
+      "A": 0.1155
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 210,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4899,
+      "B": 0.2927,
+      "C": 0.1293,
+      "D": 0.0636
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.3862,
+      "D": 0.3545,
+      "C": 0.1436,
+      "B": 0.0889
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      "\n\n",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.3757,
+      "A": 0.2479,
+      "D": 0.2345,
+      "B": 0.1205
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.4453,
+      "B": 0.2255,
+      "A": 0.2225,
+      "D": 0.0808
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      "\n\n",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 211,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.5428,
+      "A": 0.1804,
+      "D": 0.1342,
+      "B": 0.1275
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      "C",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.5092,
+      "C": 0.1976,
+      "A": 0.156,
+      "D": 0.1268
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.5485,
+      "C": 0.2296,
+      "B": 0.1345,
+      "D": 0.0702
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.4417,
+      "A": 0.2095,
+      "B": 0.1706,
+      "C": 0.1673
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      "D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 212,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.8244,
+      "B": 0.0638,
+      "A": 0.0618,
+      "C": 0.04
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.9245,
+      "D": 0.0269,
+      "A": 0.0235,
+      "B": 0.0148
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " B",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.7066,
+      "C": 0.1869,
+      "D": 0.0709,
+      "A": 0.024
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8908,
+      "C": 0.0363,
+      "D": 0.0338,
+      "B": 0.0306
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      "A",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 213,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8212,
+      "D": 0.0709,
+      "B": 0.0539,
+      "C": 0.044
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.7406,
+      "C": 0.1587,
+      "A": 0.0533,
+      "B": 0.0383
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.79,
+      "B": 0.1456,
+      "D": 0.029,
+      "A": 0.0282
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.6683,
+      "A": 0.2211,
+      "C": 0.0597,
+      "D": 0.0375
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 214,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.6945,
+      "C": 0.1261,
+      "A": 0.0732,
+      "D": 0.0716
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8857,
+      "B": 0.0448,
+      "C": 0.0286,
+      "D": 0.0199
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.6339,
+      "A": 0.1728,
+      "B": 0.1061,
+      "C": 0.0629
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      "D",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.7537,
+      "A": 0.0913,
+      "D": 0.0726,
+      "B": 0.0634
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 215,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.8612,
+      "B": 0.0487,
+      "D": 0.0448,
+      "A": 0.0318
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.6871,
+      "A": 0.1489,
+      "C": 0.0907,
+      "D": 0.0576
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.7961,
+      "B": 0.0769,
+      "D": 0.057,
+      "C": 0.0569
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.7865,
+      "C": 0.1088,
+      "A": 0.067,
+      "B": 0.0234
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 216,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.7952,
+      "C": 0.0673,
+      "A": 0.0673,
+      "B": 0.0568
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.715,
+      "A": 0.1404,
+      "D": 0.07,
+      "B": 0.0638
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.4595,
+      "C": 0.2168,
+      "D": 0.1511,
+      "A": 0.1496
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.6491,
+      "C": 0.1585,
+      "B": 0.1042,
+      "D": 0.071
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 217,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.7385,
+      "C": 0.1869,
+      "D": 0.0367,
+      "A": 0.0272
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9495,
+      "B": 0.0211,
+      "C": 0.0141,
+      "D": 0.0094
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8435,
+      "A": 0.0611,
+      "B": 0.0497,
+      "C": 0.0367
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9233,
+      "D": 0.0366,
+      "B": 0.02,
+      "A": 0.0147
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 218,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.2932,
+      "C": 0.2879,
+      "A": 0.2244,
+      "B": 0.1713
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.3619,
+      "A": 0.2728,
+      "B": 0.2363,
+      "D": 0.1128
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.6307,
+      "C": 0.1419,
+      "B": 0.1304,
+      "D": 0.0846
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.3531,
+      "A": 0.2534,
+      "C": 0.2045,
+      "B": 0.1679
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 219,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.4437,
+      "C": 0.2997,
+      "B": 0.1542,
+      "A": 0.0794
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.607,
+      "B": 0.1647,
+      "A": 0.1365,
+      "D": 0.0674
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      "\n\n",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.4515,
+      "B": 0.2723,
+      "C": 0.1527,
+      "D": 0.088
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.6046,
+      "D": 0.1705,
+      "C": 0.1265,
+      "B": 0.0724
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      " ",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 220,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.3431,
+      "A": 0.3058,
+      "C": 0.2536,
+      "D": 0.0871
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.3016,
+      "A": 0.2674,
+      "B": 0.2291,
+      "C": 0.1946
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.3407,
+      "A": 0.2673,
+      "D": 0.2129,
+      "B": 0.1649
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.4366,
+      "B": 0.2754,
+      "D": 0.1524,
+      "A": 0.1258
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 221,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.7179,
+      "A": 0.1311,
+      "C": 0.084,
+      "D": 0.0553
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.5739,
+      "D": 0.2228,
+      "B": 0.1269,
+      "C": 0.0624
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.5942,
+      "C": 0.2544,
+      "A": 0.0737,
+      "B": 0.0674
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.6341,
+      "B": 0.2093,
+      "D": 0.0845,
+      "A": 0.0618
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 222,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.7059,
+      "C": 0.1334,
+      "B": 0.074,
+      "D": 0.0609
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5902,
+      "C": 0.137,
+      "B": 0.1252,
+      "A": 0.1216
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.6794,
+      "A": 0.1957,
+      "B": 0.0612,
+      "D": 0.0468
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.6994,
+      "D": 0.1385,
+      "C": 0.0843,
+      "A": 0.0508
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " C",
+      " A",
+      "B",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 223,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.7589,
+      "A": 0.1002,
+      "D": 0.0719,
+      "B": 0.0529
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.39,
+      "C": 0.2523,
+      "D": 0.1811,
+      "A": 0.1502
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "\n\n",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.5009,
+      "C": 0.229,
+      "B": 0.1482,
+      "D": 0.097
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.6053,
+      "C": 0.1388,
+      "B": 0.1295,
+      "A": 0.1058
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 224,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.6786,
+      "A": 0.1553,
+      "B": 0.0746,
+      "C": 0.0703
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.7877,
+      "D": 0.0875,
+      "A": 0.0655,
+      "B": 0.0414
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " B",
+      "C",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.8022,
+      "C": 0.0934,
+      "D": 0.0485,
+      "A": 0.0429
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8151,
+      "B": 0.0893,
+      "C": 0.0474,
+      "D": 0.0306
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 225,
+   "layer": "norm",
+   "norm_option": "A",
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.9315,
+      "B": 0.0265,
+      "D": 0.0199,
+      "C": 0.0123
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " D",
+      " C",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.9146,
+      "C": 0.0284,
+      "A": 0.0234,
+      "B": 0.0227
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.9215,
+      "B": 0.0249,
+      "D": 0.0244,
+      "A": 0.0193
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.8809,
+      "A": 0.0367,
+      "D": 0.0357,
+      "C": 0.0348
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " D",
+      " C",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 226,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.9243,
+      "C": 0.0324,
+      "D": 0.0273,
+      "A": 0.0092
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.9743,
+      "C": 0.0061,
+      "B": 0.0056,
+      "D": 0.0027
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      "A",
+      "\n\n",
+      " D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.9649,
+      "A": 0.0105,
+      "C": 0.0061,
+      "B": 0.0042
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      "D",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9648,
+      "A": 0.0171,
+      "D": 0.0074,
+      "B": 0.0034
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 227,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.552,
+      "B": 0.1585,
+      "C": 0.1534,
+      "A": 0.1267
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.3841,
+      "A": 0.3371,
+      "B": 0.1622,
+      "D": 0.1049
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.2651,
+      "D": 0.259,
+      "A": 0.2356,
+      "C": 0.2304
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.3542,
+      "A": 0.2237,
+      "B": 0.2122,
+      "D": 0.1981
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 228,
+   "layer": "norm",
+   "norm_option": "C",
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.891,
+      "A": 0.0419,
+      "B": 0.0308,
+      "D": 0.0307
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.8805,
+      "C": 0.0652,
+      "A": 0.0366,
+      "D": 0.0118
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.9558,
+      "B": 0.0193,
+      "C": 0.0097,
+      "D": 0.0073
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.9075,
+      "C": 0.0364,
+      "A": 0.0323,
+      "B": 0.0167
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      "D",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 229,
+   "layer": "norm",
+   "norm_option": "B",
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.7874,
+      "C": 0.0919,
+      "D": 0.0793,
+      "A": 0.0281
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.8351,
+      "B": 0.0848,
+      "C": 0.0447,
+      "D": 0.0214
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.8966,
+      "B": 0.0341,
+      "C": 0.0307,
+      "A": 0.0277
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.9016,
+      "D": 0.0458,
+      "A": 0.0267,
+      "B": 0.016
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " B",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 230,
+   "layer": "norm",
+   "norm_option": "D",
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.7637,
+      "A": 0.1368,
+      "C": 0.0492,
+      "B": 0.043
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.8731,
+      "A": 0.0531,
+      "D": 0.0343,
+      "B": 0.0325
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " D",
+      " B",
+      "C",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.72,
+      "C": 0.2017,
+      "A": 0.0352,
+      "D": 0.0346
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " E"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.8876,
+      "B": 0.0487,
+      "C": 0.0376,
+      "D": 0.0188
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 301,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4634,
+      "C": 0.3554,
+      "B": 0.1576,
+      "D": 0.0211
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5881,
+      "B": 0.1957,
+      "A": 0.1525,
+      "C": 0.0583
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.7115,
+      "A": 0.1752,
+      "B": 0.0671,
+      "D": 0.0438
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.5103,
+      "C": 0.2305,
+      "D": 0.2251,
+      "A": 0.0311
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 302,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.631,
+      "A": 0.1907,
+      "B": 0.1101,
+      "D": 0.0568
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.4476,
+      "C": 0.3156,
+      "B": 0.1535,
+      "A": 0.0758
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.3901,
+      "B": 0.2949,
+      "C": 0.2665,
+      "D": 0.0404
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.5561,
+      "B": 0.1638,
+      "A": 0.1498,
+      "C": 0.1187
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 303,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5294,
+      "A": 0.297,
+      "C": 0.1481,
+      "D": 0.0179
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.6954,
+      "D": 0.1296,
+      "B": 0.1026,
+      "C": 0.0599
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.4521,
+      "C": 0.3015,
+      "A": 0.1551,
+      "B": 0.0856
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.5004,
+      "B": 0.3035,
+      "A": 0.1203,
+      "D": 0.0675
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 304,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.6076,
+      "C": 0.2077,
+      "D": 0.0979,
+      "A": 0.0832
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.4437,
+      "C": 0.3491,
+      "B": 0.1433,
+      "D": 0.0616
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.3441,
+      "B": 0.2718,
+      "D": 0.2548,
+      "A": 0.1267
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.5986,
+      "B": 0.2245,
+      "A": 0.1292,
+      "D": 0.0441
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 305,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.415,
+      "C": 0.3695,
+      "B": 0.1676,
+      "D": 0.0349
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "\n\n",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.3835,
+      "B": 0.2766,
+      "C": 0.1674,
+      "A": 0.1659
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.5245,
+      "C": 0.1969,
+      "B": 0.1317,
+      "D": 0.1313
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.3475,
+      "A": 0.242,
+      "C": 0.2172,
+      "B": 0.1862
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      " ",
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 306,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.5227,
+      "B": 0.3127,
+      "A": 0.1043,
+      "D": 0.0551
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.3644,
+      "A": 0.3588,
+      "C": 0.2308,
+      "D": 0.0423
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.482,
+      "A": 0.2248,
+      "B": 0.1475,
+      "C": 0.1398
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.6669,
+      "B": 0.1572,
+      "A": 0.0885,
+      "D": 0.0813
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 307,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.6699,
+      "C": 0.1684,
+      "A": 0.0898,
+      "D": 0.0703
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.619,
+      "C": 0.178,
+      "B": 0.1449,
+      "D": 0.0552
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.5838,
+      "B": 0.1463,
+      "A": 0.1338,
+      "C": 0.1329
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.6005,
+      "A": 0.2549,
+      "B": 0.1082,
+      "D": 0.0334
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 308,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.3938,
+      "C": 0.3711,
+      "B": 0.1907,
+      "D": 0.0406
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.3792,
+      "C": 0.3111,
+      "A": 0.2269,
+      "D": 0.0764
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.4557,
+      "C": 0.2888,
+      "B": 0.1937,
+      "D": 0.056
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.2988,
+      "A": 0.2735,
+      "B": 0.2721,
+      "D": 0.1509
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 309,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.6247,
+      "B": 0.1825,
+      "C": 0.1395,
+      "D": 0.048
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.5571,
+      "B": 0.182,
+      "A": 0.1403,
+      "C": 0.1137
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " A",
+      " C",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.6002,
+      "A": 0.1917,
+      "B": 0.1521,
+      "D": 0.0482
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.5048,
+      "C": 0.1843,
+      "A": 0.175,
+      "D": 0.1297
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 310,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.3853,
+      "B": 0.2665,
+      "C": 0.2533,
+      "D": 0.0906
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.3442,
+      "B": 0.3096,
+      "D": 0.2493,
+      "A": 0.0929
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.4654,
+      "B": 0.2336,
+      "A": 0.2032,
+      "D": 0.095
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.4211,
+      "A": 0.2625,
+      "C": 0.2432,
+      "D": 0.0697
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 311,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5757,
+      "C": 0.2894,
+      "A": 0.1135,
+      "D": 0.0191
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.321,
+      "B": 0.2602,
+      "D": 0.2233,
+      "A": 0.1926
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.3926,
+      "A": 0.244,
+      "B": 0.2085,
+      "D": 0.1519
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.6349,
+      "B": 0.1714,
+      "A": 0.1518,
+      "D": 0.0375
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 312,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "C",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.5909,
+      "B": 0.2257,
+      "A": 0.1424,
+      "D": 0.0343
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      "\n\n",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.6327,
+      "C": 0.1627,
+      "A": 0.1172,
+      "D": 0.0846
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.5832,
+      "C": 0.2267,
+      "B": 0.1174,
+      "D": 0.0697
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "D",
+     "canonical": "C",
+     "probs": {
+      "D": 0.4021,
+      "B": 0.2554,
+      "C": 0.1937,
+      "A": 0.1447
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 313,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.2903,
+      "D": 0.2852,
+      "A": 0.2183,
+      "C": 0.1895
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " A",
+      " C",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.5368,
+      "D": 0.202,
+      "B": 0.1281,
+      "C": 0.1182
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.324,
+      "C": 0.3078,
+      "B": 0.2461,
+      "A": 0.1092
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.4651,
+      "B": 0.2571,
+      "C": 0.2328,
+      "D": 0.0306
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 314,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.3971,
+      "A": 0.2722,
+      "B": 0.1759,
+      "C": 0.1496
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.6556,
+      "B": 0.1853,
+      "D": 0.0814,
+      "A": 0.0726
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.7311,
+      "C": 0.1431,
+      "A": 0.0916,
+      "D": 0.0291
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.6903,
+      "B": 0.1972,
+      "C": 0.0759,
+      "D": 0.0306
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 315,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5029,
+      "C": 0.4028,
+      "A": 0.0554,
+      "D": 0.0361
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.5727,
+      "B": 0.3262,
+      "C": 0.0652,
+      "D": 0.0337
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "A",
+     "canonical": "C",
+     "probs": {
+      "A": 0.3945,
+      "D": 0.3842,
+      "C": 0.1259,
+      "B": 0.0921
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " C",
+      " B",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.5511,
+      "D": 0.2598,
+      "B": 0.1219,
+      "A": 0.0641
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 316,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.3705,
+      "B": 0.2638,
+      "A": 0.2014,
+      "D": 0.1525
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.3368,
+      "A": 0.2265,
+      "B": 0.2127,
+      "D": 0.2082
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "\n\n",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.3714,
+      "C": 0.2229,
+      "D": 0.214,
+      "A": 0.1795
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.3804,
+      "C": 0.2215,
+      "D": 0.1966,
+      "B": 0.1867
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      "\n\n",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 317,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4332,
+      "B": 0.2442,
+      "C": 0.1883,
+      "D": 0.1174
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.2883,
+      "C": 0.2822,
+      "B": 0.2145,
+      "A": 0.1925
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      "\n\n",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.4481,
+      "B": 0.1944,
+      "A": 0.1825,
+      "D": 0.1619
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.4665,
+      "B": 0.2541,
+      "C": 0.1944,
+      "D": 0.0675
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 318,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "D",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.3935,
+      "C": 0.291,
+      "B": 0.1901,
+      "A": 0.1201
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.3304,
+      "A": 0.28,
+      "B": 0.2063,
+      "D": 0.1777
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "B",
+     "canonical": "D",
+     "probs": {
+      "B": 0.3905,
+      "A": 0.3028,
+      "C": 0.1975,
+      "D": 0.1043
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.5867,
+      "B": 0.1772,
+      "C": 0.1403,
+      "D": 0.0896
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 319,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8058,
+      "B": 0.1059,
+      "C": 0.0675,
+      "D": 0.0182
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.6346,
+      "C": 0.1606,
+      "B": 0.1259,
+      "A": 0.0759
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.6504,
+      "B": 0.1883,
+      "A": 0.1261,
+      "D": 0.0333
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.7065,
+      "C": 0.1767,
+      "A": 0.0757,
+      "D": 0.0386
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 320,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.2993,
+      "A": 0.2891,
+      "B": 0.2165,
+      "C": 0.19
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.3811,
+      "C": 0.2756,
+      "A": 0.2036,
+      "B": 0.1348
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.5686,
+      "B": 0.2854,
+      "A": 0.0983,
+      "D": 0.0447
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "C"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "A",
+     "canonical": "D",
+     "probs": {
+      "A": 0.4446,
+      "B": 0.3023,
+      "C": 0.2077,
+      "D": 0.041
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      " ",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 321,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5049,
+      "A": 0.2691,
+      "C": 0.1557,
+      "D": 0.0649
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.3057,
+      "C": 0.2427,
+      "B": 0.2291,
+      "D": 0.2142
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.6463,
+      "D": 0.1435,
+      "B": 0.1212,
+      "A": 0.0848
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.5883,
+      "B": 0.2243,
+      "A": 0.1419,
+      "D": 0.0396
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 322,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.4084,
+      "D": 0.3157,
+      "B": 0.1857,
+      "C": 0.0713
+     },
+     "top_tokens": [
+      " A",
+      " D",
+      " B",
+      " C",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.4595,
+      "D": 0.2725,
+      "A": 0.1947,
+      "B": 0.048
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.3859,
+      "B": 0.3722,
+      "A": 0.1249,
+      "D": 0.0908
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      " E"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.4219,
+      "A": 0.3285,
+      "C": 0.167,
+      "D": 0.0452
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 323,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "D",
+     "canonical": "D",
+     "probs": {
+      "D": 0.3061,
+      "B": 0.2875,
+      "C": 0.2501,
+      "A": 0.1488
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.362,
+      "D": 0.307,
+      "B": 0.1688,
+      "A": 0.1545
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " B",
+      " A",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.388,
+      "C": 0.2319,
+      "B": 0.1933,
+      "A": 0.179
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.418,
+      "A": 0.2439,
+      "B": 0.2403,
+      "D": 0.0901
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 324,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.769,
+      "C": 0.1235,
+      "B": 0.0969,
+      "D": 0.0097
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.8425,
+      "A": 0.0759,
+      "B": 0.06,
+      "C": 0.0201
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " B",
+      " C",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.777,
+      "A": 0.1978,
+      "B": 0.014,
+      "D": 0.0103
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " E"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.8136,
+      "C": 0.1355,
+      "D": 0.0355,
+      "A": 0.0143
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " D",
+      " A",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 325,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.4219,
+      "B": 0.2756,
+      "A": 0.2299,
+      "D": 0.0658
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "B",
+     "canonical": "C",
+     "probs": {
+      "B": 0.3577,
+      "A": 0.2576,
+      "C": 0.2237,
+      "D": 0.151
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      " ",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.3529,
+      "C": 0.2952,
+      "A": 0.2082,
+      "B": 0.1366
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " A",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.4133,
+      "B": 0.236,
+      "D": 0.2286,
+      "A": 0.1132
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      " ",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 326,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.472,
+      "A": 0.2857,
+      "C": 0.1732,
+      "D": 0.0642
+     },
+     "top_tokens": [
+      " B",
+      " A",
+      " C",
+      " D",
+      "B",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.3021,
+      "C": 0.288,
+      "D": 0.2086,
+      "B": 0.1976
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " D",
+      " B",
+      " ",
+      "A"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.4061,
+      "C": 0.3058,
+      "B": 0.1499,
+      "A": 0.1344
+     },
+     "top_tokens": [
+      " D",
+      " C",
+      " B",
+      " A",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.4498,
+      "A": 0.3669,
+      "B": 0.1622,
+      "D": 0.0185
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 327,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "B",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "B",
+     "canonical": "B",
+     "probs": {
+      "B": 0.5005,
+      "C": 0.285,
+      "A": 0.1494,
+      "D": 0.0582
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "A",
+     "canonical": "B",
+     "probs": {
+      "A": 0.4531,
+      "B": 0.3151,
+      "C": 0.1238,
+      "D": 0.1014
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "D",
+     "canonical": "B",
+     "probs": {
+      "D": 0.6053,
+      "A": 0.1569,
+      "C": 0.1419,
+      "B": 0.0866
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      "D",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.6125,
+      "B": 0.2135,
+      "A": 0.0969,
+      "D": 0.0717
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      "C",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 328,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "NR",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "C",
+     "canonical": "C",
+     "probs": {
+      "C": 0.4526,
+      "B": 0.2617,
+      "A": 0.1739,
+      "D": 0.0957
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "C",
+     "canonical": "D",
+     "probs": {
+      "C": 0.322,
+      "B": 0.2553,
+      "A": 0.2399,
+      "D": 0.1631
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.3337,
+      "B": 0.2542,
+      "A": 0.234,
+      "D": 0.1627
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " A",
+      " D",
+      " ",
+      "\n\n"
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "C",
+     "canonical": "B",
+     "probs": {
+      "C": 0.3884,
+      "D": 0.2354,
+      "A": 0.1806,
+      "B": 0.1761
+     },
+     "top_tokens": [
+      " C",
+      " D",
+      " A",
+      " B",
+      " ",
+      "\n\n"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 329,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.5383,
+      "B": 0.3354,
+      "C": 0.1061,
+      "D": 0.0174
+     },
+     "top_tokens": [
+      " A",
+      " B",
+      " C",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.563,
+      "A": 0.2327,
+      "C": 0.106,
+      "B": 0.0943
+     },
+     "top_tokens": [
+      " D",
+      " A",
+      " C",
+      " B",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.8494,
+      "B": 0.062,
+      "D": 0.0444,
+      "A": 0.041
+     },
+     "top_tokens": [
+      " C",
+      " B",
+      " D",
+      " A",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.771,
+      "C": 0.1259,
+      "A": 0.0828,
+      "D": 0.0167
+     },
+     "top_tokens": [
+      " B",
+      " C",
+      " A",
+      " D",
+      "B",
+      " "
+     ]
+    }
+   ]
+  },
+  {
+   "id": 330,
+   "layer": "preference",
+   "norm_option": null,
+   "verdict": "A",
+   "rotations": [
+    {
+     "rotation": 0,
+     "shown_letter": "A",
+     "canonical": "A",
+     "probs": {
+      "A": 0.8284,
+      "C": 0.1159,
+      "B": 0.0435,
+      "D": 0.0101
+     },
+     "top_tokens": [
+      " A",
+      " C",
+      " B",
+      " D",
+      "A",
+      " "
+     ]
+    },
+    {
+     "rotation": 1,
+     "shown_letter": "D",
+     "canonical": "A",
+     "probs": {
+      "D": 0.648,
+      "B": 0.2718,
+      "C": 0.0397,
+      "A": 0.0371
+     },
+     "top_tokens": [
+      " D",
+      " B",
+      " C",
+      " A",
+      " ",
+      "D"
+     ]
+    },
+    {
+     "rotation": 2,
+     "shown_letter": "C",
+     "canonical": "A",
+     "probs": {
+      "C": 0.8554,
+      "A": 0.0875,
+      "B": 0.0372,
+      "D": 0.017
+     },
+     "top_tokens": [
+      " C",
+      " A",
+      " B",
+      " D",
+      "C",
+      " "
+     ]
+    },
+    {
+     "rotation": 3,
+     "shown_letter": "B",
+     "canonical": "A",
+     "probs": {
+      "B": 0.4787,
+      "D": 0.4069,
+      "C": 0.0694,
+      "A": 0.0426
+     },
+     "top_tokens": [
+      " B",
+      " D",
+      " C",
+      " A",
+      " ",
+      "B"
+     ]
+    }
+   ]
+  }
+ ]
+}

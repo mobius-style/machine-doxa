@@ -1,0 +1,10 @@
+{
+  "inputs_byte_identical": true,
+  "independent_mapping_and_A": true,
+  "independent_logistic_estimates": true,
+  "H3_full_scope": 0.649484536082474,
+  "legacy_H1_H2_H3_exact_replay": true,
+  "old_rank_p": 0.06596869802210038,
+  "matching_unique_and_within_caliper": true,
+  "heldout_predictions_complete": true
+}

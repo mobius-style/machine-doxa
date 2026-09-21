@@ -1,0 +1,8 @@
+{
+  "same_peak": 0.97,
+  "same_direction_A": 0.9411999999999999,
+  "different_direction_A": 0.019600000000000003,
+  "tests": 5,
+  "known_broken_mapping_rejected": true,
+  "zero_mass_rejected": true
+}

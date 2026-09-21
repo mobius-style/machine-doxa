@@ -1,0 +1,17 @@
+# Data dictionary and measurement boundaries
+
+Study responses: 21 included sessions, seven deployments, three sessions each, collected 18 August 2026 JST. The original repository preserves the excluded/replacement record and collection protocol. Battery: 180 Japanese four-option items; 120 habitus (no designated answer at authorship), 30 norm, 30 preference. Five fixed published base checkpoints supply 180 probability records each, with four cyclic option rotations per record. These records were collected in the original base comparison/extension; this release collects no new model data.
+
+## analysis/items.csv
+
+One row per authored item, including excluded items. `id` is the original identifier; `layer` is habitus/norm/preference; `domain` is the authored disposition domain. `valid` means all seven modal subject verdicts are available. `consensus` equals one only if all seven valid modal verdicts agree; an invalid item is zero by the original definition. Do not interpret these zeros as observed disagreement in complete-case models. `subject_modals` concatenates letters or NR in the stored session-loading order; use original session files for model-specific interpretation. `norm`/`preference` are binary authored-layer indicators. `D` is mean normalized within-rotation peak probability across rotations and bases. `C` is mean peak after canonical mapping and rotational averaging. `A` is mean pairwise probability dot product across ten unordered base pairs. D,C,A are unitless and bounded by zero and one; uniform A=.25. No item is missing these features. All models in inference are fixed; item-based uncertainty is not uncertainty over a sampled model population.
+
+## canonical_probabilities.npz
+
+`q`: shape (180,5,4), item by base checkpoint by canonical option A–D; each vector sums to one. `D_by_model`: (180,5). `ids`, `tags` specify axis identities. Rotation r maps displayed index j to canonical (j+r) mod 4. The four saved letter probabilities are normalized before mapping. They are rounded to four decimals; minimum summed letter mass is .8153, so these are conditional four-letter distributions, not full-vocabulary certainty.
+
+## Other outputs
+
+`probability_quality.csv`: 900 item/base rows, minimum letter mass across rotations and count of absent letter entries (observed zero). `leave_one_out_predictions.csv`: 81 complete habitus items with observed y and out-of-fold probabilities D, D_A, C, C_A. Each training fold fits its own scaler; fixed ridge strength is sklearn C=1. Folds are dependent and constitute internal validation. `permutation_null.csv`: 1,000 independent per-item/base option-label permutations preserving each distribution's concentration and entropy. `results.json`: all planned estimates, matching pairs, intervals, p-values and Holm correction. `design_sensitivity.json`: simplified simulated designs, not estimated power for the realized correlated predictors. `verification.json`, `refutation_statistics.json` and `unit_checks.json`: executable checks, not peer review.
+
+Analysis populations: 129 complete items (81 habitus with 30 consensus; 28 norm with 24 consensus; 20 preference with 9 consensus). H2 adjustment uses the 48 norm/preference items. Missing/non-modal outcomes remove 39 habitus, two norm and ten preference items from complete-case models. H3 registered analysis retains all 120 habitus items with NR coded non-consensus.

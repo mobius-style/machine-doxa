@@ -1,0 +1,27 @@
+{
+  "H2_profile_endpoint_deviances": [
+    3.8414588206939015,
+    3.841458820694257
+  ],
+  "H2_quad_profile_endpoint_deviances": [
+    3.841458820693589,
+    3.841458820694328
+  ],
+  "D_A_profile_endpoint_deviances": [
+    3.8414588206941147,
+    3.8414588206950953
+  ],
+  "C_A_profile_endpoint_deviances": [
+    3.8414588206941147,
+    3.8414588206941147
+  ],
+  "independent_CV_max_absolute_error": {
+    "D": 5.5065582058255735e-05,
+    "D_A": 0.000149495099585506,
+    "C": 0.00010927572026986354,
+    "C_A": 0.00024195405793958624
+  },
+  "maximum_matching_cardinality": true,
+  "control_preserves_concentration_entropy": true,
+  "no_primary_exploratory_rejection_at_005": true
+}

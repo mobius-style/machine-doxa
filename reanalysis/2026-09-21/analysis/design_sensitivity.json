@@ -1,0 +1,44 @@
+[
+  {
+    "n": 81,
+    "baseline": 0.37,
+    "standardized_log_OR": 0.5,
+    "simulated_rejection_fraction": 0.526,
+    "replicates": 500
+  },
+  {
+    "n": 81,
+    "baseline": 0.37,
+    "standardized_log_OR": 1.0,
+    "simulated_rejection_fraction": 0.984,
+    "replicates": 500
+  },
+  {
+    "n": 81,
+    "baseline": 0.37,
+    "standardized_log_OR": 1.5,
+    "simulated_rejection_fraction": 1.0,
+    "replicates": 500
+  },
+  {
+    "n": 48,
+    "baseline": 0.69,
+    "standardized_log_OR": 0.5,
+    "simulated_rejection_fraction": 0.374,
+    "replicates": 500
+  },
+  {
+    "n": 48,
+    "baseline": 0.69,
+    "standardized_log_OR": 1.0,
+    "simulated_rejection_fraction": 0.882,
+    "replicates": 500
+  },
+  {
+    "n": 48,
+    "baseline": 0.69,
+    "standardized_log_OR": 1.5,
+    "simulated_rejection_fraction": 0.984,
+    "replicates": 500
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/battery_doxa.json",
+    "copy": "inputs/battery_doxa.json",
+    "sha256": "4ec1f30bbb8c1a455f2a7e723576f3ed49687c8be0d2efb4c8bbefa0daf90013",
+    "bytes": 88236
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/partA_doxa.json",
+    "copy": "inputs/partA_doxa.json",
+    "sha256": "704ad0739205da0baf94f4d82a5aa082e567273bbfda22d9b1f5aa379b5b7b52",
+    "bytes": 9652
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/results_doxa.json",
+    "copy": "inputs/results_doxa.json",
+    "sha256": "e3aac0d7d6384faaa01b3d196571c8de0368921b5d5ca861ec321524cdb7f017",
+    "bytes": 1302
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/analyze_doxa.py",
+    "copy": "inputs/analyze_doxa.py",
+    "sha256": "e052e06019d91b2a10d20c2a41d856a67b78fc6f32c459f8c06d5952b0e1c7cd",
+    "bytes": 5389
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gpt-oss-120b__s1.json",
+    "copy": "inputs/responses/gpt-oss-120b__s1.json",
+    "sha256": "b15485382d5aaa66a05af2eacb77f2d892e856c9d4652119d079240ae79b2f64",
+    "bytes": 16050
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/claude-sonnet__s3.json",
+    "copy": "inputs/responses/claude-sonnet__s3.json",
+    "sha256": "e3f439a76b0efa0b1c8083791b25ca8f61d1f24556607290d8a03e8f21dc2de9",
+    "bytes": 15864
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/qwen3.6-27b__s1.json",
+    "copy": "inputs/responses/qwen3.6-27b__s1.json",
+    "sha256": "481b3cbdb19f39851c3e799b47d501dee0322b648a14e002fc965fa4c3a84b49",
+    "bytes": 15892
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/claude-haiku__s2.json",
+    "copy": "inputs/responses/claude-haiku__s2.json",
+    "sha256": "bdaf1997d3665bfab9daedd8cdad5cc07a0d1fc3722eec138ed2c5b437113de0",
+    "bytes": 16268
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gemma4-12b__s3.json",
+    "copy": "inputs/responses/gemma4-12b__s3.json",
+    "sha256": "036ffb9e65dfdbb6872a97697c0538586c2f69a1766f9d09ff50b8c805875f08",
+    "bytes": 15883
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gpt-oss-120b__s2.json",
+    "copy": "inputs/responses/gpt-oss-120b__s2.json",
+    "sha256": "1ffb3bc7a37930122d0ebb5e72b2dbbcdb7348f0eaa755ad93aede30c2808a3f",
+    "bytes": 16004
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/qwen3.6-27b__s3.json",
+    "copy": "inputs/responses/qwen3.6-27b__s3.json",
+    "sha256": "226d2c810cacee3aa9eaaf4f37fcaa1d382006e75a6346144c5118a43dde9bfe",
+    "bytes": 15897
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gemma4-26b__s1.json",
+    "copy": "inputs/responses/gemma4-26b__s1.json",
+    "sha256": "d8358830c2dca5fd76ae512cb6d647f64a72586166de49578e8fc557fa0e2186",
+    "bytes": 15871
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/claude-sonnet__s1.json",
+    "copy": "inputs/responses/claude-sonnet__s1.json",
+    "sha256": "3abb9ce6c82b2b27f451af1aeccf294a8b70c1843950cf6f4805e6e747683db5",
+    "bytes": 15864
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gemma4-26b__s3.json",
+    "copy": "inputs/responses/gemma4-26b__s3.json",
+    "sha256": "4ec169e227311579db3f05efde94a8b288a8d67deae6e55d2dc5e24f5db3ba63",
+    "bytes": 16790
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/deepseek-v4__s4.json",
+    "copy": "inputs/responses/deepseek-v4__s4.json",
+    "sha256": "bcecfad9f41859d4406a5270f131fd1cf0f8a7412118e00d3dbb1f78a8b161d5",
+    "bytes": 16326
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gpt-oss-120b__s3.json",
+    "copy": "inputs/responses/gpt-oss-120b__s3.json",
+    "sha256": "0c2ccfe4a79e9d70d692126d816f3b3def0d151c7c58c846dec37a3874caa165",
+    "bytes": 16065
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gemma4-26b__s2.json",
+    "copy": "inputs/responses/gemma4-26b__s2.json",
+    "sha256": "9eb177da760fc883f4811a2b049fc7a0c8ec2bd8c810ef1a5e92407191aecb2e",
+    "bytes": 17178
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/deepseek-v4__s3.json",
+    "copy": "inputs/responses/deepseek-v4__s3.json",
+    "sha256": "c2c0b422bb954571851d3578cb21515603e73d327ba4f0ee14c7081ceffd24fe",
+    "bytes": 16353
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gemma4-12b__s1.json",
+    "copy": "inputs/responses/gemma4-12b__s1.json",
+    "sha256": "5669cb511d5b4a998f9846b43a2b8f3e465cd9b7a217749335ed2e1e0e4f6c19",
+    "bytes": 15883
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/claude-haiku__s1.json",
+    "copy": "inputs/responses/claude-haiku__s1.json",
+    "sha256": "59883b3fe0ee2f5e9eaba6605a5c55aa2217fbac91bdc8c3b59cf2982b9107f9",
+    "bytes": 16268
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/deepseek-v4__s1.json",
+    "copy": "inputs/responses/deepseek-v4__s1.json",
+    "sha256": "e30022f4ef0b1d6a192759e459410fb9cddcc1d88f4f82d6333574cf0d73be50",
+    "bytes": 15898
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/qwen3.6-27b__s2.json",
+    "copy": "inputs/responses/qwen3.6-27b__s2.json",
+    "sha256": "9cc664f12d6d8111e0bf19fc6f3d9f7f69c2ebd1ae665b8a7321850d37af95ff",
+    "bytes": 15843
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/claude-haiku__s3.json",
+    "copy": "inputs/responses/claude-haiku__s3.json",
+    "sha256": "2139393ef85fc6c7004468dacbab25912e7dc5e169a2391fee5a62caacaad05d",
+    "bytes": 15865
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/claude-sonnet__s2.json",
+    "copy": "inputs/responses/claude-sonnet__s2.json",
+    "sha256": "ffc4a750756275b2163648374573a9a2aece173ad796bc01f186d4f7875a1c19",
+    "bytes": 15864
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/responses/gemma4-12b__s2.json",
+    "copy": "inputs/responses/gemma4-12b__s2.json",
+    "sha256": "a215f29fc0d8dfb1d21a14e1cd495747a7a3ad3817b6f53044a5a18a5c15b422",
+    "bytes": 19483
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/gemma4_12b_base.json",
+    "copy": "inputs/base_compare/gemma4_12b_base.json",
+    "sha256": "cda352b7cfba24dca5105c28d2821eac5c3fbf0085333699550b90d1deeeb77c",
+    "bytes": 73587
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/gemma4_12b_base_habitus.json",
+    "copy": "inputs/base_compare/gemma4_12b_base_habitus.json",
+    "sha256": "1c44fd553a9c636a8590a311fcf70893af92e6d9622962ed0be4ca68b0fdc3d0",
+    "bytes": 146929
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/gemma4_26b_base.json",
+    "copy": "inputs/base_compare/gemma4_26b_base.json",
+    "sha256": "96d0efd760b8c0955fcd679a078c8c044fdad7325a452347078297cc4a09b3dc",
+    "bytes": 73862
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/gemma4_26b_base_habitus.json",
+    "copy": "inputs/base_compare/gemma4_26b_base_habitus.json",
+    "sha256": "71f904947659469319ab44aa00c3b86600ca59654ef8cc03cc8aefe9c264506f",
+    "bytes": 147797
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/granite4_small_base.json",
+    "copy": "inputs/base_compare/granite4_small_base.json",
+    "sha256": "5afe1608925f10be290e64d8e67f4814879b61f11b83f52bb05770a9d259d038",
+    "bytes": 74376
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/granite4_small_base_habitus.json",
+    "copy": "inputs/base_compare/granite4_small_base_habitus.json",
+    "sha256": "b526fd60faafe1a5f177b589155761ef4e59254b67bf5e8a90dcf484190e43a0",
+    "bytes": 148643
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/ling_mini_base.json",
+    "copy": "inputs/base_compare/ling_mini_base.json",
+    "sha256": "561a7d00c4eacc691911e447f0bb81300ba37b91774cbde91fce391b62ecaa3f",
+    "bytes": 73624
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/ling_mini_base_habitus.json",
+    "copy": "inputs/base_compare/ling_mini_base_habitus.json",
+    "sha256": "fca4b8bc899594390a3a42c9793b40fd5176284431bc21bc123988bac9d3d3f7",
+    "bytes": 147097
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/llama31_8b_base.json",
+    "copy": "inputs/base_compare/llama31_8b_base.json",
+    "sha256": "4dc4fda485955b3abbca7d9a286dd2d62c71d4786f1f205d34b9505dc87449c5",
+    "bytes": 73897
+  },
+  {
+    "source": "https://github.com/mobius-style/machine-doxa/blob/cf8bda4fa4dc621d179fdcf7356f39143556d942/base_compare/llama31_8b_base_habitus.json",
+    "copy": "inputs/base_compare/llama31_8b_base_habitus.json",
+    "sha256": "2f36370eb9d51c36f37fb2ccbe381b845fa689b20404839c168fdcdc27a3168c",
+    "bytes": 147583
+  }
+]
