@@ -17,7 +17,7 @@ identifiers:
 
 preferred-citation:
   type: article
-  title: "Machine Doxa and Machine Orthodoxy: Where Aligned Language Models Agree"
+  title: "Measuring Consensus Across Language Models and the Limits of Normative Interpretation"
   authors:
     - family-names: Toeda
       given-names: Taiko
